@@ -1,0 +1,768 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- - - - - - - - - - - - - - - - - - - -
+   professional internet solution from
+      carnation internet consulting
+         http://www.carnation.hu
+
+        join us for the next ride
+       http://www.carnation.hu/job
+- - - - - - - - - - - - - - - - - - pweb3  -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu">
+    <head>
+        <base href="https://szeccsa.github.io/telenor.hu/"/>
+        <title>Telenor Magyarország Zrt.</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+        <meta http-equiv="content-language" content="hu"/>
+        <meta name="owner" content="Telenor Magyarország Zrt."/>
+        <meta name="generator" content="Carnation Zrt."/>
+        <meta name="robots" content="noindex, nofollow"/>
+        <meta name="keywords" content=""/>
+
+        <script type="text/javascript">
+        // To get the logged in UI, set the "false" value to "true"!
+        var loggedIn = false;
+        
+            // To get the logged in UI, delete this code below!
+            loggedIn = (document.cookie.indexOf("tolid") >= 0);
+
+        </script>
+
+        <link type="image/x-icon" href="https://szeccsa.github.io/telenor.hu/i/favicon.ico" rel="icon"/>
+        <link type="image/x-icon" href="https://szeccsa.github.io/telenor.hu/i/favicon.ico" rel="shortcut icon"/>
+        <link type="text/css" href="https://szeccsa.github.io/telenor.hu/css/font/telenor.css" rel="stylesheet" media="screen"/>
+        <link type="text/css" href="https://szeccsa.github.io/telenor.hu/css/style.css" rel="stylesheet" media="screen"/>
+        <link type="text/css" href="https://szeccsa.github.io/telenor.hu/css/corporate.css" rel="stylesheet" media="screen"/>
+        <link type="text/css" href="https://szeccsa.github.io/telenor.hu/css/style_campaigns.css" rel="stylesheet" media="screen"/>
+        <link type="text/css" href="https://szeccsa.github.io/telenor.hu/gm/css/modules.min.css" rel="stylesheet" media="screen"/>
+        <link type="text/css" href="https://szeccsa.github.io/telenor.hu/css/jquery-UI/start/jquery-ui-1.8.1.custom.css" rel="stylesheet"/>
+
+        <script type="text/javascript" src="https://szeccsa.github.io/telenor.hu/js/thirdparty.js"></script>
+        <script src="https://szeccsa.github.io/telenor.hu/gm/js/modules.js"></script>
+        <script type="text/javascript" src="https://szeccsa.github.io/telenor.hu/js/site.js"></script>
+        <script type="text/javascript">
+            if (document.location.pathname == "/" && (startPage = getCookie("startPage")) && getCookie('redirected') == '') {
+                setCookie('redirected', 1, null, '/');
+                document.location = startPage+"?kezdo=1";
+            }
+        </script>
+    </head>
+    <body class="hu indexpage">
+        <!--[if lt IE 7]><div id="browser"></div><![endif]-->
+        <!-- container -->
+        <div class="container">
+
+            <!-- head -->
+            <div class="head">
+
+                <strong><a href="https://szeccsa.github.io/telenor.hu/?nomobile"><span>telenor</span></a></strong>
+
+                <div class="smallmenu">
+                    <ul>
+                        <li class="active"><a href="https://szeccsa.github.io/telenor.hu/"><b>Lakossági</b></a></li>
+                        <li><a href="https://szeccsa.github.io/telenor.hu/uzleti/"><b>Kisvállalkozók</b></a></li>
+                        <li><a href="https://szeccsa.github.io/telenor.hu/vallalatok/"><b>Vállalatok</b></a></li>
+                        <li><a href="https://szeccsa.github.io/telenor.hu/rolunk/"><b>Rólunk</b></a></li>
+                        <li class="lang"><a href="https://szeccsa.github.io/telenor.hu/en//"><b>en</b></a></li>
+                        <li class="basket"><a href="https://szeccsa.github.io/telenor.hu/netshop/kosar"><b>A kosár üres</b></a></li>
+                    </ul>
+                </div>
+
+                <div class="logedin-topbox hidden">
+                    <strong><span class="nar"></span><span class="lock"></span>Bejelentkezve</strong>
+                    <ul>
+                        <li><a target="_blank" href="https://szeccsa.github.io/telenor.hu/">Online ügyfélszolgálat</a></li>
+                        <li><a target="_blank" href="https://szeccsa.github.io/telenor.hu/">Felhasználói adatok</a></li>
+                        <li><a href="https://szeccsa.github.io/telenor.hu/">Kilépés</a></li>
+                    </ul>
+                </div>
+
+                <div class="search">
+                    <form id="head_search_form" action="https://szeccsa.github.io/telenor.hu/kereses" method="get">
+                        <fieldset>
+                            <div class="field keyword"><input type="text" id="q" name="q" class="autocomplete" value="" title="Írd be a keresett kifejezést!"/></div>
+                            <div class="field submit"><input type="submit" value="Írd be a keresett kifejezést!"/></div>
+                        </fieldset>
+                    </form>
+
+                    <div class="results" id="search_result"></div>
+
+                    <script type="text/javascript">
+                        $('#q').keyup(function() {
+                            if (this.value.length >= 3) {
+                                clearTimeout(this.timer);
+                                this.timer = setTimeout(function () {
+                                    $.get('https://szeccsa.github.io/telenor.hu/search_autocomplete.php', {q:$('#q').get(0).value, lang: "hu"}, function(data) {
+                                        data = $.trim(data);
+                                        if (String(data).length > 10) {
+                                            $('#search_result').html(data);
+                                            $('#head_search_form').parent().addClass('result');
+                                        } else {
+                                            $('#search_result').html('');
+                                            $('#head_search_form').parent().removeClass('result');
+                                        }
+                                        _gaq.push(['_trackEvent', 'Keresés', $('#q').get(0).value, window.location.href]);
+                                    });
+                                }, 333);
+                            }
+                        });
+                        $('#head_search_form input[type=submit]').click(function(e){
+                            e.preventDefault();
+                            if ($('#q').val()!='' && $('#q').val()!='Írd be a keresett kifejezést!'){
+                                $('#head_search_form').submit();
+                            }
+                        });
+                    </script>
+                </div>
+
+                <!-- page lang: hu -->
+
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a rel="Akciók" href="https://szeccsa.github.io/telenor.hu/akcio/"><b>Akciók</b></a>
+                            <div class="submenu">
+                                <div class="menuitems">
+                                    <ul>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/akcio/korlatlan-extrak/"><b>Korlátlan Extrák</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefonok/kereso/?tg%5b%5d=2&amp;display=list&amp;category=mobil"><b>Akciós számlás ajánlatok</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefonok/kereso/?tg[]=1&amp;display=list&amp;category=mobil"><b>Akciós kártyás ajánlatok</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/hipernet-csomagok/"><b>Hipernet tarifák</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/klikk/"><b>Telenor Klikk</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/akcio/bonusz-program/"><b>Bónusz ajánlatok</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/arlista/"><b>Letölthető készülékárlista</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/mymenu/"><b>5 Ft-os percdíj kártyásoknak a MyMenu-ben</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/lapozd-kedvenceidet-mobilon/"><b>Lapozd kedvenceidet mobilon</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/akcio/kartyas_feltoltes/"><b>Kártyás feltöltési akció</b></a></li>
+                                    </ul>
+                                </div>
+                                <div class="additional">
+                                    <div class="promo">
+                                        <a href="https://szeccsa.github.io/telenor.hu/akcio/korlatlan-extrak/?bp_medium=belsopromo&amp;bp_source=felsomenu_akciok_tab_1&amp;bp_campaign=keszulekvasarlas&amp;bp_term=Korl%C3%A1tlan+Extr%C3%A1k&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu">
+                                            <span class="text">
+                                                <big class="title">Korlátlan Extrák</big>
+                                                Gyertek a Telenorhoz és beszéljetek csoporton belül korlátlanul 0 Ft külön havidíjért, akár egy éven át, belföldön.
+                                            </span>
+                                            <span class="img"><img src="https://szeccsa.github.io/telenor.hu/thumbnail/144x81/016/756.jpg" alt="" width="144" height="81"/><span></span></span>
+                                        </a>
+                                    </div>
+                                    <div class="promo">
+                                        <a href="https://szeccsa.github.io/telenor.hu/mymenu/?bp_medium=belsopromo&amp;bp_source=felsomenu_akciok_tab_2&amp;bp_campaign=keszulekvasarlas&amp;bp_term=5+Ft-os+percd%C3%ADj+k%C3%A1rty%C3%A1soknak+a+MyMenu-ben&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu">
+                                            <span class="text">
+                                                <big class="title">5 Ft-os percdíj kártyásoknak a MyMenu-ben</big>
+                                                MyMenu: Egyedi ajánlatok és sok hasznos funkció
+                                            </span>
+                                            <span class="img"><img src="https://szeccsa.github.io/telenor.hu/thumbnail/144x81/016/926.jpg" alt="" width="144" height="81"/><span></span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="bg"></div>
+                                <div class="submenu-end"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a rel="Készülékek és vásárlás" href="https://szeccsa.github.io/telenor.hu/mobiltelefonok/"><b>Készülékek és vásárlás</b></a>
+                            <div class="submenu">
+                                <div class="menuitems">
+                                    <ul>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefonok/kereso/"><b>Készülékkereső</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/samsung-mobiltelefon/"><b>Samsung készülékek</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/nokia-mobiltelefon/"><b>Nokia készülékek</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/sony-mobiltelefon/"><b>Sony készülékek</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/htc-mobiltelefon/"><b>HTC készülékek</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/lg-mobiltelefon/"><b>LG készülékek</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/blackberry-mobiltelefon/"><b>Blackberry készülékek</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefonok/csak-netshopban/"><b>Csak Netshopban kapható</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefonok/kereso/?minprice=0&amp;maxprice=249990&amp;order=name+asc&amp;tarifa=&amp;p[3][]=285"><b>Androidos mobilok</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/zte-mobiltelefon/"><b>ZTE készülékek</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/huawei-keszulekek/"><b>Huawei készülékek</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/internet/mobilinternet-modem/"><b>Laptop, netbook, tablet</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/arlista"><b>Letölthető készülékárlista</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/windows-phones/"><b>Windows Phone-ok</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefonok/kereso/?p%5B7%5D%5B%5D=44&amp;maxprice=&amp;minprice=0&amp;order=date+desc&amp;order=device_id+desc&amp;display=grid&amp;tarifa=&amp;category=mobil"><b>Hagyományos telefonok</b></a></li>
+                                    </ul>
+                                </div>
+                                <div class="additional">
+                                    <div class="promo">
+                                        <a href="https://szeccsa.github.io/telenor.hu/mobiltelefonok/kereso/?bp_medium=belsopromo&amp;bp_source=felsomenu_keszulekvasarlas_tab_1&amp;bp_campaign=keszulekvasarlas&amp;bp_term=K%C3%A9sz%C3%BCl%C3%A9kkeres%C5%91&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu">
+                                            <span class="text">
+                                                <big class="title">Készülékkereső</big>
+                                                Megújult kínálatunkban továbbra is minden mobil 0 Ft!
+                                            </span>
+                                            <span class="img"><img src="https://szeccsa.github.io/telenor.hu/thumbnail/144x81/017/178.jpg" alt="" width="144" height="81"/><span></span></span>
+                                        </a>
+                                    </div>
+                                    <div class="promo">
+                                        <a href="mobiltelefon/okostelefonok/?bp_medium=belsopromo&amp;bp_source=felsomenu_keszulekvasarlas_tab_2&amp;bp_campaign=keszulekvasarlas&amp;bp_term=Okostelefonok&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu">
+                                            <span class="text">
+                                                <big class="title">Okostelefonok</big>
+                                                Rendeld Netshopban, kedvezménnyel! Ingyenes kiszállítás belföldön.
+                                            </span>
+                                            <span class="img"><img src="https://szeccsa.github.io/telenor.hu/thumbnail/144x81/007/491.jpg" alt="" width="144" height="81"/><span></span></span>
+                                        </a>
+                                    </div>
+                                    <div class="promo">
+                                        <a href="https://szeccsa.github.io/telenor.hu/mobiltelefonok/kereso/?p%5B7%5D%5B%5D=44&amp;maxprice=&amp;minprice=0&amp;order=date+desc&amp;order=device_id+desc&amp;display=grid&amp;tarifa=&amp;category=mobil&amp;bp_medium=belsopromo&amp;bp_source=felsomenu_keszulekvasarlas_tab_3&amp;bp_campaign=keszulekvasarlas&amp;bp_term=Hagyom%C3%A1nyos+telefonok&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu">
+                                            <span class="text">
+                                                <big class="title">Hagyományos telefonok</big>
+                                                Rendeld meg Netshopban, kedvezménnyel! Ingyenes kiszállítás belföldön.
+                                            </span>
+                                            <span class="img"><img src="https://szeccsa.github.io/telenor.hu/thumbnail/144x81/011/787.jpg" alt="" width="144" height="81"/><span></span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="bg"></div>
+                                <div class="submenu-end"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a rel="Tarifák és szolgáltatások" href="https://szeccsa.github.io/telenor.hu/tarifa-szolgaltatas/"><b>Tarifák és szolgáltatások</b></a>
+                            <div class="submenu">
+                                <div class="menuitems">
+                                    <ul>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/szamlas-tarifa/"><b>Számlás tarifacsomagok</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/kartyas-tarifa/"><b>Kártyás tarifacsomagok</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/szolgaltatas/"><b>Szolgáltatások</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/zene-szorakozas/"><b>Zene</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/digitalis-tv/"><b>Digitális TV</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/roaming/"><b>Roaming és nemzetközi hívás</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/akcio/reszletfizetes/"><b>Információk a részletvételről</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/vasarlas-fizetes-mobiltelefonnal/"><b>Vásárlás és fizetés mobiltelefonnal</b></a></li>
+                                    </ul>
+                                </div>
+                                <div class="additional">
+                                    <div class="promo">
+                                        <a href="https://szeccsa.github.io/telenor.hu/windows-aruhaz/?bp_medium=belsopromo&amp;bp_source=felsomenu_tarifak_tab_1&amp;bp_campaign=szolgaltatas&amp;bp_term=V%C3%A1s%C3%A1rl%C3%A1s+a+Windows+%C3%81ruh%C3%A1zban&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu">
+                                            <span class="text">
+                                                <big class="title">Vásárlás a Windows Áruházban</big>
+                                                Magyarországon elsőként a Telenortól! Vásárolj egyszerűen egyenleged vagy hitelkereted terhére!
+                                            </span>
+                                            <span class="img"><img src="https://szeccsa.github.io/telenor.hu/thumbnail/144x81/016/334.jpg" alt="" width="144" height="81"/><span></span></span>
+                                        </a>
+                                    </div>
+                                    <div class="promo">
+                                        <a href="https://szeccsa.github.io/telenor.hu/zene/?bp_medium=belsopromo&amp;bp_source=felsomenu_tarifak_tab_2&amp;bp_campaign=szolgaltatas&amp;bp_term=Deezer+Zene+szolg%C3%A1ltat%C3%A1s&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu">
+                                            <span class="text">
+                                                <big class="title">Deezer Zene szolgáltatás</big>
+                                                25 millió zene a Deezer kínálatában! Bárhol, bármikor hallgathatod kedvenc zenéidet!
+                                            </span>
+                                            <span class="img"><img src="https://szeccsa.github.io/telenor.hu/thumbnail/144x81/016/776.jpg" alt="" width="144" height="81"/><span></span></span>
+                                        </a>
+                                    </div>
+                                    <div class="promo">
+                                        <a href="https://szeccsa.github.io/telenor.hu/automatikus-feltoltes/?bp_medium=belsopromo&amp;bp_source=felsomenu_tarifak_tab_3&amp;bp_campaign=szolgaltatas&amp;bp_term=Automatikus+felt%C3%B6lt%C3%A9s&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu">
+                                            <span class="text">
+                                                <big class="title">Automatikus feltöltés</big>
+                                                Töltsd fel havonta automatikusan kártyás családtagjaid, ismerőseid egyenlegét!
+                                            </span>
+                                            <span class="img"><img src="https://szeccsa.github.io/telenor.hu/thumbnail/144x81/015/960.jpg" alt="" width="144" height="81"/><span></span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="bg"></div>
+                                <div class="submenu-end"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a rel="Internet" href="https://szeccsa.github.io/telenor.hu/internet/"><b>Internet</b></a>
+                            <div class="submenu">
+                                <div class="menuitems">
+                                    <ul>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/internet/szamitogepen-nagy-kepernyon/"><b>Internet számítógépen</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/internet/mobiltelefonon/"><b>Internet mobiltelefonon</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/internet/lefedettseg/"><b>Lefedettség</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/internet/keszulekek/"><b>Készülékek</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/internet/tudnivalok/"><b>Hasznos</b></a></li>
+                                    </ul>
+                                </div>
+                                <div class="additional">
+                                    <div class="promo">
+                                        <a href="https://szeccsa.github.io/telenor.hu/hipernet-csomagok/?bp_medium=belsopromo&amp;bp_source=felsomenu_internet_tab_1&amp;bp_campaign=szolgaltatas&amp;bp_term=Hipernet+tarif%C3%A1k&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu">
+                                            <span class="text">
+                                                <big class="title">Hipernet tarifák</big>
+                                                Állítsd össze Hipernet tarifacsomagodat internetezési szokásaid szerint!
+                                            </span>
+                                            <span class="img"><img src="https://szeccsa.github.io/telenor.hu/thumbnail/144x81/015/283.jpg" alt="" width="144" height="81"/><span></span></span>
+                                        </a>
+                                    </div>
+                                    <div class="promo">
+                                        <a href="https://szeccsa.github.io/telenor.hu/klikk/?bp_medium=belsopromo&amp;bp_source=felsomenu_internet_tab_2&amp;bp_campaign=szolgaltatas&amp;bp_term=Telenor+Klikk&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu">
+                                            <span class="text">
+                                                <big class="title">Telenor Klikk</big>
+                                                Okosítsd fel meglévő, hagyományos telefonodat!
+                                            </span>
+                                            <span class="img"><img src="https://szeccsa.github.io/telenor.hu/thumbnail/144x81/007/497.jpg" alt="" width="144" height="81"/><span></span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="bg"></div>
+                                <div class="submenu-end"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a rel="Ügyintézés" href="https://szeccsa.github.io/telenor.hu/ugyfelszolgalat/"><b>Ügyintézés</b></a>
+                            <div class="submenu">
+                                <div class="menuitems">
+                                    <ul>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/elerhetoseg/telefonos-ugyfelszolgalat/"><b>Ügyfélszolgálat</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/elerhetoseg/telenor-online-ugyfelszolgalat/"><b>Online ügyfélszolgálat</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/e-szamla/"><b>Elektronikus számla</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/elerhetoseg/uzletkereso/"><b>Értékesítési pontok</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/ugyintezes/tudnivalok/"><b>Tudnivalók</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/ugyintezes/tudakozo/"><b>Tudakozó</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/ugyintezes/letoltheto-kiadvanyok/"><b>Letölthető kiadványok</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/"><b>Expressz SIM kártya aktiválás</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/ugyintezes/tudnivalok/adatmodositas/letiltas/"><b>SIM kártya és mobiltelefon letiltása</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/beallitasok/"><b>Készülékbeállítások</b></a></li>
+                                        <li><a href="https://szeccsa.github.io/telenor.hu/bemutatovideok/"><b>Bemutatóvideók</b></a></li>
+                                    </ul>
+                                </div>
+                                <div class="additional">
+                                    <div class="promo">
+                                        <a href="https://szeccsa.github.io/telenor.hu/ugyintezes/tudnivalok/szamlabefizetes/?bp_medium=belsopromo&amp;bp_source=felsomenu_ugyintezes_tab_1&amp;bp_campaign=szolgaltatas&amp;bp_term=Sz%C3%A1mlabefizet%C3%A9s&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu">
+                                            <span class="text">
+                                                <big class="title">Számlabefizetés</big>
+                                                A Telenor Online segítségével interneten egyszerűen és kényelmesen befizetheted a telefonszámládat!
+                                            </span>
+                                            <span class="img"><img src="https://szeccsa.github.io/telenor.hu/thumbnail/144x81/007/509.jpg" alt="" width="144" height="81"/><span></span></span>
+                                        </a>
+                                    </div>
+                                    <div class="promo">
+                                        <a href="https://szeccsa.github.io/telenor.hu/e-szamla/?bp_medium=belsopromo&amp;bp_source=felsomenu_ugyintezes_tab_2&amp;bp_campaign=szolgaltatas&amp;bp_term=Elektronikus+sz%C3%A1mla&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu">
+                                            <span class="text">
+                                                <big class="title">Elektronikus számla</big>
+                                                Válts díjmentes elektronikus számlára, és 1000 Ft-ot jóváírunk következő havi számládból!
+                                            </span>
+                                            <span class="img"><img src="https://szeccsa.github.io/telenor.hu/thumbnail/144x81/016/944.jpg" alt="" width="144" height="81"/><span></span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="bg"></div>
+                                <div class="submenu-end"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- /head -->
+
+            <!-- cont -->
+            <div class="cont">
+                
+                <script type="text/javascript">
+                    $(document).ready(function(){
+                        $('div.mainPromoRotator').mainPromoRotator();
+                    });
+                </script>
+
+                <div class="mainPromoRotator light-theme">
+                    <span class="mask maskTop">&nbsp;</span>
+                    <span class="mask maskBottom">&nbsp;</span>
+                    <div class="promos">
+                        <ul>
+                            <li data-delay="0" class="light-theme">
+                                <a href="https://szeccsa.github.io/telenor.hu/mobiltelefonok/kereso?bp_medium=belsopromo&amp;bp_source=mainpromo_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=Egyéni nyitó promó&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu" class="lnkMore"><span>Részletek</span></a>
+                                <img src="https://szeccsa.github.io/telenor.hu/banner/Minden_mobil_0ft_index_promo_v2.jpg" alt="Minden mobil 0 Ft!" class="promoImage"/>
+                            </li>
+                            <li data-delay="0" class="light-theme">
+                                <a href="https://szeccsa.github.io/telenor.hu/digitalis-tv?bp_medium=belsopromo&amp;bp_source=mainpromo_nyito&amp;bp_campaign=szolgaltatas&amp;bp_term=Egyéni nyitó promó&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu" class="lnkMore"><span>Részletek</span></a>
+                                <img src="https://szeccsa.github.io/telenor.hu/banner/telenor_DigitalisTV_site_promo_v2.jpg" alt="Digitális TV" class="promoImage"/>
+                            </li>
+                            <li data-delay="0" class="light-theme">
+                                <a href="https://szeccsa.github.io/telenor.hu/posta?bp_medium=belsopromo&amp;bp_source=mainpromo_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=Egyéni nyitó promó&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu" class="lnkMore"><span>Részletek</span></a>
+                                <img src="https://szeccsa.github.io/telenor.hu/banner/telenor_posta_prepaid_top_up_promo_v2_2.jpg" alt="Nyerő feltöltések" class="promoImage"/>
+                            </li>
+                            <li data-delay="0" class="light-theme">
+                                <a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/zte/blade_iii?tarifa=124&amp;huseg=24-24&amp;bp_medium=belsopromo&amp;bp_source=mainpromo_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=Egyéni nyitó promó&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu" class="lnkMore"><span>Részletek</span></a>
+                                <img src="https://szeccsa.github.io/telenor.hu/banner/telenor_zte_prepaid_index_promo_v04_2.jpg" alt="ZTE Blade III" class="promoImage"/>
+                            </li>
+                            <li data-delay="0" class="light-theme">
+                                <a href="https://szeccsa.github.io/telenor.hu/mymenu?bp_medium=belsopromo&amp;bp_source=mainpromo_nyito&amp;bp_campaign=szolgaltatas&amp;bp_term=Egyéni nyitó promó&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu" class="lnkMore"><span>Részletek</span></a>
+                                <img src="https://szeccsa.github.io/telenor.hu/banner/telenor_mymenu.jpg" alt="5 Ft-os kártyás ajánlat" class="promoImage"/>
+                            </li>
+                            <li data-delay="0" class="light-theme">
+                                <a href="https://szeccsa.github.io/telenor.hu/hipernet-tarifak?bp_medium=belsopromo&amp;bp_source=mainpromo_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=Egyéni nyitó promó&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu" class="lnkMore"><span>Részletek</span></a>
+                                <img src="https://szeccsa.github.io/telenor.hu/banner/hipernet_netshop0510.jpg" alt="Internet" class="promoImage"/>
+                            </li>
+                            <li data-delay="0" class="light-theme">
+                                <a href="https://szeccsa.github.io/telenor.hu/roaming/netroaming-napijegy/?bp_medium=belsopromo&amp;bp_source=mainpromo_nyito&amp;bp_campaign=szolgaltatas&amp;bp_term=Egyéni nyitó promó&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu" class="lnkMore"><span>Részletek</span></a>
+                                <img src="https://szeccsa.github.io/telenor.hu/banner/telenor_netroaming_website_promo_720x340px_v1_2.jpg" alt="Adatroaming" class="promoImage"/>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menuItemsContainer">
+                        <ul class="menuItems">
+                            <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefonok/kereso">Minden mobil 0 Ft!</a></li>
+                            <li><a href="https://szeccsa.github.io/telenor.hu/digitalis-tv">Digitális TV</a></li>
+                            <li><a href="https://szeccsa.github.io/telenor.hu/posta">Nyerő feltöltések</a></li>
+                            <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/zte/blade_iii?tarifa=124&amp;huseg=24-24">ZTE Blade III</a></li>
+                            <li><a href="https://szeccsa.github.io/telenor.hu/mymenu">5 Ft-os kártyás ajánlat</a></li>
+                            <li><a href="https://szeccsa.github.io/telenor.hu/hipernet-tarifak">Internet</a></li>
+                            <li><a href="https://szeccsa.github.io/telenor.hu/roaming/netroaming-napijegy/">Adatroaming</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="loginbox notloggedin">
+                    <h3 class="iconed-black">Telenor ügyfélszolgálat<span></span></h3>
+                    <hr/>
+                    <ul>
+                        <li><a href="https://szeccsa.github.io/telenor.hu/elerhetoseg/telenor-online-ugyfelszolgalat/" class="_blank">Online ügyfélszolgálat </a></li>
+                        <li><a href="https://szeccsa.github.io/telenor.hu/ugyfelszolgalat/faq/" class="_blank">Gyakori kérdések, írásos ügyfélszolgálat </a></li>
+                        <li><a href="https://szeccsa.github.io/telenor.hu/bonusz">Bónusz ajánlatok</a></li>
+                        <li><a href="https://szeccsa.github.io/telenor.hu/" class="_blank">SIM kártya (Expressz) aktiválás</a></li>
+                        <li><a href="https://szeccsa.github.io/telenor.hu/e-szamla">Elektronikus számla</a></li>
+                    </ul>
+                    <hr/>
+                    <h3 class="iconed-black">Telenor Online<span></span></h3>
+                    <hr/>
+                    <form id="tollogin" method="post" action="">
+                        <fieldset>
+                            <div class="field"><div class="input text"><input type="text" name="UserName" id="UserName" placeholder="Felhasználónév"/></div></div>
+                            <div class="field"><div class="input text password"><input type="password" name="Password" id="Password" placeholder="Jelszó"/></div></div>
+                            <div class="field">
+                                <div class="input submit"><button type="submit">Belépés</button></div>
+                                <ul class="links">
+                                    <li><a href="https://szeccsa.github.io/telenor.hu/">Elfelejtett jelszó</a></li>
+                                    <li><a href="https://szeccsa.github.io/telenor.hu/">Regisztráció</a></li>
+                                </ul>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            
+                <div class="loginbox logedin hidden">
+                    <h3><span class="black">Bejelentkezve</span></h3>
+                    <a class="black-button" href="https://szeccsa.github.io/telenor.hu/">Kilépés</a>
+                    <hr/>
+                        <ul>
+                            <li><a target="_blank" href="https://szeccsa.github.io/telenor.hu/">Online ügyfélszolgálat</a></li>
+                            <li><a target="_blank" href="https://szeccsa.github.io/telenor.hu/">Felhasználói adatok</a></li>
+                            <li><a href="https://szeccsa.github.io/telenor.hu/">Kilépés</a></li>
+                        </ul>
+                    <hr/>
+                    <h3 class="iconed-blue">Telenor Ügyfélszolgálat<span></span></h3>
+                    <hr/>
+                    <ul>
+                        <li><a href="https://szeccsa.github.io/telenor.hu/elerhetoseg/telenor-online-ugyfelszolgalat/" class="_blank">Online ügyfélszolgálat </a></li>
+                        <li><a href="https://szeccsa.github.io/telenor.hu/ugyfelszolgalat/faq/" class="_blank">Gyakori kérdések, írásos ügyfélszolgálat </a></li>
+                        <li><a href="https://szeccsa.github.io/telenor.hu/bonusz">Bónusz ajánlatok</a></li>
+                        <li><a href="https://szeccsa.github.io/telenor.hu/" class="_blank">SIM kártya (Expressz) aktiválás</a></li>
+                        <li><a href="https://szeccsa.github.io/telenor.hu/e-szamla">Elektronikus számla</a></li>
+                    </ul>
+                </div>
+
+                <script type="text/javascript">
+                    $('div.loginbox input[type=text], div.loginbox input[type=password]').focus(function(){
+                        $(this).parent().addClass('focus');
+                    });
+                    $('div.loginbox input[type=text], div.loginbox input[type=password]').blur(function(){
+                        $(this).parent().removeClass('focus');
+                    });
+                </script>
+
+                <div class="indexPromo wide">
+                    <a href="https://szeccsa.github.io/telenor.hu/mobiltelefonok/kereso" target="_blank"><img src="https://szeccsa.github.io/telenor.hu/banner/telenor_reszletfizetes_promo_705x180px_v1_2.jpg" alt="Online részlet"/></a>
+                </div>
+
+                <div class="enquiryBox tudnew">
+                    <form action="" method="post" id="enquiry-form">
+                        <div class="formItem">
+                            <h2>Tudakozó</h2>
+                            <div class="input">
+                                <input type="hidden" name="imode" value="1"/>
+                                <div class="select">
+                                    <input type="text" class="valuePreview" readonly/>
+                                    <select name="GSM0">
+                                        <option value="20">+36 20</option>
+                                        <option value="30">+36 30</option>
+                                        <option value="70">+36 70</option>
+                                    </select>
+                                </div>
+                                <input type="text" id="gsm" maxlength="7" class="all"/>
+                                <input type="hidden" id="gsm1" name="GSM1" value=""/>
+                                <input type="hidden" id="gsm2" name="GSM2" value=""/>				
+                                <!--
+                                <input type="text" name="GSM1" class="first " maxlength="3" />				
+                                <input type="text" name="GSM2" class="second" maxlength="4" />
+                                -->
+                                <button type="submit" id="tudsubmit"><span>Keresés</span></button>
+                            </div>
+                            <a href="">Részletes keresés</a>
+                        </div>
+                    </form>
+                    <form action="" method="get">
+                        <div class="formItem">
+                            <h2>Üzletkereső</h2>
+                            <div class="input">
+                                <input type="text" name="cityname" placeholder="Település neve"/>
+                                <button type="submit"><span>Keresés</span></button>
+                            </div>
+                            <a href="https://szeccsa.github.io/telenor.hu/elerhetoseg/uzletkereso/">Részletes keresés</a>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="productFinder">
+                    <ul class="products">
+                        <li>
+                            <div class="productImage">
+                                <a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/zte/blade_iii/?bp_medium=belsopromo&amp;bp_source=keszulekajanlo1_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=ZTE+Blade+III&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu&amp;tarifa=135&amp;huseg=24-24"><img style="height: auto" src="https://szeccsa.github.io/telenor.hu/thumbnail/75x75filtt/product/zte/blade_iii/device_front.png" width="75" height="75" class="picture" alt="ZTE  Blade III Android"/></a>
+                            </div>
+                            <a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/zte/blade_iii/?bp_medium=belsopromo&amp;bp_source=keszulekajanlo1_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=ZTE+Blade+III&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu&amp;tarifa=135&amp;huseg=24-24"><h3>ZTE</h3>
+                            <h4> Blade III</h4></a>
+                            <div class="price">
+                                <span class="value"><b>4 741 Ft</b></span><br/>
+                            </div>
+                            <a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/zte/blade_iii/?bp_medium=belsopromo&amp;bp_source=keszulekajanlo1_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=ZTE+Blade+III&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu&amp;tarifa=135&amp;huseg=24-24" class="btnBasket"><span>Megnézem</span></a>
+                            <strong class="tarifa">Smarttarifa 2</strong>
+                            <span class="loyality">
+                                2 év tarifamegtartással
+                            </span>
+                        </li>
+                        <li>
+                            <div class="productImage">
+                                <a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/huawei/ascend_y300/fekete/?bp_medium=belsopromo&amp;bp_source=keszulekajanlo2_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=Huawei+Ascend+Y300&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu&amp;tarifa=135&amp;huseg=24-24"><img style="height: auto" src="https://szeccsa.github.io/telenor.hu/thumbnail/75x75filtt/product/huawei/ascend_y300/fekete/device_front.png" width="75" height="75" class="picture" alt="Huawei  Ascend Y300 Android"/></a>
+                            </div>
+                            <a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/huawei/ascend_y300/fekete/?bp_medium=belsopromo&amp;bp_source=keszulekajanlo2_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=Huawei+Ascend+Y300&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu&amp;tarifa=135&amp;huseg=24-24"><h3>Huawei</h3>
+                            <h4> Ascend Y300</h4></a>
+                            <div class="price">
+                                <span class="value"><b>9 404 Ft</b></span><br/>
+                            </div>
+                            <a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/huawei/ascend_y300/fekete/?bp_medium=belsopromo&amp;bp_source=keszulekajanlo2_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=Huawei+Ascend+Y300&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu&amp;tarifa=135&amp;huseg=24-24" class="btnBasket"><span>Megnézem</span></a>
+                            <strong class="tarifa">Smarttarifa 2</strong>
+                            <span class="loyality">
+                                2 év tarifamegtartással
+                            </span>
+                        </li>
+                        <li>
+                            <div class="productImage">
+                                <a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/sony/xperia_e/fekete/?bp_medium=belsopromo&amp;bp_source=keszulekajanlo3_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=Sony+Xperia+E&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu&amp;tarifa=135&amp;huseg=24-24"><img style="height: auto" src="https://szeccsa.github.io/telenor.hu/thumbnail/75x75filtt/product/sony/xperia_e/fekete/device_front.png" width="75" height="75" class="picture" alt="Sony  Xperia E Android"/></a>
+                            </div>
+                            <a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/sony/xperia_e/fekete/?bp_medium=belsopromo&amp;bp_source=keszulekajanlo3_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=Sony+Xperia+E&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu&amp;tarifa=135&amp;huseg=24-24"><h3>Sony</h3>
+                            <h4> Xperia E</h4></a>
+                            <div class="price">
+                                <span class="value"><b>9 404 Ft</b></span><br/>
+                            </div>
+                            <a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/sony/xperia_e/fekete/?bp_medium=belsopromo&amp;bp_source=keszulekajanlo3_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=Sony+Xperia+E&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu&amp;tarifa=135&amp;huseg=24-24" class="btnBasket"><span>Megnézem</span></a>
+                            <strong class="tarifa">Smarttarifa 2</strong>
+                            <span class="loyality">
+                                2 év tarifamegtartással
+                            </span>
+                        </li>
+                        <li>
+                            <div class="productImage">
+                                <a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/samsung/galaxy-s-4-mini/fekete/?bp_medium=belsopromo&amp;bp_source=keszulekajanlo4_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=Samsung+Galaxy+S+4+mini&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu&amp;tarifa=136&amp;huseg=24-24"><img style="height: auto" src="https://szeccsa.github.io/telenor.hu/thumbnail/75x75filtt/product/samsung/galaxy-s-4-mini/fekete/device_front.png" width="75" height="75" class="picture" alt="Samsung  Galaxy S 4 mini Android"/></a>
+                            </div>
+                            <a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/samsung/galaxy-s-4-mini/fekete/?bp_medium=belsopromo&amp;bp_source=keszulekajanlo4_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=Samsung+Galaxy+S+4+mini&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu&amp;tarifa=136&amp;huseg=24-24"><h3>Samsung</h3>
+                            <h4> Galaxy S 4 mini</h4></a>
+                            <div class="price">
+                                <span class="value"><b>75 990 Ft</b></span><br/>
+                            </div>
+                            <a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/samsung/galaxy-s-4-mini/fekete/?bp_medium=belsopromo&amp;bp_source=keszulekajanlo4_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=Samsung+Galaxy+S+4+mini&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu&amp;tarifa=136&amp;huseg=24-24" class="btnBasket"><span>Megnézem</span></a>
+                            <strong class="tarifa">Smarttarifa 3</strong>
+                            <span class="loyality">
+                                2 év tarifamegtartással
+                            </span>
+                        </li>
+                        <script>$('.products > li h4').each(function(i, e) { if($(e).text().length > 21) { $(e).css('font-size',13) } });</script>
+                    </ul>
+                    <div class="manufacturers">
+                        <div>
+                            <h2>Gyártók</h2>
+                            <ul>
+                                <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/samsung-mobiltelefon/">Samsung</a></li>
+                                <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/nokia-mobiltelefon/">Nokia</a></li>
+                                <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/sony-mobiltelefon/">Sony</a></li>
+                                <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/huawei-keszulekek/">Huawei</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/lg-mobiltelefon/">LG</a></li>
+                                <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/htc-mobiltelefon/">HTC</a></li>
+                                <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/zte-mobiltelefon/">ZTE</a></li>
+                                <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/blackberry-mobiltelefon/">Blackberry</a></li>
+                            </ul>
+                        </div>
+                        <a href="https://szeccsa.github.io/telenor.hu/mobiltelefonok/kereso/" class="btnSearch">Részletes keresés</a>
+                    </div>
+                </div>
+
+                <script type="text/javascript">
+                    $(document).ready(function(){
+                        $('div.promoCarousel').jcarousel();
+                    });
+                </script>
+
+                <div class="promoCarousel">
+                    <ul class="promos">
+                        <li class="imagePromo">
+                            <a href="https://szeccsa.github.io/telenor.hu/mobiltelefonok/kereso/?bp_medium=belsopromo&amp;bp_source=kozep_also_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=Minden+mobil+0+Ft%21&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu"><h2>Minden mobil 0 Ft!</h2></a>
+                            <a href="https://szeccsa.github.io/telenor.hu/mobiltelefonok/kereso/?bp_medium=belsopromo&amp;bp_source=kozep_also_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=Minden+mobil+0+Ft%21&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu"><img src="https://szeccsa.github.io/telenor.hu/thumbnail/125x88/017/176.jpg" alt="Minden mobil 0 Ft!" class="promoImage"/></a>
+                            <div class="textContent">
+                                <p>Megújult kínálatunkban továbbra is minden mobil 0 Ft!</p>
+                            </div>
+                            <a href="https://szeccsa.github.io/telenor.hu/mobiltelefonok/kereso/?bp_medium=belsopromo&amp;bp_source=kozep_also_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=Minden+mobil+0+Ft%21&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu" class="btnMore">Részletek</a>
+                        </li>
+                        <li class="imagePromo">
+                            <a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/zte/blade_iii?tarifa=124&amp;huseg=24-24&amp;bp_medium=belsopromo&amp;bp_source=jobb_also_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=ZTE+Blade+III&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu"><h2>ZTE Blade III</h2></a>
+                            <a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/zte/blade_iii?tarifa=124&amp;huseg=24-24&amp;bp_medium=belsopromo&amp;bp_source=jobb_also_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=ZTE+Blade+III&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu"><img src="https://szeccsa.github.io/telenor.hu/thumbnail/125x88/017/328.jpg" alt="ZTE Blade III" class="promoImage"/></a>
+                            <div class="textContent">
+                                <p>Igazi okostelefon-élmény, kihagyhatatlan áron!</p>
+                            </div>
+                            <a href="https://szeccsa.github.io/telenor.hu/mobiltelefon/zte/blade_iii?tarifa=124&amp;huseg=24-24&amp;bp_medium=belsopromo&amp;bp_source=jobb_also_nyito&amp;bp_campaign=keszulekvasarlas&amp;bp_term=ZTE+Blade+III&amp;bp_content=lakossagi&amp;bp_referal=www.telenor.hu" class="btnMore">Részletek</a>
+                        </li>
+                        <li class="imagePromo">
+                            <a href="https://szeccsa.github.io/telenor.hu/akcio/korlatlan-extrak/"><h2>Korlátlan Extrák</h2></a>
+                            <a href="https://szeccsa.github.io/telenor.hu/akcio/korlatlan-extrak/"><img src="https://szeccsa.github.io/telenor.hu/thumbnail/125x88/016/758.jpg" alt="Korlátlan Extrák" class="promoImage"/></a>
+                            <div class="textContent">
+                                <p>Gyertek a Telenorhoz és beszéljetek csoporton belül korlátlanul 0 Ft külön havidíjért,...</p>
+                            </div>
+                            <a href="akcio/korlatlan-extrak/" class="btnMore">Részletek</a>
+                        </li>
+                        <li class="imagePromo">
+                            <a href="https://szeccsa.github.io/telenor.hu/lapozd-kedvenceidet-mobilon/"><h2>Lapozd kedvenceidet mobilon</h2></a>
+                            <a href="https://szeccsa.github.io/telenor.hu/lapozd-kedvenceidet-mobilon/"><img src="https://szeccsa.github.io/telenor.hu/thumbnail/125x88/016/752.jpg" alt="Lapozd kedvenceidet mobilon" class="promoImage"/></a>
+                            <div class="textContent">
+                                <p>Nők Lapja Café és Cosmo, Hír24 és Sport24 díjmentes adatforgalommal év végéig...</p>
+                            </div>
+                            <a href="https://szeccsa.github.io/telenor.hu/lapozd-kedvenceidet-mobilon/" class="btnMore">Részletek</a>
+                        </li>
+                        <li class="imagePromo">
+                            <a href="https://szeccsa.github.io/telenor.hu/windows-aruhaz"><h2>Vásárlás a Windows Áruházban</h2></a>
+                            <a href="https://szeccsa.github.io/telenor.hu/windows-aruhaz"><img src="https://szeccsa.github.io/telenor.hu/thumbnail/125x88/016/336.jpg" alt="Vásárlás a Windows Áruházban" class="promoImage"/></a>
+                            <div class="textContent">
+                                <p>Magyarországon elsőként a Telenortól!
+                Vásárolj bankkártyaszámod megadása nélkül!</p>
+                            </div>
+                            <a href="https://szeccsa.github.io/telenor.hu/windows-aruhaz" class="btnMore">Részletek</a>
+                        </li>
+                        <li class="imagePromo">
+                            <a href="https://szeccsa.github.io/telenor.hu/e-szamla/"><h2>Elektronikus számla</h2></a>
+                            <a href="https://szeccsa.github.io/telenor.hu/e-szamla/"><img src="https://szeccsa.github.io/telenor.hu/thumbnail/125x88/016/944.jpg" alt="Elektronikus számla" class="promoImage"/></a>
+                            <div class="textContent">
+                                <p>Válts díjmentes elektronikus számlára, és 1000 Ft-ot jóváírunk következő havi...</p>
+                            </div>
+                            <a href="https://szeccsa.github.io/telenor.hu/e-szamla/" class="btnMore">Részletek</a>
+                        </li>
+                        <li class="imagePromo">
+                            <a href="https://szeccsa.github.io/telenor.hu/szolgaltatas/egyeb/adatmentes-attoltes"><h2>Adatmentés és áttöltés</h2></a>
+                            <a href="https://szeccsa.github.io/telenor.hu/szolgaltatas/egyeb/adatmentes-attoltes"><img src="https://szeccsa.github.io/telenor.hu/thumbnail/125x88/015/892.jpg" alt="Adatmentés és áttöltés" class="promoImage"/></a>
+                            <div class="textContent">
+                                <p>Új mobilt vásároltál, és adataidat áttöltenéd régi készülékedről az újra?...</p>
+                            </div>
+                            <a href="https://szeccsa.github.io/telenor.hu/szolgaltatas/egyeb/adatmentes-attoltes" class="btnMore">Részletek</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <script type="text/javascript">
+                if (loggedIn){
+                    $('div.loginbox.notloggedin').hide();
+                    $('div.loginbox.logedin').removeClass('hidden');
+                    $('div.logedin-topbox').removeClass('hidden');
+                }
+            </script>
+            <!-- /cont -->
+
+            <div class="clearboth footkeeper"></div>
+
+            <!-- footer -->
+            <div class="footer">
+                <div class="foot">
+                    <div class="contentTop">
+                        <div class="leftBlock">
+                            <h3>Ügyfélszolgálat</h3>
+                            <ul class="list-1">
+                                <li><a href="https://szeccsa.github.io/telenor.hu/" class="_blank">Telenor Online</a></li>
+                                <li><a href="https://szeccsa.github.io/telenor.hu/ugyfelszolgalat">Ügyfélszolgálat</a></li>
+                                <li><a href="https://szeccsa.github.io/telenor.hu/aktualis-kerdesek/">Gyakori kérdések</a></li>
+                            </ul>
+                            <ul class="list-2">
+                                <li><a href="https://szeccsa.github.io/telenor.hu/mobiltelefonok/kereso/">Netshop</a></li>
+                                <li><a href="https://szeccsa.github.io/telenor.hu/internet/mobiltelefon/mobil-online-csomagok/">Internet mobiltelefonon</a></li>
+                                <li><a href="https://szeccsa.github.io/telenor.hu/ugyintezes/letoltheto-kiadvanyok/">Letölthető kiadványaink</a></li>
+                            </ul>
+                            <ul class="list-3">
+                                <li><a href="https://szeccsa.github.io/telenor.hu/ugyintezes/tudnivalok/egyenlegfeltoltes/kartyas/">Töltsd fel egyenleged!</a></li>
+                                <li><a href="https://szeccsa.github.io/telenor.hu/edsz_lista">Emelt díjas számok</a></li>
+                                <li><a href="https://szeccsa.github.io/telenor.hu/" class="_blank">Telenor a Facebookon</a></li>
+                            </ul>
+                        </div>
+                        <div class="rightBlock">
+                            <h3>Telefonos elérhetőségek</h3>
+                            <div class="item small">
+                                <span class="text">Telefonos ügyfélszolgálat</span>
+                                <span class="phone">1220</span>
+                            </div>
+                            <div class="item large">
+                                <span class="text">Egyenleglekérdezés</span>
+                                <span class="phone">172</span>
+                            </div>
+                            <div class="item small">
+                                <span class="text">Automata ügyintézés</span>
+                                <span class="phone">1741</span>
+                            </div>
+                            <div class="item">
+                                <span class="text">Egyenlegfeltöltés</span>
+                                <span class="phone">171</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contentBottom">
+                        <div class="rights">Telenor Magyarország Zrt. © 2013 Minden jog fenntartva</div>
+                        <div class="share">
+                            <ul>
+                                <li><a title="Kövess minket Facebook-on!" href="https://szeccsa.github.io/telenor.hu/" class="fb _blank"><span>facebook</span></a></li>
+                                <li><a title="Kövess minket Twitter-en!" href="https://szeccsa.github.io/telenor.hu/" class="twitter _blank"><span>twitter</span></a></li>
+                                <li><a title="Nézd meg YouTube csatornánkat!" href="https://szeccsa.github.io/telenor.hu/" class="youtube _blank"><span>YouTube</span></a></li>
+                                <li><a title="Mobil verzió megtekintése" href="https://szeccsa.github.io/telenor.hu/index_mobile.php" rel="nofollow" class="mobile-small"><span>Mobil verzió</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="links">
+                            <a href="https://szeccsa.github.io/telenor.hu/jogi-kozlemeny/">jogi közlemény</a>  |
+                            <a href="https://szeccsa.github.io/telenor.hu/altalanos-szerzodesi-feltetelek/">ÁSZF és kapcsolódó dokumentumok</a>  |
+                            <a href="https://szeccsa.github.io/telenor.hu/menuterkep/">menütérkép</a>  |
+                            <a href="https://szeccsa.github.io/telenor.hu/kapcsolat/">kapcsolat</a>
+                        </div>
+                        <div class="carnation" id="carnation"><a href="https://szeccsa.github.io/telenor.hu/" class="_blank"><span>carnation</span></a></div>
+                    </div>
+                </div>
+            </div>
+            <!-- /footer -->
+
+        </div>
+        <!-- /container -->
+
+        <!-- popuwrp -->
+        <div id="popupwrp">
+            <div class="imageBox popup">
+                <div class="viewer">
+                    <a class="close" href="#">Bezár</a>
+                    <a class="prev" href="#">Előző</a>
+                    <div class="info">
+                        <div class="image"><img class="rounded" src="https://szeccsa.github.io/telenor.hu/i/none.gif" alt=""/></div>
+                        <span class="description"></span>
+                        <span class="title"></span>
+                    </div>
+                    <a class="next" href="#">Következő</a>
+                    <span class="counter"></span>
+                </div>
+            </div>
+            <div class="videoBox popup">
+                <div class="viewer">
+                    <a class="close" href="#">Bezár</a>
+                    <a class="prev" href="#">Előző</a>
+                    <div class="info">
+                        <div class="video"><div id="flashcontent"></div></div>
+                        <span class="title"></span>
+                    </div>
+                    <a class="next" href="#">Következő</a>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

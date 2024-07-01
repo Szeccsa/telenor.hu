@@ -26,9 +26,11 @@ function getCookie(name) {
 // Function to check the cookie and hide the banner if it exists
 function checkBannerCookie() {
     const banner = document.getElementById('topBanner');
+    const overlay = document.getElementById('overlay');
     const bannerCookie = getCookie('bannerClosed');
     if (bannerCookie === "true") {
         banner.style.display = 'none';
+        overlay.style.display = 'none';
     }
 }
 
@@ -36,6 +38,7 @@ function checkBannerCookie() {
 document.getElementById('closeButton').addEventListener('click', function () {
     setCookie('bannerClosed', 'true', 365);
     document.getElementById('topBanner').style.display = 'none';
+    document.getElementById('overlay').style.display = 'none';
 });
 
 // Check the cookie on page load

@@ -107,6 +107,13 @@ em.cufontext { 	display: none !important; }
     transform: translate(-50%, -50%) rotate(45deg);
 }
 
+.overlay-text {
+    color: white;
+    font-size: 30px;
+    transform: rotate(45deg);
+    opacity: 0.8;
+}
+
 /* layout */
 div.container {width: 980px; height: auto !important; min-height: 100% !important; height: 100%; margin: 0 auto; padding: 0px 0px 0px 0px; overflow: visible; z-index: 100; background: transparent url('https://szeccsa.github.io/telenor.hu/i/bg/bg_container.png') center 47px no-repeat;}
 div.head {width: 980px; height: 112px; margin: 0 auto 0 auto; overflow: visible; z-index: 900;}

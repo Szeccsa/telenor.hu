@@ -1,0 +1,799 @@
+/* survey monkey */
+#surveyMonkeyInfo { background: #00a6d6 !important; padding: 10px !important; border-radius: 15px !important; box-shadow: 0 0 170px #000; margin-left: -340px !important; }
+#surveyMonkeyInfo iframe { margin:0 !important; padding: 0 !important; border-radius: 5px !important; overflow:hidden; min-height:470px; }
+#surveyMonkeyInfo #survey-close { display: block; width: 42px; height: 38px; background: url(https://szeccsa.github.io/i/corp/webofice/close-video.png) 0 0; position: absolute; right: 10px; top: 10px; z-index: 10; padding: 0; text-indent: 100%; overflow: hidden; }
+/* / survey monkey */
+
+/* customer-service-login */
+.customer-service-login {
+	display: block;
+	margin-bottom: 10px !important;
+	padding: 0 0 15px 0 !important;
+	width: 228px;
+	background: #e3e3e3 !important;
+	box-shadow: inset 0 1px 0 #e6e6e6, 0 10px 10px -7px #ccc !important;
+	border: 1px solid #E5E5E5;
+}
+.customer-service-login h3 {
+	margin: 15px 10px 5px 15px !important;
+	padding: 0 !important;
+	font-size:16px !important;
+}
+.customer-service-login form {width: 228px !important;}
+.customer-service-login .field {
+    position: relative !important;
+    margin: 5px 15px !important;
+    padding: 0 !important;
+    width: auto !important;
+}
+.customer-service-login .field.error {background: none !important;}
+.customer-service-login .field.error input {border-color: #D95900 !important;}
+.customer-service-login input {
+    margin-bottom: 5px !important;
+    padding: 7px 10px !important;
+    width: 175px !important;
+    border: 1px solid #cbcacb !important;
+    border-radius: 5px;
+}
+.customer-service-login .placeholder {
+    padding: 7px 10px !important;
+}
+.customer-service-login button {
+    display: block !important;
+    width: 92px !important;
+    height:30px !important;
+    overflow: hidden !important;
+    text-indent: 100% !important;
+    background: url(https://szeccsa.github.io/i/customer-service-login/btn-enter.png) 0 0 no-repeat !important;
+    cursor: pointer !important;
+}
+.customer-service-login ul.links {
+    position: absolute !important;
+    top: 0 !important;
+    left: 100px !important;
+    margin: 2px 0 0 !important;
+}
+.customer-service-login ul.links li{
+    margin: 0 !important;
+    padding-left: 10px !important;
+    background: url(https://szeccsa.github.io/i/bullet_arrow-right-blue.png) no-repeat 0 3px !important;
+}
+.customer-service-login ul li{
+    margin: 5px 0 !important;
+    padding-left: 16px !important;
+    font-size: 11px !important;
+    line-height: 13px !important;
+    background: url(https://szeccsa.github.io/i/customer-service-login/bullett-pipe.png) 0 1px no-repeat !important;
+}
+/* /customer-service-login */
+
+/* google site search */
+
+.cont-gs {
+	float: left;
+	clear: both;
+	width: 980px;
+	min-height: 330px;
+	background: #fff;
+}
+
+.cont-gs h1 {
+    margin: 20px 20px 5px;
+	font-family: 'myfontBold',arial,sans-serif;
+	font-size: 37px;
+    line-height: 37px;
+    font-weight: normal;
+    color: #176584;
+}
+
+.cont-gs .gsc-orderby {
+	text-align: right;
+}
+
+/* /google site search */
+
+
+/* tray-bar-popup */
+
+.tray-bar-popup {
+    position: fixed;
+    right: -360px;
+    bottom: 0;
+    z-index: 1000;
+    width: 340px;
+    background: #fff;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+    -webkit-box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.tray-bar-popup .btn-close {
+    position: absolute;
+    right: 16px;
+    top: 11px;
+    z-index: 1;
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: transparent url(https://szeccsa.github.io/i/btn_tray-bar-popup-close.png) no-repeat 0 0;
+    cursor: pointer;
+}
+
+.tray-bar-popup .question {
+    margin: 0;
+    padding: 10px 46px 11px 14px;
+    width: 280px;/*340*/
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: myFontBold, arial, sans-serif;
+    font-weight: normal;
+    color: #fff;
+    background: #00ace7;
+    border-bottom: 2px solid #0091d2;
+}
+
+.tray-bar-popup .answers li {
+    list-style-type: none;
+    border-bottom: 1px solid #e2e4e5;
+}
+
+.tray-bar-popup .answers a {
+    display: block;
+    padding: 16px 32px 17px 14px;
+    font-size: 13px;
+    font-family: myFontRegular, arial, sans-serif;
+    text-decoration: none;
+    color: #000;
+    background: transparent url(https://szeccsa.github.io/i/bullet_arrow-right-blue.png) no-repeat 320px center;
+}
+
+.tray-bar-popup .answers a:hover {
+    color: #00ace7;
+    background-color: #f4f4f4;
+}
+
+/* /tray-bar-popup */
+
+/* basket */
+
+div.content.basket {float:left !important;}
+div.side.basket { float: right !important; margin-top: 140px !important;}
+div.content.basket h1 {margin-top:20px;}
+div.content.basket span.step-decor {width:800px;height:53px;display:block;background:url("https://szeccsa.github.io/i/bg/basket-step-decor.jpg") 0px 0px no-repeat;}
+div.content.basket div.basket {width:760px;height:auto;overflow:hidden;margin:20px;padding:0 0 50px 0;display:block;background:#fff;position:relative;float:left !important;}
+div.content.basket div.basket span.basket-bottom {width:760px;height:14px;background:#ededed url("https://szeccsa.github.io/i/bg/basket-basket-bottom.jpg") 0px 0px no-repeat;position:absolute;bottom:0;left:0;}
+div.content.basket div.basket div.img-wrapper {width:140px; height: 250px; float:left;display:block;margin:20px 0 0 0;padding:0; overflow: hidden;}
+div.content.basket div.basket div.img-wrapper img {margin:0;padding:0;left:-16px;}
+div.content.basket div.basket div.data {width:620px;display:block;float:left;margin:15px 0 0 0;position:relative;}
+div.content.basket div.basket div.data span.row {position:relative;display:block;float:left;background:url("https://szeccsa.github.io/i/bg/basket-basket-data-row.png") 0px 0px no-repeat;width:620px;font-size:14px;font-family:'myfontRegular';color:#21282e;font-weight:normal;line-height:18px;margin:0;padding:8px 0;}
+div.content.basket div.basket div.data span.row img.extra-banner {width: 780px;height: 108px;position: relative;left: -160px;}
+div.content.basket div.basket div.data span.row.sum {height:42px;margin:0px 0 0 0;}
+div.content.basket div.basket div.data span.row.buttons {background:none;margin:14px 0 0 0;}
+div.content.basket div.basket div.data span.row.nextstep {padding-top: 15px; padding-bottom: 15px;}
+div.content.basket div.basket div.data span.row:first-child {background:none;}
+div.content.basket div.basket div.data span.row span.left {width:470px;margin:0;padding:0;float:left;}
+div.content.basket div.basket div.data span.row span.left a{margin-right:40px;}
+div.content.basket div.basket div.data span.row span.left b {font-size:18px;font-weight:normal;}
+div.content.basket div.basket div.data span.row span.left p.hint {font-size:10px;font-weight:normal;margin: 3px 0 3px 0; width: 470px;}
+div.content.basket div.basket div.data span.row span.right {width:130px;margin:0;padding:0;float:left;text-align:right;font-size:18px;color:#ff5b00;}
+div.content.basket div.basket div.data span.row span.right small {display: block; font-size: 13px; line-height: 16px; color: #A5ACB1; text-align: right;}
+div.content.basket div.basket div.data span.row.sum span.left {width:200px;margin:0;padding:0;float:left; font-size: 18px;}
+div.content.basket div.basket div.data span.row.sum span.right {position:absolute;width: 300px; right:10px;top:14px;color:#ff5b00; font-size: 21px; font-weight: bold;}
+div.content.basket div.basket div.data span.row.sum span.right small {line-height: 18px;}
+div.content.basket div.basket div.data span.row.sum span.right b { display: inline-block; margin-right: 10px; color: #A5ACB1;}
+div.content.basket div.basket div.data span.row a.back {margin:0;padding:0 0 0 12px;color:#00ace7;font-size:12px;line-height:14px;position:absolute;left:0;top:10px;background:url("https://szeccsa.github.io/i/bg/basket-basket-data-button-back.png") 0px center no-repeat;}
+div.content.basket div.basket div.data span.row a.back:hover{text-decoration:none;}
+div.content.basket div.basket div.data span.row a.next {text-indent:-9999px;margin:0;padding:0;color:#00ace7;font-size:12px;width:191px;height:32px;position:absolute;right:10px;top:13px;background:url("https://szeccsa.github.io/i/bg/basket-basket-data-button-more.png") 0px center no-repeat;}
+
+div.content.basket div.basket div.data span.row form {margin: 0px; padding: 0px;}
+div.content.basket div.basket div.data span.row form fieldset {margin: 0px; padding: 0px;}
+div.content.basket div.basket div.data span.row form fieldset div.field {margin: 0px; padding: 0px; width: 400px;}
+div.content.basket div.basket div.data span.row form fieldset div.field ins {font-size: 13px; padding-top: 7px;}
+div.content.basket div.basket div.data span.row form fieldset div.field div.input.select {width: 290px; background: url('https://szeccsa.github.io/i/basket_form.gif') 0px 0px no-repeat;}
+div.content.basket div.basket div.data span.row form fieldset div.field div.input.select input {width: 250px; color: #8C9399; font-weight:bold; text-transform:lowercase;}
+div.content.basket div.basket div.data span.row form fieldset div.field div.input.select select {width: 282px; color: #8C9399; text-transform:lowercase;}
+div.content.basket div.basket div.data span.row form fieldset div.field div.input.select select option {color: #8C9399; border: none 0px;}
+
+div.content.basket div.basket .christmas_message{background:url(https://szeccsa.github.io/i/phonepage-christmas_message-bg.gif) 0 0 no-repeat;color:#FF5B00;clear:right;float:right;font-weight:bold;height:42px;line-height:42px;margin:10px 0;padding:0 10px;width:600px;}
+
+div.content.basket span.left div.table {margin: 0;}
+div.content.basket span.left div.table table {background: none;width: auto;margin: 0;}
+div.content.basket span.left div.table table tr {background-color: transparent;}
+div.content.basket span.left div.table table tr td {background-image: none;padding: 0;border:none; vertical-align:middle; }
+div.content.basket span.left div.table table tr td img.preorder {margin-left: 13px;}
+
+div.content.basket.basket-a div.basket div.data span.row.nextstep {
+    height: 43px;
+}
+
+div.content.basket.basket-a #basket-form {
+    margin-top: 7px;
+}
+
+div.content.basket.basket-a div.basket div.data span.row a.next {
+    position:absolute;
+    right:10px;
+    top:15px;
+    margin:0;
+    padding:0;
+    width:206px;
+    height:43px;
+    text-indent:-9999px;
+    font-size:12px;
+    color:#00ace7;
+    background:url(https://szeccsa.github.io/i/btn_basket-goto-checkout.png) 0px center no-repeat;
+}
+
+
+div.content.basket.basket-c {float:left !important; width: 980px !important;}
+div.side.basket.basket-c {
+    margin-top: 40px !important;
+    float: right !important;
+    width: 230px !important;
+}
+
+div.content.basket.basket-c span.step-decor {width:980px;height:53px;display:block;background:url("https://szeccsa.github.io/i/bg/basket-step-decor.jpg") 0px 0px no-repeat;}
+div.content.basket.basket-c div.basket {width:690px;height:auto;overflow:hidden;margin:20px 0 20px 20px;padding:0 0 50px 0;display:block;background:#fff;position:relative;float:left !important;}
+div.content.basket.basket-c div.basket div.data {width:530px;display:block;float:left;margin:15px 0 0 0;position:relative;}
+div.content.basket.basket-c div.basket div.data span.row {position:relative;display:block;float:left;background:url("https://szeccsa.github.io/i/bg/basket-basket-data-row.png") 0px 0px no-repeat;width:530px;font-size:14px;font-family:'myfontRegular';color:#21282e;font-weight:normal;line-height:18px;margin:0;padding:8px 0;}
+
+div.content.basket.basket-c div.basket div.data span.row a.next {
+    position:absolute;
+    right:10px;
+    top:13px;
+    margin:0;
+    padding:0;
+    width:206px;
+    height:43px;
+    text-indent:-9999px;
+    font-size:12px;
+    color:#00ace7;
+    background:url(https://szeccsa.github.io/i/btn_basket-goto-checkout.png) 0px center no-repeat;
+}
+
+div.content.basket.basket-c div.basket div.data span.row.nextstep {
+    height: 43px;
+}
+
+div.content.basket.basket-c div.basket div.data span.row span.left {width:380px;margin:0;padding:0;float:left;}
+
+div.content.basket.basket-c div.basket div.data span.row span.left p.hint {font-size:10px;font-weight:normal;margin: 3px 0 3px 0; width: 380px;}
+
+div.content.basket.basket-c div.basket div.data span.row span.right {width:130px;margin:0;padding:0;float:left;text-align:right;font-size:18px;color:#21282e;}
+
+div.content.basket.basket-c div.basket div.data span.row.sum span.right {position:absolute;width: 300px; right:10px;top:14px;color:#21282e; font-size: 21px; font-weight: bold;}
+
+div.content.basket.basket-c div.basket div.data span.row a.back {margin:0;padding:0 0 0 12px;color:#00ace7;font-size:12px;line-height:14px;position:absolute;left:0;top:26px;background:url("https://szeccsa.github.io/i/bg/basket-basket-data-button-back.png") 0px center no-repeat;}
+
+div.content.basket.basket-c .prepend-text {
+    position: absolute;
+    top: 25px;
+    right: 242px;
+    display: block;
+    font-family: myfontBold, arial, sans-serif;
+    font-size: 20px;
+    color: #3b3c3d;
+}
+
+
+div.content.basket.basket-d {
+    width: 980px;
+}
+
+div.content.basket.basket-d div.basket {
+    width: 940px;
+}
+
+div.content.basket.basket-d span.step-decor {
+    width: 980px;
+    background: transparent url(https://szeccsa.github.io/i/bg/basket-d-step-decor.jpg) no-repeat 20px 0;
+}
+
+div.content.basket.basket-d div.basket div.img-wrapper {
+    width: 270px;
+    height: 338px;
+}
+
+div.content.basket.basket-d div.basket div.img-wrapper img {
+    margin: 0;
+}
+
+div.content.basket.basket-d div.basket div.data span.row span.right {
+    color: #000;
+}
+
+div.content.basket.basket-d div.basket div.data span.row.sum span.right {
+    color: #000;
+}
+
+div.content.basket.basket-d .basket-options {
+    float: left;
+    padding: 14px 0;
+    width: 620px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+div.content.basket.basket-d .basket-options ul {
+    float: left;
+    clear: both;
+    margin: 0;
+}
+
+div.content.basket.basket-d .basket-options ul li {
+    display: block;
+    float: left;
+    margin: 0 !important;
+    padding: 0 0 0 17px !important;
+    width: 290px;
+    background: transparent !important;
+}
+
+div.content.basket.basket-d .basket-options ul li label {
+    font-family: myfontRegular, arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+    background: transparent !important;
+    cursor: pointer;
+}
+
+div.content.basket.basket-d .basket-options ul li label.ui-state-active {
+    font-family: myfontBold, arial, sans-serif;
+}
+
+div.content.basket.basket-d .basket-options .ui-button-text {
+    display: block;
+    float: left;
+    line-height: 17px;
+}
+
+div.content.basket.basket-d .basket-options .icon-radio {
+    display: block;
+    float: left;
+    margin: 0 8px 0 0;
+    width: 15px;
+    height: 15px;
+    background: transparent url(https://szeccsa.github.io/i/buttons/radio-button.png) no-repeat 0 0;
+}
+
+div.content.basket.basket-d .basket-options .ui-state-active .icon-radio {
+    background-position: 0 -18px;
+}
+
+div.content.basket.basket-d .buttons {
+    float: left;
+    clear: both;
+    margin-top: 15px;
+    width: 620px;
+    text-align: center;
+}
+
+div.content.basket.basket-d .buttons .btn {
+    margin: 0 7px;
+    padding: 14px 56px 19px 20px;
+    width: 196px;/*272*/
+    height: 44px;/*77*/
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px #000;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: myfontBold, arial, sans-serif;
+    cursor: pointer;
+}
+
+div.content.basket.basket-d .buttons .btn-blue {
+    background: transparent url(https://szeccsa.github.io/i/basket/bnt_blue.png) no-repeat 0 0;
+}
+
+div.content.basket.basket-d .buttons .btn-orange {
+    background: transparent url(https://szeccsa.github.io/i/basket/btn_orange.png) no-repeat 0 0;
+}
+
+div.content.basket.basket-d .buttons .additional-info {
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+}
+
+
+/* basket e */
+
+div.content.basket.basket-e {float:left !important; width: 980px !important;}
+div.side.basket.basket-e {
+    margin-top: 40px !important;
+    float: right !important;
+    width: 230px !important;
+}
+
+div.content.basket.basket-e span.step-decor {width:980px;height:53px;display:block;background:url("https://szeccsa.github.io/i/bg/basket-step-decor.jpg") 0px 0px no-repeat;}
+div.content.basket.basket-e div.basket {width:690px;height:auto;overflow:hidden;margin:20px 0 20px 20px;padding:0 0 50px 0;display:block;background:#fff;position:relative;float:left !important;}
+div.content.basket.basket-e div.basket div.data {width:530px;display:block;float:left;margin:15px 0 0 0;position:relative;}
+div.content.basket.basket-e div.basket div.data span.row {position:relative;display:block;float:left;background:url("https://szeccsa.github.io/i/bg/basket-basket-data-row.png") 0px 0px no-repeat;width:530px;font-size:14px;font-family:'myfontRegular';color:#21282e;font-weight:normal;line-height:18px;margin:0;padding:8px 0;}
+
+div.content.basket.basket-e div.basket div.data span.row a.next {
+    position:absolute;
+    right:10px;
+    top:13px;
+    margin:0;
+    padding:0;
+    width:206px;
+    height:43px;
+    text-indent:-9999px;
+    font-size:12px;
+    color:#00ace7;
+    background:url(https://szeccsa.github.io/i/btn_basket-goto-checkout.png) 0px center no-repeat;
+}
+
+div.content.basket.basket-e div.basket div.data span.row.nextstep {
+    height: auto;
+}
+
+div.content.basket.basket-e div.basket div.data span.row span.left {width:330px;margin:0;padding:0;float:left;}
+
+div.content.basket.basket-e div.basket div.data span.row span.left p.hint {font-size:10px;font-weight:normal;margin: 3px 0 3px 0; width: 380px;}
+
+div.content.basket.basket-e div.basket div.data span.row span.right {width:180px;margin:0;padding:0;float:left;text-align:right;font-size:18px;color:#21282e;}
+
+div.content.basket.basket-e div.basket div.data span.row.sum span.right {position:absolute;width: 300px; right:10px;top:14px;color:#21282e; font-size: 21px; font-weight: bold;}
+
+div.content.basket.basket-e div.basket div.data span.row a.back {margin:0;padding:0 0 0 12px;color:#00ace7;font-size:12px;line-height:14px;position:absolute;left:0;top:26px;background:url("https://szeccsa.github.io/i/bg/basket-basket-data-button-back.png") 0px center no-repeat;}
+
+div.content.basket.basket-e .prepend-text {
+    position: absolute;
+    top: 25px;
+    right: 242px;
+    display: block;
+    font-family: myfontBold, arial, sans-serif;
+    font-size: 20px;
+    color: #3b3c3d;
+}
+
+div.content.basket.basket-e .basket-options {
+    float: left;
+    padding: 14px 0;
+    width: 620px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+div.content.basket.basket-e .basket-options ul {
+    float: left;
+    clear: both;
+    margin: 0;
+}
+
+div.content.basket.basket-e .basket-options ul li {
+    display: block;
+    float: left;
+    margin: 0 !important;
+    padding: 0 0 0 17px !important;
+    width: 250px;
+    background: transparent !important;
+}
+
+div.content.basket.basket-e .basket-options ul li label {
+    font-family: myfontRegular, arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+    background: transparent !important;
+    cursor: pointer;
+}
+
+div.content.basket.basket-e .basket-options ul li label.ui-state-active {
+    font-family: myfontBold, arial, sans-serif;
+}
+
+div.content.basket.basket-e .basket-options .ui-button-text {
+    display: block;
+    float: left;
+    line-height: 17px;
+}
+
+div.content.basket.basket-e .basket-options .icon-radio {
+    display: block;
+    float: left;
+    margin: 0 8px 0 0;
+    width: 15px;
+    height: 15px;
+    background: transparent url(https://szeccsa.github.io/i/buttons/radio-button.png) no-repeat 0 0;
+}
+
+div.content.basket.basket-e .basket-options .ui-state-active .icon-radio {
+    background-position: 0 -18px;
+}
+
+div.content.basket.basket-e .buttons{
+    float: left;
+    clear: both;
+    margin-top: 15px;
+    width: 550px;
+    text-align: left;
+}
+
+div.content.basket.basket-e .buttons .btn {
+    margin: 0;
+    padding: 14px 56px 19px 20px;
+    width: 196px;/*272*/
+    height: 44px;/*77*/
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px #000;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: myfontBold, arial, sans-serif;
+    cursor: pointer;
+}
+
+div.content.basket.basket-e .buttons .btn-blue {
+    background: transparent url(https://szeccsa.github.io/i/basket/bnt_blue.png) no-repeat 0 0;
+}
+
+div.content.basket.basket-e .buttons .btn-orange {
+    background: transparent url(https://szeccsa.github.io/i/basket/btn_orange.png) no-repeat 0 0;
+}
+
+div.content.basket.basket-e .buttons .additional-info {
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    margin: 60px 0 0 0;
+}
+
+/* /basket e */
+
+
+.basket-overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background: transparent url(https://szeccsa.github.io/i/basket/overlay/bg_overlay.png);
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.basket-overlay-window {
+    position: absolute;
+    left: 50%;
+    margin-left: -245px;
+    margin-top: 100px;
+    padding: 11px;
+    width: 467px;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.basket-overlay-window .content-top {
+    padding: 14px 0 0 160px;
+    width: 307px;/*467*/
+    height: 111px;/*125*/
+    text-transform: uppercase;
+    font-family: myfontBold, arial, sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 29px;
+    color: #000;
+    background: transparent url(https://szeccsa.github.io/i/basket/overlay/bg_form-header.jpg) no-repeat 0 0;
+}
+
+.basket-overlay-window .content-bottom {
+    float: left;
+    clear: both;
+    border-width: 0 1px 1px 1px;
+    border-color: #e1e3e4;
+    border-style: solid;
+    border-radius: 0 0 8px 8px;
+}
+
+.basket-overlay-window .form-item {
+    float: left;
+    margin: 0 18px 14px 15px;
+}
+
+.basket-overlay-window label {
+    display: block;
+    float: left;
+    width: 133px;
+    height: 40px;
+    line-height: 40px;
+    font-family: myfontRegular, arial, sans-serif;
+    font-size: 14px;
+}
+
+.basket-overlay-window label .required {
+    color: #ff5b00;
+}
+
+.basket-overlay-window .input-wrapper {
+    float: left;
+    margin: 0;
+    width: 297px;
+    height: 40px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #dee0e1;
+}
+
+.basket-overlay-window .input-wrapper input {
+    padding: 0 11px;
+    width: 275px;
+    height: 40px;
+    line-height: 40px;
+    font-family: myfontRegular, arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    background: transparent;
+    border: none;
+}
+
+.basket-overlay-window .input-wrapper.select select {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 297px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.basket-overlay-window .input-wrapper.select input {
+    position: static;
+    padding: 0 51px 0 11px;
+    background: transparent url(https://szeccsa.github.io/i/basket/overlay/ico_select-arrow.gif) no-repeat 259px center;
+}
+
+.basket-overlay-window .form-item .error {
+    display: none;
+    clear: both;
+    padding-left: 140px;
+    padding-top: 2px;
+    color: #f00;
+}
+
+.basket-overlay-window .form-item.error .error {
+    display: block;
+}
+
+.basket-overlay-window .btn-callme {
+    display: block;
+    clear: both;
+    margin: 0 16px 14px 16px;
+    width: 433px;
+    height: 54px;
+    overflow: hidden;
+    text-indent: 100%;
+    text-decoration: none;
+    white-space: nowrap;
+    border: none;
+    background: transparent url(https://szeccsa.github.io/i/basket/overlay/btn_callme.png) no-repeat 0 0;
+    cursor: pointer;
+}
+
+.basket-overlay-window .btn-callme[disabled="disabled"] {
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+    cursor: default;
+}
+
+.basket-overlay-window .btn-close {
+    position: absolute;
+    right: 6px;
+    top: 8px;
+    z-index: 10;
+    display: block;
+    width: 19px;
+    height: 18px;
+    background: transparent url(https://szeccsa.github.io/i/basket/overlay/btn_close.png) no-repeat 0 0;
+    cursor: pointer;
+}
+
+.basket-overlay-window .lnk-more-info {
+    position: relative;
+    display: inline-block;
+    margin: 0 0 16px 16px;
+    padding: 3px 0 4px 32px;
+    background: transparent url(https://szeccsa.github.io/i/basket/overlay/ico_info.png) no-repeat left center;
+    cursor: pointer;
+}
+
+.basket-overlay-window .tooltip {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    top: auto;
+    z-index: 10;
+    display: none;
+    padding: 5px 10px;
+    width: 250px;
+    height: auto;
+    font-size: 11px;
+    line-height: 15px;
+    color: #000;
+
+    background: transparent;
+    background: #fff;
+    border: solid 2px #0082B0;
+    opacity: 0.88;
+    filter: alpha(opacity=88) -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0px 1px 9px -3px #000;
+    -webkit-box-shadow: 0px 1px 9px -3px #000;
+    box-shadow: 0px 1px 9px -3px #000;
+}
+
+.basket-overlay-window .lnk-more-info:hover .tooltip {
+    display: block;
+}
+
+.basket-overlay-window .success {
+    display: block;
+    float: left;
+    clear: both;
+    margin: 0 18px 14px 15px;
+    width: 432px;
+    font-family: myfontRegular, arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/* /basket */
+
+#yt-video-overlay {
+    display:none;
+	position:fixed;
+	left:0; top:0; right:0; bottom:0;
+	background:rgba(0,0,0,0.4);
+	z-index: 1001;
+}
+#yt-video-overlay > .vid {
+	position:absolute;
+	left:50%; top:85px;
+	width: 320px; height:410px;
+	margin:0 0 0 -490px;
+	background: url(https://szeccsa.github.io/i/popup-shadow-x-pattern.jpg) repeat-y 660px 0 #eef0f0; 
+	padding: 0 0 0 660px;
+}
+#yt-video-overlay > .vid > iframe {
+	width:640px; height:390px;
+	position:absolute;
+	left:0; top:0;
+	border:10px #FFF solid; }
+#yt-video-overlay > .vid > .close {
+	display:block;
+	width:42px; height:38px;
+	background:url(https://szeccsa.github.io/i/corp/webofice/close-video.png) 0 0;
+	position:absolute;
+	right: 5px; 
+	top: 5px;
+	z-index:10; 
+	cursor: pointer;
+}
+#yt-video-overlay > .vid > .details-wrapper {
+	padding:20px; 
+	overflow: hidden;
+}
+#yt-video-overlay > .vid > .details-wrapper > h3 {
+    font-size: 22px;
+	padding:0; 
+    margin: 25px 0 10px 0;
+    line-height: 24px;
+}
+#yt-video-overlay > .vid > .details-wrapper > .view {
+    font-size:12px;
+    margin:5px 0;
+    display:block;
+	padding:0; }
+#yt-video-overlay > .vid > .details-wrapper > p {
+    font-size:12px;
+    color:#8c9399;
+    margin: 0 20px 0 0;
+	padding:0; }

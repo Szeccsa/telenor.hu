@@ -1,0 +1,1496 @@
+/* woman */
+.sohowomen .top {position:relative;margin-bottom:30px;}
+.sohowomen .top img {position:relative;left:-10px;display:block;}
+.sohowomen .top a {display:block;width:240px;height:43px;position:absolute;left:244px;top:404px;background:#ddd;-moz-opacity:0.01;opacity:0.01;filter:alpha(opacity=1)}
+.sohowomen h3 {color:#9f218b!important;font-size:22px;margin-left:30px!important;font-weight:800!important;}
+.sohowomen p.qr {font-weight: bold;}
+.sohowomen p.qr a {display: block;}
+.sohowomen .items {clear:both;overflow:hidden;padding:0 0 30px 30px;}
+.sohowomen .item {float:left;width:200px;min-height:120px;padding-left:115px;}
+.sohowomen .item img {float:left;margin-left:-115px;margin-top:20px;}
+.sohowomen .item h4 {font-size:16px;font-weight:400;font-style:italic;margin-left:0;margin-bottom:10px;margin-bottom:5px\b}
+.sohowomen .item p {margin:0;color:#231f20;font:300 14px/17px arial,sans-serif;}
+.sohowomen #android-button {display:block;width:537px;height:84px;margin:0 auto 30px;}
+/* woman */
+
+/* double */
+div.cont div.content.double110920 {margin-top: -4px;}
+div.cont div.content.double110920 div.cpromo {width:980px; height:443px; margin-bottom: -10px;}
+div.cont div.content.double110920 div.cpromo div.items {z-index: 900;}
+div.cont div.content.double110920 div.cpromo div.items a {position: absolute; display: block; left: 0px; top: 0px; width: 980px; height: 443px; margin: 0px; padding: 0px; overflow: hidden; z-index: 900;}
+div.cont div.content.double110920 div.cpromo div.items a img {width: 980px; height: 443px; margin: 0px; padding: 0px; overflow: hidden;}
+div.cont div.content.double110920 div.cpromo div#nav {position: absolute; left: 0px; bottom: 16px; width: 980px; height: 35px; overflow: hidden; z-index: 999; background: url('https://szeccsa.github.io/i/none.gif');}
+div.cont div.content.double110920 div.cpromo div#nav a {position: relative; display: block; float: left; clear: none; width: 260px; height: 35px; background: url('https://szeccsa.github.io/i/none.gif'); z-index: 999; text-indent: -6969px;}
+div.cont div.content.double110920 div.cpromo div#nav a:first-child {width: 170px;}
+div.cont div.content.double110920 div.cpromo div#nav a:last-child {width: 170px;}
+div.cont div.content.double110920 div.content-box {width:980px;display:block; margin: 20px 0px 0px 0px; padding: 0px; overflow: hidden;}
+div.cont div.content.double110920 div.content-box div.col {float: left; clear: none; width: 480px; margin: 0px -10px 0px 10px; padding: 0px; overflow: hidden;}
+div.cont div.content.double110920 div.content-box div.col img {margin-left: 10px;}
+div.cont div.content.double110920 div.content-box div.col a.notenough {position: absolute; display: block; left: 304px; top: 312px; width: 100px; height: 16px; background: url('https://szeccsa.github.io/i/none.gif'); text-indent: -6969px; z-index: 999;}
+div.cont div.content.double110920 div.cdevices {width: 980px; margin: 15px 0px 20px 0px; overflow: hidden;}
+div.cont div.content.double110920 div.cdevices a {position: relative; display: block; float: left; clear: none; width: 300px; height: 212px; margin: 0px 0px 0px 20px; padding: 0px; overflow: hidden;}
+div.cont div.content.double110920 div.cdevices a img {position: relative; display: block; width: 300px; height: 212px; margin: 0px; padding: 0px; overflow: hidden;}
+div.cont div.content.double110920 ul li {background: url('https://szeccsa.github.io/i/bull_circle.gif') 0px 4px no-repeat;}
+/* /double */
+
+/* hipernet ipaden */
+.content.hipernet{background:url(https://szeccsa.github.io/i/campaigns/hipernet_ipaden/bg-ipad.jpg) right 67px no-repeat;min-height:700px;overflow:visible;}
+.content.hipernet h2{margin-top:0;font-family:'myfontRegular';}
+.content.hipernet.success h2{margin-top:20px;}
+.content.hipernet.success{background-position:right 160px;}
+.content.hipernet .top{height:308px;}
+.content.hipernet .table{overflow:visible;position:relative;width:536px;}
+.content.hipernet table{background:url(https://szeccsa.github.io/i/campaigns/hipernet_ipaden/thead-top.png) 1px top no-repeat;border-collapse:separate;border-spacing:1px;margin:0;overflow:visible;width:536px;}
+.content.hipernet table tr.odd,.content.hipernet table tr.even{background:none;}
+.content.hipernet table thead td{border:0;height:105px;padding:0;}
+.content.hipernet table thead td span.garancia{background:url(https://szeccsa.github.io/i/campaigns/hipernet_ipaden/5napos.png) 0 0 no-repeat;height:68px;left:-13px;position:absolute;top:-3px;width:68px;}
+.content.hipernet table tbody td{background:#e8eaeb url(https://szeccsa.github.io/i/campaigns/hipernet_ipaden/td-top.gif) left top repeat-x;border-top:1px solid #fafafa;border-right:1px solid #cfcfcf;border-bottom:1px solid #a5a9ac;margin:0;padding:15px;vertical-align:middle;}
+.content.hipernet table tbody td.last{border-right:0;}
+.content.hipernet table tbody tr.last td{border-bottom:0;}
+.content.hipernet table tbody tr.last td span.corner{background:white url(https://szeccsa.github.io/i/campaigns/hipernet_ipaden/table-corner.png) right bottom;display:block;font-size:0;height:10px;line-height:0;position:absolute;width:10px;}
+.content.hipernet table tbody tr.last td span.corner.cbl{background-position:left bottom;bottom:1px;left:1px;}
+.content.hipernet table tbody tr.last td span.corner.cbr{background-position:right bottom;bottom:1px;right:1px;}
+.content.hipernet table tbody tr.last{border-radius:0 10px 10px 0;}
+.content.hipernet table td{text-align:center !important;}
+.content.hipernet table td.left,.content.hipernet table td.left h3{text-align:left !important;}
+.content.hipernet table h3{font-size:14px;margin:0;text-align:center;}
+.content.hipernet table td.col1{width:242px;}
+.content.hipernet table td.col2{width:98px;}
+.content.hipernet table .ico{display:block;height:18px;font-size:0;line-height:0;margin:0 auto;width:18px;}
+.content.hipernet table .thick{background:url(https://szeccsa.github.io/i/campaigns/hipernet_ipaden/ico-thick.png) 0 0 no-repeat;}
+.content.hipernet table .nope{background:url(https://szeccsa.github.io/i/campaigns/hipernet_ipaden/ico-nope.png) 0 0 no-repeat;}
+.content.hipernet table strong{display:block;}
+.content.hipernet ul{font-style:italic;line-height:30px;margin-left:42px;}
+.content.hipernet ul li{background:url(https://szeccsa.github.io/i/campaigns/hipernet_ipaden/ico-thick.png) left center no-repeat;padding-left:31px;}
+.content.hipernet div.urlap{background:url(https://szeccsa.github.io/i/campaigns/hipernet_ipaden/bg2-ipad.jpg) right 0 no-repeat;min-height:444px;margin-top:30px;padding-right:472px;width:328px;}
+.content.hipernet div.urlap p{font-size:12px;font-style:italic;margin-bottom:12px;}
+.content.hipernet div.urlap form .row label{color:#00ace7;font:normal 13px arial;display:inline;float:left;line-height:30px;margin:0 15px 0 20px;width:100px;}
+.content.hipernet div.urlap form .row{display:block;width:600px;margin:10px 0;}
+.content.hipernet div.urlap form .row input{float:none;}
+.content.hipernet .tblrow{position:relative;}
+.content.hipernet .tblrow .kapcsolodo{background:url(https://szeccsa.github.io/i/campaigns/hipernet_ipaden/kapcs-bottom.gif) center bottom no-repeat;bottom:0;padding-bottom:20px;position:absolute;right:0;width:219px;}
+.content.hipernet .tblrow .kapcsolodo ul li{background:url(https://szeccsa.github.io/i/bullet_arrow-right-blue.png) left center no-repeat;font:12px/27px arial;color:#00ace7;padding-left:15px;}
+.content.hipernet .tblrow .kapcsolodo h4{font-size:14px;}
+.content.hipernet .tblrow .kapcsolodo ul,.content.hipernet .tblrow .kapcsolodo h4{margin-left:0;}
+.content.hipernet .cl{clear:both;}
+.content.hipernet .aprobetus{font-size:10px;font-style:italic;line-height:12px;margin-top:50px;}
+.fieldset div.input {background:url(https://szeccsa.github.io/i/campaigns/hipernet_ipaden/box-input.png) no-repeat 0 -30px;float:left;font-weight:bold;width:180px;padding:0;}
+.fieldset div.input.text {background:url(https://szeccsa.github.io/i/campaigns/hipernet_ipaden/box-input.png) no-repeat 0 0;}
+.fieldset div.input.fwselect {background:url(https://szeccsa.github.io/i/campaigns/hipernet_ipaden/box-input.png) no-repeat 0 -90px;}
+.fieldset div.select select {color:#8C9399;}
+.fieldset div.input.text input{font-weight:bold;}
+.fieldset input[type=text] {display: block; float: left; padding: 8px 8px 6px 8px; width: 162px; height: 16px; border: 0; font-size: 13px; line-height: 16px; color: #8c9399; background: transparent;}
+.fieldset div.select {float: left; margin: 0; width: 80px; height: 30px; background: transparent;}
+.fieldset select {display: block; float: left; width: 75px;}
+.fieldset div.input.fwselect {width:180px;}
+.fieldset div.input.fwselect select,.fieldset div.input.fwselect input {width:175px;}
+.fieldset select:focus {outline: 0;}
+.fieldset input.valuePreview {top: 7px; padding: 0; width: 50px; font-weight:bold;}
+.fieldset input.phoneNum {width: 72px;}
+.fieldset input.all {width: 64px;font-weight:bold;}
+.fieldset a.button {background:url(https://szeccsa.github.io/i/campaigns/hipernet_ipaden/box-input.png) no-repeat 0 -60px;display:block;float:left;height:30px;margin-left:135px;width:180px;}
+.fieldset .row .error{background:#BF480E;color:white;font:10px arial;margin:5px 0 0 135px;padding:3px 10px;width:160px;border-radius:5px;}
+/*
+ *SOHO LANDING
+ *title: Vï¿½lasszon kedvezo ï¿½rï¿½ cï¿½ges kï¿½szï¿½lï¿½ket Menedzser tarifï¿½val!
+ *url: ceges_keszulekek_menedzser_tarifaval
+ */
+.content.manager_tarifa {background:url(https://szeccsa.github.io/i/soho-landing/bg.jpg) no-repeat 0 0; height:1228px;}
+.content.manager_tarifa h2 {color:#fee703 ; font-size:25px; width:600px;}
+.content.manager_tarifa h2.header {color:#FFF ; font-size:40px; margin:20px 60px -20px 20px; font-weight:bold; text-shadow:0px 20px #000 !important; width:800px;}
+.content.manager_tarifa ul.mobils {height:700px; margin:-30px 0 0 !important; padding:0 !important;}
+.content.manager_tarifa ul.mobils > li {color:#FFF; background:none !important; width:490px; float:left; height:340px; margin:40px 0 0 0 !important; padding:0 !important;}
+.content.manager_tarifa ul.mobils > li.left {padding-left:200px !important; width:290px; text-align:left;}
+.content.manager_tarifa ul.mobils > li.right {padding-right:200px !important; width:290px; text-align:right !important;}
+.content.manager_tarifa ul.mobils > li * {text-align:inherit;}
+.content.manager_tarifa ul.mobils > li a {display:block;}
+.content.manager_tarifa ul.mobils > li h3 {color:#00ace7 !important;}
+.content.manager_tarifa ul.mobils > li.right h3 {color:#00ace7; margin-right:0 !important;}
+.content.manager_tarifa ul.mobils > li h3 span {position:relative; top:0; left:0; font-size:22px; font-weight:lighter; margin:0 10px 0 0;}
+.content.manager_tarifa ul.mobils > li h4 {color:#FFF; font-size:14px; margin:0 0 0 20px !important;}
+.content.manager_tarifa ul.mobils > li h4.notice {font-weight:normal !important; font-size:12px;}
+.content.manager_tarifa ul.mobils > li h4.note {font-weight:normal !important;}
+.content.manager_tarifa ul.mobils > li:first-child h4.note {height:40px;}
+.content.manager_tarifa ul.mobils > li > h4:first-child {font-weight:normal !important;}
+.content.manager_tarifa ul.mobils > li p {color:#8c9399; font-size:12px; margin:0 0 0 20px !important;}
+body.en .content.manager_tarifa ul.mobils > li p {color:#8c9399; font-size:10px; margin:0 0 0 20px !important;}
+body.en .content.manager_tarifa ul.mobils > li p.datas {font-size:12px;}
+.content.manager_tarifa ul.mobils > li p strong {color:#00ace7; font-size:12px;}
+.content.manager_tarifa ul.mobils > li > h2.cost {color:#ffdf00; font-size:38px; margin:8px 0 0 20px !important; font-weight:bold;}
+.content.manager_tarifa ul.mobils > li.right > h2.cost {width:270px;}
+.content.manager_tarifa ul.mobils > li.left > div.add-to-cart,
+.content.manager_tarifa ul.mobils > li.left > a {margin-left:20px !important;}
+.content.manager_tarifa ul.mobils > li div.add-to-cart {margin-top: 10px; margin-bottom:10px; display:inline-block; background:url(https://szeccsa.github.io/i/soho-landing/kosarba.png) 0 0; width:144px; height:56px; font-size:0.01px;}
+.content.manager_tarifa ul.mobils > li a h4 {font-weight:normal !important; color:#00ace7; font-size:13px; background:url(https://szeccsa.github.io/i/soho-landing/list_a_bg.png) 0 5px no-repeat; margin:0 !important; padding:0 0 0 15px !important;}
+.content.manager_tarifa ul.mobils > li.right a h4 {display:block; width:130px; float:right; background-position: 6px 5px;}
+.content.manager_tarifa ul.mobils > li.right a.uk {display:block; float:right; clear:both; background-position: 6px 5px;}
+.content.manager_tarifa ul.mobils > li.right a.uk > h4 {width:80px;}
+.content.manager_tarifa ul.promobox {position:absolute; top:900px; width:980px; height:300px; color:#FFF; font-size:13px;}
+.content.manager_tarifa ul.promobox li {background:none !important; float:left; width:280px; margin:60px 0 0 !important; padding:0 !important;}
+.content.manager_tarifa ul.promobox li.sec {width:245px;}
+.content.manager_tarifa ul.promobox li:first-child {width:330px; margin:50px 0 0 18px !important;}
+.content.manager_tarifa ul.promobox li:first-child a {display:block; width:330px; height:60px; font-size:0.01px; margin:16px 0 0 37px; background:url(https://szeccsa.github.io/i/soho-landing/details.png) 0 0 no-repeat;}
+.content.manager_tarifa ul.promobox li h2 {color:#FFF !important; font-size:19px !important; margin-left:40px !important; margin-top:0px !important; line-height:28px; width:290px;}
+.content.manager_tarifa ul.promobox li h3 {color:#FFF !important; font-weight:bold; margin:0 0 10px 0 !important; font-size:14px !important;}
+.content.manager_tarifa ul.promobox li p {font-size:12px; margin:0 !important; background:url(https://szeccsa.github.io/i/soho-landing/plus.png) 0 3px no-repeat; padding:0 0 0 20px !important;}
+.content.manager_tarifa > p.comment {position:absolute; top:1120px; font-size:12px; color:#8c9399; padding:0 20px !important;}
+body.en .content.manager_tarifa ul.promobox li {margin-top: 45px !important;}
+body.en .content.manager_tarifa ul.promobox a {margin-top: 5px !important; background:url(https://szeccsa.github.io/i/soho-landing/details_eng.png) 0 0 no-repeat;}
+.content.manager_tarifa .see-details {margin:10px 0 0; background:url(https://szeccsa.github.io/i/soho-landing/see_details.png) 0 0 no-repeat; display:block; width:142px; height:60px; font-size:0.01px;}
+.content.manager_tarifa li.right .see-details {float:right;}
+/*
+ *END OF SOHO LANDING
+ */
+
+/* galaxy s3 landing */
+.content.galaxys3-landing{width:980px;background:#FFF url(https://szeccsa.github.io/i/galaxys3-landing/header_bg.png) 0 0 no-repeat;margin:0 auto;font:normal 11px arial;color:#fff;position:relative;}
+.content.galaxys3-landing .cl{clear:both;}
+.content.galaxys3-landing .galaxys3-formcontainer {width: 460px; padding: 0; float:left; margin: 55px 20px 10px 500px;}
+.content.galaxys3-landing .galaxys3-formcontainer h3{font:normal 26px 'myfontRegular'; color: #ffdf00; margin:0px;text-transform:uppercase;}
+.content.galaxys3-landing .galaxys3-formcontainer .price{font: normal 60px/50px 'myfontRegular'; color: #FF5B00; margin: 100px 0 -5px 0; display: block;}
+.content.galaxys3-landing .galaxys3-formcontainer .price span{font-size:30px;}
+.content.galaxys3-landing .galaxys3-formcontainer .choose-color{position:static;width:369px;}
+.content.galaxys3-landing .galaxys3-formcontainer .choose-color h4{color:#21282e; font:normal 16px 'myfontRegular';margin:0;}
+.content.galaxys3-landing .galaxys3-formcontainer .choose-color a.marvany,.content.galaxys3-landing .galaxys3-formcontainer .choose-color a.zafir{width:125px;height:29px;display:block;position:absolute;padding-top:70px;}
+.content.galaxys3-landing .galaxys3-formcontainer .choose-color a.marvany div,.content.galaxys3-landing .galaxys3-formcontainer .choose-color a.zafir div{background: url(https://szeccsa.github.io/i/galaxys3-landing/color_select.png) no-repeat;width:125px;height:29px;display:block;}
+.content.galaxys3-landing .galaxys3-formcontainer .choose-color a.marvany{top:170px;left:7px;}
+.content.galaxys3-landing .galaxys3-formcontainer .choose-color a.marvany div{background-position:0 -29px;}
+.content.galaxys3-landing .galaxys3-formcontainer .choose-color a.zafir{top:168px;left:141px;}
+.content.galaxys3-landing .galaxys3-formcontainer .choose-color a.zafir div{background-position:-125px -29px;}
+.content.galaxys3-landing .galaxys3-formcontainer .choose-color a.marvany:hover div,.content.galaxys3-landing .galaxys3-formcontainer .choose-color a.marvany.active div{background-position:0 0;}
+.content.galaxys3-landing .galaxys3-formcontainer .choose-color a.zafir:hover div,.content.galaxys3-landing .galaxys3-formcontainer .choose-color a.zafir.active div{background-position:-125px 0;}
+.content.galaxys3-landing .galaxys3-formcontainer .choose-color a.kosarba{width:164px;height:56px;background: url(https://szeccsa.github.io/i/galaxys3-landing/kosarba.png) 0 0 no-repeat;display:block;margin:123px 0 10px 0;float:left;}
+.content.galaxys3-landing .galaxys3-formcontainer h2{font-weight: 100; font-size: 17px; font-weight: 400; color: #00ace7; color: white; margin:0px; line-height: 10px;}
+.content.galaxys3-landing .galaxys3-formcontainer .galaxys3-list{margin: 0 0 15px 0; list-style-type: none; list-style-image: none; font-family: 'myfontRegular', Arial, sans-serif; font-size: 14px;}
+.content.galaxys3-landing .galaxys3-formcontainer .galaxys3-list li{background: url(https://szeccsa.github.io/i/galaxys3-landing/galaxys3_li.png) 0 50% no-repeat; padding-left:20px;}
+.content.galaxys3-landing .galaxys3-formcontainer .galaxys3-list li:first-child{margin-top:0;}
+.content.galaxys3-landing .galaxys3-formcontainer form {width: 300px;}
+.content.galaxys3-landing .galaxys3-formcontainer input,.content.galaxys3-landing .galaxys3-formcontainer button,.content.galaxys3-landing .galaxys3-formcontainer label{float: left; margin-top: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px; border-radius: 10px;}
+.content.galaxys3-landing .galaxys3-formcontainer input{width: 300px; border: 1px solid #274c80; background: #000; padding-left: 15px; color:white; font-size: 12px; font-family: arial; height:30px; -moz-opacity:0.6;opacity:0.6;}
+.content.galaxys3-landing .galaxys3-formcontainer label{float: left; margin-left: 30px; font-family: 'myfontRegular',arial,sans-serif;}
+.content.galaxys3-landing .galaxys3-formcontainer input[type="checkbox"]{float:left; margin-top: 0px; width: 17px; height: 17px; -moz-opacity:0.01;opacity:0.01;filter:alpha(opacity=1)}
+.content.galaxys3-landing .galaxys3-formcontainer .fleft{float:left; width: 100%;}
+.content.galaxys3-landing .galaxys3-formcontainer .custom_checkbox,.content.galaxys3-landing .galaxys3-formcontainer .custom_checkbox.selected {position: absolute; width: 17px; height: 17px; margin: 10px 0 0 10px;}
+.content.galaxys3-landing .galaxys3-formcontainer .custom_checkbox.selected {background: url(https://szeccsa.github.io/i/galaxys3-landing/cb_selected.png) no-repeat;}
+.content.galaxys3-landing .galaxys3-formcontainer .custom_checkbox {background: url(https://szeccsa.github.io/i/galaxys3-landing/cb.png) no-repeat;}
+.content.galaxys3-landing .galaxys3-formcontainer .submit_email{background: url(https://szeccsa.github.io/i/galaxys3-landing/send_btn.png) no-repeat; width: 184px; height: 45px; cursor: pointer; font-family:'myfontRegular',arial,sans-serif; font-size:20px;}
+.content.galaxys3-landing .galaxys3-formcontainer .yellow{font:normal 15px 'myfontRegular';color:#FF5B00;display:block;}
+.content.galaxys3-landing .galaxys3-formcontainer .gray{font:normal 13px 'myfontRegular';color:#969ea4;display:block; margin: 0 0 20px 0;}
+.content.galaxys3-landing .galaxys3-formcontainer .arrow{font:normal 13px/20px 'myfontRegular';color:#00ace7;display:block;padding-left:10px;background: url(https://szeccsa.github.io/i/galaxys3-landing/arrow.png) left center no-repeat;}
+.content.galaxys3-landing .galaxys3-head{height:761px;}
+.content.galaxys3-landing .galaxys3-head a.left_arrow,.content.galaxys3-landing .galaxys3-head a.right_arrow {position:absolute; margin-top:190px;}
+.content.galaxys3-landing .galaxys3-head a.right_arrow {margin-left:260px;}
+.content.galaxys3-landing .galaxys3-head .smalltext{position: absolute; color: #6E6E6E; font: normal 13px/16px arial; padding: 20px 0 0 0; margin: 610px 0 0 40px; top: 0; width: 420px;}
+.content.galaxys3-landing .galaxys3-head .buy-buttons {height:70px; margin-top:80px;}
+.content.galaxys3-landing .galaxys3-head .buy-buttons > div#button-buy-white {display:none;}
+.content.galaxys3-landing .galaxys3-body {margin:0;background: url(https://szeccsa.github.io/i/galaxys3-landing/body_bg.png) 50% 0 no-repeat; padding-top:50px;min-height:2000px;}
+.content.galaxys3-landing .galaxys3-body .videoList{margin-top:0;padding-top:0;}
+.content.galaxys3-landing .galaxys3-body .galaxys3-videos p{font:normal 20px 'myfontRegular'; color:#00ace7; float: left; width: 380px; margin:30px 0 0 20px;}
+.content.galaxys3-landing .galaxys3-body .galaxys3-videos .videoright{float: right; width: 490px; margin:0; padding:0;}
+.content.galaxys3-landing .galaxys3-body .galaxys3-videos .videoright img,.content.galaxys3-landing .galaxys3-body .galaxys3-videos .videoright .item{width:220px;height:121px;}
+.content.galaxys3-landing .galaxys3-body .s3-details{color:#333;}
+.content.galaxys3-landing .galaxys3-body .s3-details h3{color:#00ace7;font:100 50px/1em 'myfontRegular';margin:27px 0 10px 0;}
+.content.galaxys3-landing .galaxys3-body .s3-details h4{font:500 25px/1em 'myfontRegular';margin:0;}
+.content.galaxys3-landing .galaxys3-body .s3-details h5{font:900 16px/20px 'myfontRegular';margin:0;}
+.content.galaxys3-landing .galaxys3-body .s3-details h5 span{font-weight:500;}
+.content.galaxys3-landing .galaxys3-body .s3-details p{font:500 13px/18px 'myfontRegular';margin:0;}
+.content.galaxys3-landing .galaxys3-body .s3-details .intelligent{height:600px;padding-top:15px;}
+.content.galaxys3-landing .galaxys3-body .s3-details .intelligent .video-comment{width:380px;float:left;text-align:right;height:380px;}
+.content.galaxys3-landing .galaxys3-body .s3-details .intelligent .video-comment h3{text-align:right;}
+.content.galaxys3-landing .galaxys3-body .s3-details .intelligent .video-comment h4{text-align:right;}
+.content.galaxys3-landing .galaxys3-body .s3-details .intelligent .video-comment h4 span{font-weight:500;}
+.content.galaxys3-landing .galaxys3-body .s3-details .intelligent .video-comment p{font-size:14px;text-align:right;}
+.content.galaxys3-landing .galaxys3-body .s3-details .intelligent .video{float:right;width:580px;height:380px;}
+.content.galaxys3-landing .galaxys3-body .s3-details .share{height:580px;padding-top:75px;}
+.content.galaxys3-landing .galaxys3-body .s3-details .share .video-comment{width:370px;float:right;height:380px;}
+.content.galaxys3-landing .galaxys3-body .s3-details .share .video-comment p{font-size:14px;}
+.content.galaxys3-landing .galaxys3-body .s3-details .share .video{float:left;width:580px;height:380px;text-align:right;}
+.content.galaxys3-landing .galaxys3-body .s3-details .superb{height:600px;padding-top:65px;}
+.content.galaxys3-landing .galaxys3-body .s3-details .superb .video-comment{width:380px;float:left;text-align:right;height:380px;}
+.content.galaxys3-landing .galaxys3-body .s3-details .superb .video-comment h3{text-align:right;}
+.content.galaxys3-landing .galaxys3-body .s3-details .superb .video-comment h4{text-align:right;}
+.content.galaxys3-landing .galaxys3-body .s3-details .superb .video-comment p{font-size:14px;text-align:right;}
+.content.galaxys3-landing .galaxys3-body .s3-details .superb .video{float:right;width:580px;height:380px;}
+
+.content.galaxys3-landing .galaxys3-body .s3-details .video-frame{width:518px;height:292px;position:relative;display:inline-block;border:4px solid #fff;overflow:hidden;}
+.content.galaxys3-landing .galaxys3-body .s3-details .video-frame img{display:block;z-index:0;width:526px;height:297px;}
+.content.galaxys3-landing .galaxys3-body .s3-details .more-details{width:445px;margin:0 10px 20px 20px;padding-left:15px;float:left;}
+.content.galaxys3-landing .galaxys3-body .s3-details .more-details p{margin:0;font-weight:500;}
+
+.content.galaxys3-landing .galaxys3-body .s3-specs{width:940px;margin:20px;}
+.content.galaxys3-landing .galaxys3-body .s3-specs h2{color:#000;font:100 30px/60px 'myfontRegular';margin:18px 0 26px 0;padding-left:20px;}
+.content.galaxys3-landing .galaxys3-body .s3-specs .spec-list{width:200px;margin-left:20px;padding-left:20px;float:left;color:#000;font:normal 11px arial;}
+.content.galaxys3-landing .galaxys3-body .s3-specs .spec-list:first-child{margin-left:0;}
+.content.galaxys3-landing .galaxys3-body .s3-specs .spec-list strong{font-size:15px;margin-bottom:15px;display:block;}
+.content.galaxys3-landing .galaxys3-body .s3-specs .spec-list ul{margin-left:0;}
+.content.galaxys3-landing .galaxys3-body .s3-specs .spec-list ul li{margin-bottom:15px;padding-left:15px;background:url(https://szeccsa.github.io/i/galaxys3-landing/list-style-type.png) 0 3px no-repeat;}
+
+.content.galaxys3-landing .devicegallery {position: absolute; left: 34px; top: 60px; width: 422px; height: 540px; overflow: hidden;}
+.content.galaxys3-landing .devicegallery div.items {position: absolute; left: 0px; top: 0px; width: 422px; height: 440px; overflow: hidden; z-index: 1;}
+.content.galaxys3-landing .devicegallery div.items div.item {float: left; clear: none; width: 422px; height: 440px; margin: 0px; padding: 0px; overflow: hidden;}
+.content.galaxys3-landing .devicegallery div.items div.item img {position: relative; display: block; width: 320px; height: 440px; margin: 0px auto; padding: 0px; overflow: hidden;}
+.content.galaxys3-landing .devicegallery div.thumbnails {position: absolute; left: 61px; top: 450px; width: 300px; height: 110px; overflow: hidden;}
+.content.galaxys3-landing .devicegallery div.thumbnails div.thumbs {position: absolute; left: 0px; top: 0px; width: 300px; height: 110px; overflow: hidden;}
+.content.galaxys3-landing .devicegallery div.thumbnails div.thumbs div.thumb {float: left; clear: none; width: 80px; height: 110px; margin: 0px 0px 0px -9px; padding: 0px 0px 0px 9px; overflow: hidden; background: url('https://szeccsa.github.io/i/galaxys3-landing/separator.png') 0px 0px no-repeat;}
+.content.galaxys3-landing .devicegallery div.thumbnails div.thumbs div.thumb:first-child {background: none;}
+.content.galaxys3-landing .devicegallery div.thumbnails div.thumbs div.thumb a {position: relative; display: block; width: 80px; height: 110px; margin: 0px; padding: 0px; overflow: hidden;}
+.content.galaxys3-landing .devicegallery div.thumbnails div.thumbs div.thumb a img {position: absolute; display: block; left: 0px; top: -5px; width: 80px; height: 100px; margin: 0px; padding: 0px; overflow: hidden; opacity: 0.8;}
+.content.galaxys3-landing .devicegallery div.thumbnails div.thumbs div.thumb a:hover img {opacity: 1;}
+.content.galaxys3-landing .devicegallery div.thumbnails div.thumbs div.thumb.active a img {opacity: 1;}
+.content.galaxys3-landing .devicegallery div.prev {position: absolute; left: 0; top: 448px; width: 35px; height: 100px; overflow: hidden; cursor: pointer; z-index: 999; background:url('https://szeccsa.github.io/i/none.gif');}
+.content.galaxys3-landing .devicegallery div.next {position: absolute; right: 0; top: 448px; width: 35px; height: 100px; overflow: hidden; cursor: pointer; z-index: 999; background:url('https://szeccsa.github.io/i/none.gif');}
+/* v2 */
+.content.galaxys3-landing-v2{width:980px;background:#FFF url(https://szeccsa.github.io/i/galaxys3-landing-v2/header_bg.png) 0 0 no-repeat;margin:0 auto;font:normal 11px arial;color:#fff;position:relative;}
+.content.galaxys3-landing-v2 .cl{clear:both;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer {width: 460px; padding: 0; float:right; margin: 53px 20px 10px 0;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer h1{margin:0;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer h2{font:normal 34px/28px 'myfontRegular'; color: #ffdf00; margin:0px;text-transform:uppercase;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer h3{font:normal 23px/28px 'myfontRegular'; color: #ffdf00; margin:0px;text-transform:uppercase;margin-bottom:10px;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer h3 .blue{color:#00ace7;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer h3 .white{color:#fff;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer h4{font:normal 19px/21px 'myfontRegular'; color: #ffdf00; margin:0px;letter-spacing:-.25px;margin-bottom:10px;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer h4 .blue{color:#00ace7;font-size:15px;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer h4 .white{color:#fff;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer .description{color:#fff;font:normal 12px/15px arial;margin:0;position:relative;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer .description .illustration{position:absolute;width:120px;background:url(https://szeccsa.github.io/i/galaxys3-landing-v2/illustration.png) 0 0 no-repeat;padding-top:115px;font:normal 11px arial;color:#575757;text-align:center;right:25px;top:55px;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer .description strong{color:#ffdf00;font-weight:bold;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer .price{font:normal 45px/50px 'myfontRegular'; color: #ffdf00; margin:0 0 5px 0;display:block;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer .price span{font-size:30px;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer .galaxys3-list{margin: 0 0 25px 0; list-style-type: none; list-style-image: none; font-family: 'myfontRegular', Arial, sans-serif; font-size: 14px;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer .galaxys3-list li{background:url(https://szeccsa.github.io/i/galaxys3-landing-v2/galaxys3_li.png) 0 50% no-repeat; padding-left:20px;line-height:15px;margin:0 0 4px 0;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer .galaxys3-list li:first-child{margin-top:0;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer form {width: 300px;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer input,.content.galaxys3-landing-v2 .galaxys3-formcontainer button,.content.galaxys3-landing-v2 .galaxys3-formcontainer label{float: left; margin-top: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px; border-radius: 10px;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer input{width: 300px; border: 1px solid #274c80; background: #000; padding-left: 15px; color:white; font-size: 12px; font-family: arial; height:30px; -moz-opacity:0.6;opacity:0.6;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer label{float: left; margin-left: 30px; font-family: 'myfontRegular',arial,sans-serif;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer input[type="checkbox"]{float:left; margin-top: 0px; width: 17px; height: 17px; -moz-opacity:0.01;opacity:0.01;filter:alpha(opacity=1)}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer .fleft{float:left; width: 100%;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer .custom_checkbox,.content.galaxys3-landing-v2 .galaxys3-formcontainer .custom_checkbox.selected {position: absolute; width: 17px; height: 17px; margin: 10px 0 0 10px;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer .custom_checkbox.selected {background: url(https://szeccsa.github.io/i/galaxys3-landing-v2/cb_selected.png) no-repeat;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer .custom_checkbox {background: url(https://szeccsa.github.io/i/galaxys3-landing-v2/cb.png) no-repeat;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer .submit_email{background: url(https://szeccsa.github.io/i/galaxys3-landing-v2/send_btn.png) no-repeat; width: 184px; height: 45px; cursor: pointer; font-family:'myfontRegular',arial,sans-serif; font-size:20px;}
+.content.galaxys3-landing-v2 p.small{color:#aeaeae;font:normal 11px arial;margin:15px 0 0 0;padding:0 20px 20px 45px;}
+.content.galaxys3-landing-v2 p.small a{text-decoration:underline;color:#00ace7;}
+.content.galaxys3-landing-v2 p.small a:hover{text-decoration:none;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer .yellow{font:normal 15px 'myfontRegular';color:#ffdf00;display:block;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer .gray{font:normal 13px 'myfontRegular';color:#969ea4;display:block;}
+.content.galaxys3-landing-v2 .galaxys3-formcontainer .arrow{font:normal 13px/30px 'myfontRegular';color:#00ace7;display:block;padding-left:10px;background: url(https://szeccsa.github.io/i/galaxys3-landing-v2/arrow.png) left center no-repeat;}
+.content.galaxys3-landing-v2 .galaxys3-head{height:1058px;}
+.content.galaxys3-landing-v2 .galaxys3-head a.left_arrow,.content.galaxys3-landing-v2 .galaxys3-head a.right_arrow {position:absolute; margin-top:190px;}
+.content.galaxys3-landing-v2 .galaxys3-head a.right_arrow {margin-left:260px;}
+.content.galaxys3-landing-v2 .galaxys3-head .smalltext{color:#aeaeae;font:normal 11px/12px arial;padding:0 60px 0 40px;text-align:justify;margin-top:0;}
+.content.galaxys3-landing-v2 .galaxys3-body {margin:0;background: url(https://szeccsa.github.io/i/galaxys3-landing-v2/body_bg.png) center top no-repeat;padding-top:50px;min-height:2000px;}
+.content.galaxys3-landing-v2 .galaxys3-body .videoList{margin-top:0;padding-top:0;}
+.content.galaxys3-landing-v2 .galaxys3-body .galaxys3-videos p{font:normal 20px 'myfontRegular'; color:#00ace7; float: left; width: 380px; margin:30px 0 0 20px;}
+.content.galaxys3-landing-v2 .galaxys3-body .galaxys3-videos .videoright{float: right; width: 490px; margin:0; padding:0;}
+.content.galaxys3-landing-v2 .galaxys3-body .galaxys3-videos .videoright img,.content.galaxys3-landing-v2 .galaxys3-body .galaxys3-videos .videoright .item{width:220px;height:121px;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details{color:#333;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details h3{color:#00ace7;font:100 50px/1em 'myfontRegular';margin:27px 0 10px 0;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details h4{font:500 25px/1em 'myfontRegular';margin:0;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details h5{font:900 16px/20px 'myfontRegular';margin:0;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details h5 span{font-weight:500;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details p{font:500 13px/18px 'myfontRegular';margin:0;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .intelligent{height:600px;padding-top:15px;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .intelligent .video-comment{width:380px;float:left;text-align:right;height:380px;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .intelligent .video-comment h3{text-align:right;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .intelligent .video-comment h4{text-align:right;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .intelligent .video-comment h4 span{font-weight:500;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .intelligent .video-comment p{font-size:14px;text-align:right;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .intelligent .video{float:right;width:580px;height:380px;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .share{height:580px;padding-top:75px;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .share .video-comment{width:370px;float:right;height:380px;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .share .video-comment p{font-size:14px;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .share .video{float:left;width:580px;height:380px;text-align:right;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .superb{height:600px;padding-top:65px;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .superb .video-comment{width:380px;float:left;text-align:right;height:380px;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .superb .video-comment h3{text-align:right;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .superb .video-comment h4{text-align:right;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .superb .video-comment p{font-size:14px;text-align:right;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .superb .video{float:right;width:580px;height:380px;}
+
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .video-frame{width:518px;height:292px;position:relative;display:inline-block;border:4px solid #fff;overflow:hidden;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .video-frame img{display:block;z-index:0;width:526px;height:297px;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .more-details{width:445px;margin:0 10px 20px 20px;padding-left:15px;float:left;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-details .more-details p{margin:0;font-weight:500;}
+
+.content.galaxys3-landing-v2 .galaxys3-body .s3-specs{width:940px;margin:20px;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-specs h2{color:#000;font:100 30px/60px 'myfontRegular';margin:18px 0 26px 0;padding-left:20px;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-specs .spec-list{width:200px;margin-left:20px;padding-left:20px;float:left;color:#000;font:normal 11px arial;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-specs .spec-list:first-child{margin-left:0;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-specs .spec-list strong{font-size:15px;margin-bottom:15px;display:block;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-specs .spec-list ul{margin-left:0;}
+.content.galaxys3-landing-v2 .galaxys3-body .s3-specs .spec-list ul li{margin-bottom:15px;padding-left:15px;background:url(https://szeccsa.github.io/i/galaxys3-landing-v2/list-style-type.png) 0 3px no-repeat;}
+.content.galaxys3-landing-v2 .devicegallery {position: absolute; left: 34px; top: 20px; width: 422px; height: 540px; overflow: hidden;z-index:1000;}
+.content.galaxys3-landing-v2 .devicegallery div.items {position: absolute; left: 0px; top: 0px; width: 422px; height: 440px; overflow: hidden; z-index: 1;}
+.content.galaxys3-landing-v2 .devicegallery div.items div.item {float: left; clear: none; width: 422px; height: 440px; margin: 0px; padding: 0px; overflow: hidden;}
+.content.galaxys3-landing-v2 .devicegallery div.items div.item img {position: relative; display: block; width: 320px; height: 440px; margin: 0px auto; padding: 0px; overflow: hidden;}
+.content.galaxys3-landing-v2 .devicegallery div.thumbnails {position: absolute; left: 61px; top: 450px; width: 300px; height: 110px; overflow: hidden;}
+.content.galaxys3-landing-v2 .devicegallery div.thumbnails div.thumbs {position: absolute; left: 0px; top: 0px; width: 300px; height: 110px; overflow: hidden;}
+.content.galaxys3-landing-v2 .devicegallery div.thumbnails div.thumbs div.thumb {float: left; clear: none; width: 80px; height: 110px; margin: 0px 0px 0px -9px; padding: 0px 0px 0px 9px; overflow: hidden; background: url('https://szeccsa.github.io/i/campaigns/thumb_separator.png') 0px 0px no-repeat;}
+.content.galaxys3-landing-v2 .devicegallery div.thumbnails div.thumbs div.thumb:first-child {background: none;}
+.content.galaxys3-landing-v2 .devicegallery div.thumbnails div.thumbs div.thumb a {position: relative; display: block; width: 80px; height: 110px; margin: 0px; padding: 0px; overflow: hidden;}
+.content.galaxys3-landing-v2 .devicegallery div.thumbnails div.thumbs div.thumb a img {position: absolute; display: block; left: 0px; top: -5px; width: 80px; height: 100px; margin: 0px; padding: 0px; overflow: hidden; opacity: 0.8;}
+.content.galaxys3-landing-v2 .devicegallery div.thumbnails div.thumbs div.thumb a:hover img {opacity: 1;}
+.content.galaxys3-landing-v2 .devicegallery div.thumbnails div.thumbs div.thumb.active a img {opacity: 1;}
+.content.galaxys3-landing-v2 .devicegallery div.prev {position: absolute; left: 0; top: 448px; width: 35px; height: 100px; overflow: hidden; cursor: pointer; z-index: 999; background:url('https://szeccsa.github.io/i/none.gif');}
+.content.galaxys3-landing-v2 .devicegallery div.next {position: absolute; right: 0; top: 448px; width: 35px; height: 100px; overflow: hidden; cursor: pointer; z-index: 999; background:url('https://szeccsa.github.io/i/none.gif');}
+.content.galaxys3-landing-v2 .mammut-important{width:440px;padding:602px 0 0 45px;float:left;font:normal 12px/15px arial;color:#fff;}
+.content.galaxys3-landing-v2 .mammut-important span{color:#ffdf00;}
+.content.galaxys3-landing-v2 .separator{background:url(https://szeccsa.github.io/i/galaxys3-landing-v2/horizontal-separator.png) center center no-repeat;height:1px;margin:0 0 25px 0;font-size:0;line-height:0;}
+.content.galaxys3-landing-v2 .choose-color{position:relative;width:353px;background:url(https://szeccsa.github.io/i/galaxys3-landing-v2/phone_01_small.png) 150px 10px no-repeat;height:224px;margin:-30px 0 0 65px;float:left;}
+.content.galaxys3-landing-v2 .choose-color h4{color:#fff;font:normal 16px 'myfontRegular';margin:0;}
+.content.galaxys3-landing-v2 .choose-color a.marvany,.content.galaxys3-landing-v2 .choose-color a.zafir{width:125px;height:29px;display:block;position:absolute;padding-top:70px;}
+.content.galaxys3-landing-v2 .choose-color a.marvany div,.content.galaxys3-landing-v2 .choose-color a.zafir div{background: url(https://szeccsa.github.io/i/galaxys3-landing-v2/color_select.png) no-repeat;width:125px;height:29px;display:block;}
+.content.galaxys3-landing-v2 .choose-color a.marvany{top:57px;left:134px;}
+.content.galaxys3-landing-v2 .choose-color a.marvany div{background-position:0 -29px;}
+.content.galaxys3-landing-v2 .choose-color a.zafir{top:57px;left:268px;}
+.content.galaxys3-landing-v2 .choose-color a.zafir div{background-position:-125px -29px;}
+.content.galaxys3-landing-v2 .choose-color a.marvany:hover div,.content.galaxys3-landing-v2 .choose-color a.marvany.active div{background-position:0 0;}
+.content.galaxys3-landing-v2 .choose-color a.zafir:hover div,.content.galaxys3-landing-v2 .choose-color a.zafir.active div{background-position:-125px 0;}
+.content.galaxys3-landing-v2 .pre-order{float:left;width:510px;margin:0 40px 0 -22px;}
+.content.galaxys3-landing-v2 .pre-order h3{font:normal 26px/26px 'myfontRegular'; color: #ffdf00; margin:0px;text-transform:uppercase;}
+.content.galaxys3-landing-v2 .pre-order h3 span{font:normal 18px/26px 'myfontRegular'; color: #fff; position:relative;}
+.content.galaxys3-landing-v2 .pre-order h3 span span{position:absolute;width:100%;height:50%;top:0;left:0;border-bottom:1px solid #fff;display:block;}
+.content.galaxys3-landing-v2 .pre-order .price{font:normal 45px/45px 'myfontRegular'; color: #ffdf00; margin:0 0 5px 0;display:block;}
+.content.galaxys3-landing-v2 .pre-order .price span{font-size:30px;}
+.content.galaxys3-landing-v2 .pre-order a.kosarba{width:164px;height:56px;background: url(https://szeccsa.github.io/i/galaxys3-landing/kosarba.png) 0 0 no-repeat;display:block;margin:0 10px 0 0;float:left;cursor:pointer;}
+.content.galaxys3-landing-v2 .pre-order .yellow{font:normal 15px/17px 'myfontRegular';color:#ffdf00;display:block;}
+.content.galaxys3-landing-v2 .pre-order .gray{font:normal 13px/15px 'myfontRegular';color:#969ea4;display:block;}
+.content.galaxys3-landing-v2 .pre-order .arrow{font:normal 13px/25px 'myfontRegular';color:#00ace7;display:block;padding-left:10px;background: url(https://szeccsa.github.io/i/galaxys3-landing/arrow.png) left center no-repeat;}
+.content.galaxys3-landing-v2 .pre-order .btnrightside{float:left;margin-bottom:30px;font-size:12px;line-height:15px;}
+.content.galaxys3-landing-v2 .pre-order .btnrightside .gray{margin-bottom:10px;}
+/* / galaxy s3 landing */
+/* Okosmini */
+div.okosmini p.first{font-size:18px; color: #020304; font-family: 'myfontRegular';}
+div.okosmini p.first span.okosmini_green{color: #cacc02;}
+div.okosmini .okosmini_box_container{margin-top: 35px;}
+div.okosmini .okosmini_box{float: left; width: 364px; height:569px; margin-left: 30px;}
+div.okosmini .okosmini_box:first-child{margin-left: 20px; background: url(https://szeccsa.github.io/i/okosmini/okosmini_left_box.jpg) no-repeat;}
+body.en div.okosmini .okosmini_box:first-child {background: url(https://szeccsa.github.io/i/okosmini/okosmini_left_box-en.jpg) no-repeat;}
+div.okosmini .okosmini_box h2{font-family: 'myfontRegular'; font-size: 20px; font-weight: 400; color: #ffe512;}
+div.okosmini .okosmini_box h3{font-family: 'myfontRegular'; font-size: 18px; color: #019fd1; font-weight: bold;}
+div.okosmini .okosmini_box ul{width: 300px; margin-left: 40px; vertical-align: middle;}
+div.okosmini .okosmini_box ul li{color: #FFF; font-family: Arial, sans-serif; font-size: 12px; list-style-image: url(https://szeccsa.github.io/i/okosmini/okosmini_list.png); background: none; padding-left: 0; margin-top: 10px;}
+div.okosmini .okosmini_box table{background: none; margin:0px; width: 364px; font-size: 12px; color: #000000; font-family: Tahoma;}
+div.okosmini .okosmini_box table tr:first-child td{height: 25px; border-top: 1px solid #a6aaad; border-bottom: 1px solid #a6aaad; background-image: none; padding-top: 30px;}
+div.okosmini .okosmini_box table tr:first-child td:first-child{background-color: none;}
+div.okosmini .okosmini_box table td{border: none; background: #dddddd; padding-bottom: 21px !important; font-size: 11px;}
+div.okosmini .okosmini_box table td:first-child{background: none; padding-bottom: 0 !important;}
+div.okosmini .okosmini_box table td.merged{text-align: right; background: #f1f2f2; height: 30px; padding-right:0px;}
+div.okosmini .okosmini_box table tr td.merged.first{padding-right: 25px;}
+div.okosmini .okosmini_box table tr td small{font-size: 9px;}
+div.okosmini .okosmini_clear{clear: both;}
+div.okosmini .okosmini_attention{width: 755px; margin: 25px 0 0 20px;}
+div.okosmini .okosmini_attention_head{background-image: url(https://szeccsa.github.io/i/okosmini/okosmini_head.jpg); background-position: top; background-repeat: none; height: 41px;}
+div.okosmini .okosmini_attention_head span{position: absolute; margin:10px 0 0 30px; padding:0px 0 0 0px; font-family: 'myfontRegular'; font-size: 18px; color: #020304;}
+div.okosmini .okosmini_attention p{width: 728px; height: 40px; padding: 10px 0 0 25px ; margin:0px 0 0 0px; font-size: 12px; border: 1px solid #a5a9ac;}
+div.okosmini .okosmini_foot_content h2{font-family: Arial, sans-serif; font-size: 14px; font-weight: bold;}
+div.okosmini .okosmini_footer{margin: 30px 0 0 0px; width: 755px; height: 194px; cursor: pointer; background: url(https://szeccsa.github.io/i/okosmini/okosmini_footer_bg.jpg) no-repeat;}
+body.en div.okosmini .okosmini_footer{background: url(https://szeccsa.github.io/i/okosmini/okosmini_footer_bg-en.jpg) no-repeat;}
+div.okosmini .okosmini_footer h3{position: absolute; color: #019fd1; font-size: 22px; margin: 40px 0 0 30px;}
+div.okosmini .okosmini_footer p{position: absolute; margin: 100px 0 0 30px; color: #FFF; font-size: 15px; font-family: 'myfontRegular';}
+/* Okosmini */
+/*okostarifa footer promo*/
+
+div.okostarifa_footer{margin: 30px 0 0 0px; width: 755px; height: 194px; cursor: pointer; background: url(https://szeccsa.github.io/i/okosmini/okostarifa_footer_bg.jpg) no-repeat;}
+div.okostarifa_footer h3{position: absolute; color: #019fd1; font-size: 16px; margin: 40px 0 0 30px;}
+div.okostarifa_footer p{position: absolute; margin: 90px 0 0 30px; color: #FFF; font-size: 15px; font-family: 'myfontRegular';}
+/*okostarifa footer promo*/
+/* summer campaign 2012 */
+div.cont div.content.summer_campaign_2012 .cufont {font-family: 'myfontRegular', Arial, sans-serif;}
+.summer_campaign_2012 {min-height: 800px; width:980px !important; background: #000 url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/bg_main.jpg) no-repeat left top;}
+.summer_campaign_2012.new {background: /*#093649*/ #000 url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/bg_main-new.jpg) no-repeat left top;}
+.summer_campaign_2012 .top_container {height: 593px;}
+.summer_campaign_2012.new .top_container {height: 592px;}
+.summer_campaign_2012 .header_group {margin: 40px 0 0 35px;}
+.summer_campaign_2012 .header_group h2 {margin: 0; font-size: 40px; font-weight: 400; color: #ffdf00;}
+.summer_campaign_2012.new .header_group h2 {background: transparent url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/header.png) no-repeat 0 0; text-indent:-999em; height:90px;}
+.summer_campaign_2012 .header_group h3 {margin: 0; font-size: 24px; font-weight: 400; color: #fff;}
+.summer_campaign_2012 .thumbnail_items {padding: 30px 15px; width: 950px; height: 390px; overflow: hidden; background: transparent url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/bg_thumbnail_item_mouseover.png) no-repeat -300px -300px; cursor:pointer;}
+.summer_campaign_2012 .thumbnail_items.item_0_mouseover {background-position: 0 17px;}
+.summer_campaign_2012 .thumbnail_items.item_1_mouseover {background-position: 191px 17px;}
+.summer_campaign_2012 .thumbnail_items.item_2_mouseover {background-position: 381px 17px;}
+.summer_campaign_2012 .thumbnail_items.item_3_mouseover {background-position: 571px 17px;}
+.summer_campaign_2012 .thumbnail_items.item_4_mouseover {background-position: 761px 17px;}
+.summer_campaign_2012 .thumbnail_items.item_5_mouseover {background-position: 0 232px;}
+.summer_campaign_2012 .thumbnail_items.item_6_mouseover {background-position: 191px 232px;}
+.summer_campaign_2012 .thumbnail_items.item_7_mouseover {background-position: 381px 232px;}
+.summer_campaign_2012 .thumbnail_items.item_8_mouseover {background-position: 571px 232px;}
+.summer_campaign_2012 .thumbnail_items.item_9_mouseover {background-position: 761px 232px;}
+.summer_campaign_2012 .thumbnail_item {position: relative; display: block; float: left; margin: 0 0 40px; width: 190px; height: 175px;}
+.summer_campaign_2012 .thumbnail_item .item_header_group {width: 190px; height: 50px;}
+.summer_campaign_2012 .thumbnail_item h3 {margin: 0 0 0 7px; width: 183px; font-weight: 100; font-size: 17px; color: #fff;}
+.summer_campaign_2012 .thumbnail_item h4 {margin: 0 0 0 7px; width: 183px; font-weight: 400; font-size: 17px; color: #fff;}
+.summer_campaign_2012 .thumbnail_item img {display: block; float: left; width: 80px; height: 125px;}
+.summer_campaign_2012 .thumbnail_item p {display: block; float: left; margin: 0 0 0 3px; width: 107px; font-size: 12px; color: #fff;}
+.summer_campaign_2012 .thumbnail_item span {color: #00ace7;}
+.summer_campaign_2012 .thumbnail_item a.btn_view {position: absolute; right: 17px; bottom: 0; display: block; width: 86px; height: 25px; text-indent: -9999px; white-space: nowrap; background: transparent url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/btn_view.png) no-repeat 0 0;}
+.summer_campaign_2012 .thumbnail_item a.btn_view span {position:absolute;width:42px;height:25px;display:block;background:url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/btn_view_android.png) 0 0 no-repeat;top:-24px;left:18px;font-size:0;line-height:0;}
+.summer_campaign_2012 .scenes {width: 980px; /*height: 0;*/ overflow: hidden;}
+.summer_campaign_2012.new .scenes.open {min-height:461px !important;}
+.summer_campaign_2012 .scenes .scene {width: 980px; overflow: hidden; background: transparent url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/bg_scene_double_light.jpg) no-repeat 0 0;}
+.summer_campaign_2012.new .scenes .scene {background: transparent url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/bg_scene_double_light-new.jpg) no-repeat 0 0;}
+.summer_campaign_2012 .scene .goportal_promo_1 {width: 473px; height: 231px; background: transparent url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/bg_goportal_promo_1.jpg) no-repeat 0 0;}
+.summer_campaign_2012 .scene .goportal_promo_2 {width: 340px; height: 313px; background: transparent url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/bg_goportal_promo_2.jpg) no-repeat 0 0;}
+.summer_campaign_2012 .scene .goportal_promo_2 {width: 340px; height: 313px; background: transparent url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/bg_goportal_promo_2.jpg) no-repeat 0 0;}
+.summer_campaign_2012 .scene_2 .goportal_promo_2 {background: transparent url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/bg_goportal_promo_3.jpg) no-repeat 0 0;}
+.summer_campaign_2012 .scene .btn_scroll_top {position: absolute; left: 382px; z-index: 100; display: block; padding-left: 15px; color: #ffdf00; background: transparent url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/icon_arrow-up.png) no-repeat 0 7px;}
+/* one item row */
+.summer_campaign_2012 .scene .one_item_row {width: 980px; height: 400px;}
+.summer_campaign_2012.new .scene .one_item_row {margin-top: 50px;}
+.summer_campaign_2012 .scene .one_item_row .item {float: left; width: 410px;}
+.summer_campaign_2012.new .scene .one_item_row .item {margin-left:160px;}
+.summer_campaign_2012.new .scene .one_item_row .item > a {z-index: 10;}
+.summer_campaign_2012 .scene .one_item_row .item img {display: block; float: left; width: 200px; height: 350px;}
+.summer_campaign_2012 .scene .one_item_row .item .description {position: static; float: left; width: 210px; z-index: 250;}
+.summer_campaign_2012 .scene .one_item_row .item .description h2 {margin: 45px 0 0; width: 210px; font-size: 22px; font-weight: 100; color: #00ace7;}
+.summer_campaign_2012 .scene .one_item_row .item .description h3 {margin: 0; width: 210px; font-size: 22px; font-weight: 400; color: #00ace7;}
+.summer_campaign_2012 .scene .one_item_row .item .description h4 {margin: 0; width: 210px; font-size: 20px; font-weight: 400; font-style: italic; color: #fff;}
+.summer_campaign_2012 .scene .one_item_row .item .description .features {position: absolute; left: 200px; bottom: 120px; margin: 0; font-size: 14px; color: #8c9399;}
+.summer_campaign_2012 .scene .one_item_row .item .description .features span {color: #00ace7;}
+.summer_campaign_2012 .scene .one_item_row .item .button_container {position: absolute; left: 200px; bottom: 40px; width: 210px;}
+.summer_campaign_2012 .scene .one_item_row .common_description {position: absolute; left: 420px; top: 45px;}
+.summer_campaign_2012.new .scene .one_item_row .common_description {left: 600px; width:250px;}
+.summer_campaign_2012 .scene .one_item_row .common_description .price {display: block; width: 175px; font-family: 'myfontRegular', sans-serif; font-size: 60px; font-weight: 600; color: #ffdf00;}
+.summer_campaign_2012 .scene .one_item_row .common_description .tariff {margin: 20px 0 5px 10px; font-size: 14px; color: #ffdf00;}
+.summer_campaign_2012 .scene .one_item_row .common_description .tariff_details {margin: 0 0 20px 10px; font-size: 14px; color: #8c9399;}
+.summer_campaign_2012 .scene .one_item_row .common_description ul.links {margin: 0;}
+.summer_campaign_2012 .scene .one_item_row .common_description ul.links li {padding: 0 0 0 10px; background: transparent url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/icon_arrow-right.png) no-repeat left 5px;}
+/* /one item row */
+
+/* two item row */
+.summer_campaign_2012 .scene .two_item_row {width: 980px; height: 400px;}
+.summer_campaign_2012 .scene .two_item_row .item {float: left; width: 375px;}
+.summer_campaign_2012 .scene .two_item_row .item_left {float: left; /*margin-left: 10px;*/
+}
+.summer_campaign_2012.new .scene .two_item_row .item_left {margin-top:60px;}
+.summer_campaign_2012 .scene .two_item_row .item_right {float: right; /*margin-right: 10px;*/
+}
+.summer_campaign_2012.new .scene .two_item_row .item_right {margin-top:60px;}
+.summer_campaign_2012 .scene .two_item_row .item .button_container {/*margin-top: 20px;*/
+}
+.summer_campaign_2012 .scene .two_item_row .item_left .button_container,
+.summer_campaign_2012 .scene .two_item_row .item_left .button_container a {float: left; clear: both;}
+.summer_campaign_2012 .scene .two_item_row .item_left .button_container a {margin-left: 20px;}
+.summer_campaign_2012 .scene .two_item_row .item_right .button_container,
+.summer_campaign_2012 .scene .two_item_row .item_right .button_container a {float: right; clear: both;}
+.summer_campaign_2012 .scene .two_item_row .item_right .button_container a {margin-right: 20px;}
+.summer_campaign_2012 .scene .two_item_row .item img {display: block; float: left; width: 200px; height: 295px;}
+.summer_campaign_2012 .scene .two_item_row .item .description {float: left; width: 175px;}
+.summer_campaign_2012 .scene .two_item_row .item .description h2 {margin: 45px 0 0; width: 175px; font-size: 22px; font-weight: 100; color: #00ace7;}
+.summer_campaign_2012 .scene .two_item_row .item_right .description h2 {text-align: right;}
+.summer_campaign_2012 .scene .two_item_row .item .description h3 {margin: 0; width: 175px; font-size: 22px; font-weight: 400; color: #00ace7;}
+.summer_campaign_2012 .scene .two_item_row .item_right .description h3 {text-align: right;}
+.summer_campaign_2012 .scene .two_item_row .item .description h4 {margin: 0; width: 175px; font-size: 20px; font-weight: 400; font-style: italic; color: #fff;}
+.summer_campaign_2012 .scene .two_item_row .item_right .description h4 {text-align: right;}
+.summer_campaign_2012 .scene .two_item_row .description .price {display: block; margin-top: 25px; width: 175px; font-family: 'myfontRegular', sans-serif; font-size: 60px; font-weight: 600; color: #ffdf00;}
+.summer_campaign_2012 .scene .two_item_row .item_right .description .price {text-align: right;}
+.summer_campaign_2012 .scene .two_item_row .common_description {position: absolute; left: 420px; bottom: 76px; width: 200px;}
+.summer_campaign_2012 .scene .two_item_row .common_description .features {margin: 0 0 15px 10px; font-size: 14px; color: #8c9399;}
+.summer_campaign_2012 .scene .two_item_row .common_description .features span {color: #00ace7;}
+.summer_campaign_2012 .scene .two_item_row .common_description .tariff {margin: 0 0 5px 10px; font-size: 14px; color: #ffdf00;}
+.summer_campaign_2012 .scene .two_item_row .common_description .tariff_details {margin: 0 0 20px 10px; font-size: 14px; color: #8c9399;}
+.summer_campaign_2012.new .scene .common_description .tariff_details,
+.summer_campaign_2012.new .scene .description .tariff_details {color: #FFF !important;}
+.summer_campaign_2012.new .scene .common_description .features,
+.summer_campaign_2012.new .scene .description .features {color: #FFF !important;}
+.summer_campaign_2012 .scene .two_item_row .common_description ul.links {margin: 0;}
+.summer_campaign_2012 .scene .two_item_row .common_description ul.links li {padding: 0 0 0 10px; background: transparent url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/icon_arrow-right.png) no-repeat left 5px;}
+/* /two item row */
+
+/* scene: one item */
+.summer_campaign_2012 .scene.one_item {height: 400px;}
+.summer_campaign_2012.new .scene.one_item {height: 461px;}
+.summer_campaign_2012 .scene.one_item.collapsed {height: 0;}
+.summer_campaign_2012 .scene.one_item .goportal_promo_2 {position: absolute; right: 0; bottom: 71px;}
+.summer_campaign_2012 .scene.one_item .btn_scroll_top {bottom: 40px;}
+/* /scene: one item */
+
+/* scene two item */
+.summer_campaign_2012 .scene.two_item {height: 645px;}
+.summer_campaign_2012.new .scene.two_item {height: 461px;}
+.summer_campaign_2012 .scene.two_item.collapsed {height: 0;}
+.summer_campaign_2012 .scene.two_item .goportal_promo_1 {position: absolute; left: 250px; bottom: 70px;}
+.summer_campaign_2012 .scene.two_item .btn_scroll_top {bottom: 50px;}
+.summer_campaign_2012 .scene.three_item {background-image:url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/bg_scene_quad_light.jpg);}
+.summer_campaign_2012 .scene.three_item .btn_scroll_top {bottom: 50px;}
+/* /scene: two item */
+
+/* scene: three item */
+.summer_campaign_2012 .scene.three_item {height: 840px;}
+/*.summer_campaign_2012.new .scene.three_item {height: 461px;}*/
+.summer_campaign_2012 .scene.three_item.collapsed {height: 0;}
+.summer_campaign_2012 .scene.three_item .goportal_promo_2 {position: absolute; right: 0; bottom: 510px;}
+/* /scene: three item */
+.summer_campaign_2012.new .scene_2 {height: 611px;}
+.summer_campaign_2012.new .scene_2 img {width:auto !important; height:auto !important; margin-left:-140px;}
+.summer_campaign_2012.new .scene_2 .phonecolor1 {position: absolute; display: block; left: 0px; top: 0px; width: 250px; height: 450px; margin-left:-140px; background: url('https://szeccsa.github.io/i/none.gif');}
+.summer_campaign_2012.new .scene_2 .phonecolor2 {position: absolute; display: block; left: 260px; top: 0px; width: 250px; height: 450px; margin-left:-140px; background: url('https://szeccsa.github.io/i/none.gif');}
+.summer_campaign_2012.new .scene_2 .phonecolor3 {position: absolute; display: block; left: 520px; top: 0px; width: 250px; height: 450px; margin-left:-140px; background: url('https://szeccsa.github.io/i/none.gif');}
+
+.summer_campaign_2012.new .scene_2 .description {position:absolute !important; left:610px; margin-top:60px;}
+.summer_campaign_2012.new .scene_2 .description .price {display: block; margin-top: 25px; width: 175px; font-family: 'myfontRegular', sans-serif; font-size: 60px; font-weight: 600; color: #ffdf00;}
+.summer_campaign_2012.new .scene_2 .description .features {position: relative !important; left: 0 !important; bottom: 0 !important; margin: 0 0 0 10px !important;}
+.summer_campaign_2012.new .scene_2 .description .tariff {margin: 10px 0 5px 10px; font-size: 14px; color: #ffdf00;}
+.summer_campaign_2012.new .scene_2 .description .tariff_details{margin: 10px 0 5px 10px;}
+.summer_campaign_2012.new .scene_2 .description .links li{padding: 0 0 0 10px; background: transparent url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/icon_arrow-right.png) no-repeat left 7px; margin: 0 0 5px -20px;}
+.summer_campaign_2012.new .scene_9 img {width:auto !important; height:auto !important;}
+.summer_campaign_2012.new .scene_9 .item_left {width:450px !important; margin-left:-45px;}
+.summer_campaign_2012.new .scene_9 .item_left .description {position:absolute; left:280px;}
+.summer_campaign_2012.new .scene_9 .common_description {margin-left:-25px;}
+.summer_campaign_2012.new .scene_9 .item_right {width:430px; margin-right:-15px;}
+.summer_campaign_2012.new .scene_9 .item_right .description {width:180px;}
+
+.summer_campaign_2012 .bottom_boxes {margin: -65px 0 0; width: 980px; height: 305px; background: transparent url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/bg_bottom_boxes.png) no-repeat 0 0;}
+.summer_campaign_2012.new .bottom_boxes {margin:-130px 0 0; height: 363px; background: transparent url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/bg_bottom_boxes-new.png) no-repeat 0 0;}
+.summer_campaign_2012 .bottom_container {width: 880px; background: transparent url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/bg_bottom_container.png) no-repeat 0 0; padding:20px 50px 0 50px; color:#63676a; font:normal 12px/18px arial;}
+.summer_campaign_2012.new .button_container.p1 {position:absolute !important; margin:400px 0 0 90px;}
+.summer_campaign_2012.new .button_container.p2 {position:absolute !important; margin:400px 0 0 330px;}
+.summer_campaign_2012.new .button_container.p3 {position:absolute !important; margin:400px 0 0 600px;}
+.summer_campaign_2012.new .two_item .item_left .button_container {margin-left:5px;}
+.summer_campaign_2012.new .scene_9 .item_left .button_container {margin-left:80px; margin-top:-70px;}
+.summer_campaign_2012.new .scene_9 .item_right .button_container {margin-right:70px; margin-top:-70px;}
+.summer_campaign_2012.new .button_container {position:relative; z-index:300; /*background:#0cf; width:150px; height:50px;*/
+}
+.summer_campaign_2012 .bottom_boxes .okostarifak{width:280px;height:182px;background:url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/bottom_boxes_contents.png) 0 0 no-repeat;display:block;position:absolute;top:89px;left:36px;}
+.summer_campaign_2012 .bottom_boxes .okos-mini-tarifa{width:280px;height:182px;background:url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/bottom_boxes_contents.png) -320px 0 no-repeat;display:block;position:absolute;top:89px;left:356px;}
+.summer_campaign_2012 .bottom_boxes .go-portal{width:280px;height:182px;background:url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/bottom_boxes_contents.png) -629px 0 no-repeat;display:block;position:absolute;top:89px;right:35px;}
+.summer_campaign_2012.new .bottom_boxes .okostarifak{width: 430px;height: 202px;background:none;top: 140px;left: 30px;}
+.summer_campaign_2012.new .bottom_boxes .okos-mini-tarifa{width: 430px;height: 202px;background:none;top:140px;left:510px;}
+/* /summer campaign 2012 */
+/* 105 pilot champagin */
+.landing.pilot-chamaign {position:relative; background: #FFF; height:1110px; margin-top: -10px;}
+.landing.pilot-chamaign .centr {background:url(https://szeccsa.github.io/i/campaigns/105-pilot-champaing/bg-center.jpg) no-repeat 0 45px; height:1050px; position:relative;}
+.landing.pilot-chamaign .topr {background:url(https://szeccsa.github.io/i/campaigns/105-pilot-champaing/bg-top.jpg) no-repeat top;}
+.landing.pilot-chamaign .botr {background:url(https://szeccsa.github.io/i/campaigns/105-pilot-champaing/bg-bottom.jpg) no-repeat 0 bottom #013142;}
+.landing.pilot-chamaign h1 {color:#ffdf00; font-size:30px; padding:30px 0 0; margin-left:60px; line-height:30px;}
+.landing.pilot-chamaign .centr > h2 {color:#FFF; font-size:30px; position:absolute; top:420px; text-align:center;}
+.landing.pilot-chamaign .centr > h2 strong{color:#ffdf00;}
+.landing.pilot-chamaign strong.or {color:#ffdf00; font-size:50px; position:absolute; text-align:center; top:604px; left: 0px; width:100%;}
+.landing.pilot-chamaign p.shl {margin-left:60px; color:#f5f4ea; font-size:20px; padding:0; margin-top:10px; margin-bottom:30px; width:830px;}
+.landing.pilot-chamaign .centr p.shl strong {color:#FFF; font-weight:bold;}
+.landing.pilot-chamaign .side {position:relative; width:270px; height:805px; float:left; overflow:visible;}
+.landing.pilot-chamaign .side h2 {width:300px; font-size:36px; color:#ffdf00; font-weight:bolder; margin-top:77px; margin-bottom:105px;}
+.landing.pilot-chamaign .side p {display:block; width:240px; font-size:18px; color:#FFF; margin-top:140px;}
+.landing.pilot-chamaign .side p strong {color:#00ace7;}
+.landing.pilot-chamaign .side .table {position:absolute; top:550px; width:300px; background:url(https://szeccsa.github.io/i/campaigns/105-pilot-champaing/table.png) no-repeat 70px 28px;}
+.landing.pilot-chamaign .side .table .heads {display:block; height:41px;}
+.landing.pilot-chamaign .side .table .heads span {font-size:14px; color:#00ace7;}
+.landing.pilot-chamaign .side .table .vals {display:block; width:250px;}
+.landing.pilot-chamaign .side .table .vals .t1 {font-size:18px; color:#FFF;}
+.landing.pilot-chamaign .side .table .vals .t1 strong {font-weight:bold;}
+.landing.pilot-chamaign .side .table .vals .t2 {font-weight:bold; font-size:25px; color:#ffdf00;}
+.landing.pilot-chamaign .side .table .vals .t2.blue {color:#044960;}
+.landing.pilot-chamaign .side .table .vals .t2 strong {position:absolute; margin-top:-2px;}
+.landing.pilot-chamaign .side .table .t1{display:block; position:relative; width:100px; height:40px; float:left;}
+.landing.pilot-chamaign .side .table .t2 {display:block; position:relative; width:145px; height:40px; float:left;}
+.landing.pilot-chamaign .left {margin-right:350px; margin-left:40px;}
+.landing.pilot-chamaign .right .table {left:-80px; width:300px;}
+.landing.pilot-chamaign a {clear: both; display: block; text-align:center; font-size:16px; font-weight:bold; padding:10px;}
+.landing.pilot-chamaign p.small-text {font-size: 11px; color: #7a7e82; margin: 15px 0 0; padding: 20px; width: initial;}
+.landing.pilot-chamaign .heads > .cufon {display:none !important;}
+.landing.pilot-chamaign .vals > .cufon {display:none !important;}
+/* / 105 pilot champagin */
+/* Samsung Omnia M */
+.cont.sg-omnia-m-landing {}
+.cont.sg-omnia-m-landing .head {background:url(https://szeccsa.github.io/i/campaigns/sg_omnia_m/head.jpg) 0 0 no-repeat; height:610px; position: relative; margin: 10px 0 0;}
+.cont.sg-omnia-m-landing .head h2 {position:absolute; margin:30px 0 0 30px; color:#FFF; font-size:36px; font-weight:bold;}
+.cont.sg-omnia-m-landing .head h1 {position:absolute; text-indent:-999em;}
+.cont.sg-omnia-m-landing .head .buletts {position:absolute; margin: 185px 0 0 340px; font-size:16px; font-family:'myfontRegular'; color:#FFF;}
+.cont.sg-omnia-m-landing .head > .buletts li {background: url(https://szeccsa.github.io/i/campaigns/sg_omnia_m/bulett.png) 5px 7px no-repeat;}
+.cont.sg-omnia-m-landing .head > .cost {position:absolute; margin: 285px 0 0 340px; width:200px;}
+.cont.sg-omnia-m-landing .head > .cost h4 {text-indent:-999em;}
+.cont.sg-omnia-m-landing .head > .cost strong {position:absolute; width:400px; color:#c6c5c5; font-size:16px; margin:0 0 0 -5px;}
+.cont.sg-omnia-m-landing .head > .cost strong span {display:block; color:#ffdf00;}
+.cont.sg-omnia-m-landing .head > .cost .buletts {position:absolute; top:0; margin: 115px 0 0 155px; width:300px; color:#0ac0fe; font-size:13px;}
+.cont.sg-omnia-m-landing .head > .cost .buletts li {background: url(https://szeccsa.github.io/i/galaxys3-landing/arrow.png) 10px 7px no-repeat;}
+.cont.sg-omnia-m-landing .head > small {display:block; position:absolute; margin: 475px 0 0 340px; font-size: 11px; color: #FFF; font-family: Arial, Helvetica, sans-serif; width: 530px;}
+.cont.sg-omnia-m-landing .block {position:relative; border-bottom:#CCC solid 1px; margin:0 30px; height:auto;}
+.cont.sg-omnia-m-landing .button {position: absolute; top: 112px;}
+.cont.sg-omnia-m-landing .block div.clear {clear:both;}
+.cont.sg-omnia-m-landing .block h2 {color: #00ace7; font-size:50px; letter-spacing:-2px; line-height:40px; font-weight:100; font-family:'myfontRegular'; margin: 27px 0 10px 0;}
+.cont.sg-omnia-m-landing .block h3 {color: #333333; font-size:25px; margin:20px 0 0;}
+.cont.sg-omnia-m-landing .block p {color: #333333; font-size:14px; line-height:20px; margin:10px 0 30px 0;}
+.cont.sg-omnia-m-landing .block img {position:relative; top:30px; margin-bottom:30px;}
+.cont.sg-omnia-m-landing .block .left {width:413px; margin-right:57px; float:left;}
+.cont.sg-omnia-m-landing .block .left * {text-align:right;}
+.cont.sg-omnia-m-landing .block .right {width:450px; text-align:left; float:left;}
+.cont.sg-omnia-m-landing .block .right * {text-align:left;}
+.cont.sg-omnia-m-landing .specs {width:940px;margin:-80px 0; padding:0 20px 60px 20px; background: url(https://szeccsa.github.io/i/campaigns/sg_omnia_m/footer.jpg) bottom center no-repeat;}
+.cont.sg-omnia-m-landing .specs h2{color:#000;font:100 30px/60px 'myfontRegular';margin:18px 0 26px 0;padding-left:20px;}
+.cont.sg-omnia-m-landing .specs .spec-list{width:280px;margin-left:20px;padding-left:20px;float:left;color:#000;font:normal 11px arial;}
+.cont.sg-omnia-m-landing .specs .spec-list:first-child{margin-left:0;}
+.cont.sg-omnia-m-landing .specs .spec-list strong{font-size:15px;margin-bottom:15px;display:block;}
+.cont.sg-omnia-m-landing .specs .spec-list ul{margin-left:0;}
+.cont.sg-omnia-m-landing .specs .spec-list ul li{margin-bottom:15px;padding-left:15px;background:url(https://szeccsa.github.io/i/galaxys3-landing/list-style-type.png) 0 3px no-repeat;}
+.cont.sg-omnia-m-landing .specs small {color:#6b6b6b; font-size:11px; display:block; clear:both; padding:40px 0 0 20px;}
+/* / Samsung Omnia M */
+
+/* 10-10 */
+.ten-ten-landing {background:url(https://szeccsa.github.io/i/campaigns/10-10/bg.jpg) 0 0 repeat-y !important;}
+.ten-ten-landing .head {position:absolute; background:url(https://szeccsa.github.io/i/campaigns/10-10/head-bg.jpg) 0 0 no-repeat; height:690px;}
+.ten-ten-landing .head h2.new {position:absolute; color:#231f20; padding:5px; background:#ffe716; border-radius:4px; margin:40px 0 0 50px;}
+.ten-ten-landing .head > h1 {position:absolute; color:#ffe716; font-size:40px; margin:80px 0 0 50px;}
+.ten-ten-landing .head h2.countback {position:absolute; color:#FFF; font-size:27px; margin:120px 0 0 50px;}
+.ten-ten-landing .head h2.countback span {color:#ffe716;}
+.ten-ten-landing .head > h4 {color:#f5f4ea; font-size:20px; margin:420px 0 0 50px; z-index:200; font-weight:300;}
+.ten-ten-landing .head .expert {top:0; position:absolute; margin-top:460px; margin-left:50px; z-index:200;}
+.ten-ten-landing .head .expert img {position:absolute; top:0; left:0;}
+.ten-ten-landing .head .expert h3 {position:absolute; top:20px; left:130px; color:#FFF; width:300px; font-size:24px;}
+.ten-ten-landing .head .expert h4 {position:absolute; top:45px; left:130px; color:#FFF; width:200px; font-size:14px; line-height:16px;}
+.ten-ten-landing .head .expert.right {margin-left:500px;}
+.ten-ten-landing .head .expert.right img {top:15px;}
+.ten-ten-landing .phones {width:837px; position:absolute; top:130px; left:33px;}
+.ten-ten-landing .phones > li {display:block; position:absolute; background:none;}
+.ten-ten-landing .phones > li a {display:block; position:relative; background-image:url(https://szeccsa.github.io/i/campaigns/10-10/sprite.png); background-repeat:no-repeat; z-index:1;}
+.ten-ten-landing .phones > li a .tbox {display:none; position:absolute; top:-150px; width:261px; height:150px;}
+.ten-ten-landing .phones > li a .tbox .cntnt {position:absolute; top:0; z-index:10;}
+.ten-ten-landing .phones > li a .tbox .cntnt h4 {font-size:18px; color:#ffdf00; margin:18px 14px 0 14px;}
+.ten-ten-landing .phones > li a .tbox .cntnt p {margin:15px 14px 0 14px; font-size:14px; color:#FFF; position:relative; top:-10px;}
+.ten-ten-landing .phones > li a .tbox .topr {position:absolute; background:url(https://szeccsa.github.io/i/campaigns/10-10/tooltip-sprite.png) no-repeat 0 0; width: 261px; height: 130px; top:0;}
+.ten-ten-landing .phones > li a .tbox .botr {top:130px; position:absolute; background-image:url(https://szeccsa.github.io/i/campaigns/10-10/tooltip-sprite.png); width: 261px; height: 34px;}
+.ten-ten-landing .phones > li a .tbox.lft {left:30px;}
+.ten-ten-landing .phones > li a .tbox.cntr {left:-40px;}
+.ten-ten-landing .phones > li a .tbox.rght {left:-155px;}
+.ten-ten-landing .phones > li a .tbox.lft .botr {background-position:0 -139px;}
+.ten-ten-landing .phones > li a .tbox.cntr .botr {background-position:0 -179px;}
+.ten-ten-landing .phones > li a .tbox.rght .botr {background-position:0 -219px;}
+.ten-ten-landing .phones > li a:hover .tbox {display:block;}
+.ten-ten-landing .phones > li span {display:block; position:absolute; background-image:url(https://szeccsa.github.io/i/campaigns/10-10/sprite.png); background-repeat:no-repeat; left:0; z-index:0;}
+.ten-ten-landing .phone-1 {margin:75px 0 0 0; z-index:100;}
+.ten-ten-landing .phone-1 a {background-position: -996px -2px; width: 88px; height: 144px;}
+.ten-ten-landing .phone-1 a:hover {background-position: -596px -486px; width: 129px; height: 186px; margin:-21px 0 0 -20px;}
+.ten-ten-landing .phone-1 span {background-position: -15px -721px; width: 79px; height: 69px; top:143px; left:31px !important;}
+.ten-ten-landing .phone-2 {margin:68px 0 0 55px; z-index:101;}
+.ten-ten-landing .phone-2 a {background-position: -883px -5px; width: 103px; height: 155px;}
+.ten-ten-landing .phone-2 a:hover {background-position: -443px -490px; width: 143px; height: 196px; margin:-20px;}
+.ten-ten-landing .phone-2 span {background-position: -108px -734px; width: 95px; height: 81px; top: 156px; left: 28px !important;}
+.ten-ten-landing .phone-3 {margin:57px 0 0 117px; z-index:102;}
+.ten-ten-landing .phone-3 a {background-position: -782px -4px; width: 91px; height: 170px;}
+.ten-ten-landing .phone-3 a:hover {background-position: -301px -488px; width: 133px; height: 212px; margin:-21px;}
+.ten-ten-landing .phone-3 span {background-position: -215px -738px; width: 85px; height: 82px; top: 168px; left: 28px !important;}
+.ten-ten-landing .phone-4 {margin:43px 0 0 180px; z-index:103;}
+.ten-ten-landing .phone-4 a {background-position: -665px -3px; width: 107px; height: 192px;}
+.ten-ten-landing .phone-4 a:hover {background-position: -144px -487px; width: 150px; height: 234px; margin:-21px;}
+.ten-ten-landing .phone-4 span {background-position:-310px -759px; width: 102px; height: 86px; top: 190px; left: 25px !important;}
+.ten-ten-landing .phone-5 {margin:37px 0 0 293px; z-index:104;}
+.ten-ten-landing .phone-5 a {background-position: -135px 0; width: 93px; height: 215px;}
+.ten-ten-landing .phone-5 a:hover {background-position: -183px -223px; width: 137px; height: 259px; margin:-22px;}
+.ten-ten-landing .phone-5 span {background-position:-424px -765px; width: 92px; height: 54px; top: 214px; left: 21px !important;}
+.ten-ten-landing .phone-6 {margin:37px 0 0 396px; z-index:105;}
+.ten-ten-landing .phone-6 a {background-position: 0 0; width: 125px; height: 215px;}
+.ten-ten-landing .phone-6 a:hover {background-position: -8px -223px; width: 169px; height: 259px; margin:-22px;}
+.ten-ten-landing .phone-6 span {background-position: -528px -765px; width: 126px; height: 80px; top:215px; left:19px !important;}
+.ten-ten-landing .phone-7 {margin:50px 0 0 530px; z-index:104;}
+.ten-ten-landing .phone-7 a {background-position: -238px -3px; width: 110px; height: 191px;}
+.ten-ten-landing .phone-7 a:hover {background-position: -327px -227px; width: 152px; height: 234px; margin:-21px;}
+.ten-ten-landing .phone-7 span {background-position:-664px -748px; width: 106px; height: 71px; top:190px; left:22px !important;}
+.ten-ten-landing .phone-8 {margin:60px 0 0 622px; z-index:103;}
+.ten-ten-landing .phone-8 a {background-position: -358px -2px; width: 91px; height: 174px;}
+.ten-ten-landing .phone-8 a:hover {background-position: -487px -226px; width: 133px; height: 215px; margin:-21px;}
+.ten-ten-landing .phone-8 span {background-position:-781px -737px; width: 84px; height: 71px; top:171px; left:19px !important;}
+.ten-ten-landing .phone-9 {margin:70px 0 0 673px; z-index:102;}
+.ten-ten-landing .phone-9 a {background-position: -459px -3px; width: 98px; height: 157px;}
+.ten-ten-landing .phone-9 a:hover {background-position: -628px -227px; width: 140px; height: 199px; margin:-21px;}
+.ten-ten-landing .phone-9 span {background-position:-877px -733px; width: 89px; height: 72px; top:157px; left:19px !important;}
+.ten-ten-landing .phone-10 {margin:77px 0 0 735px; z-index:101;}
+.ten-ten-landing .phone-10 a {background-position: -567px -3px; width: 88px; height: 148px;}
+.ten-ten-landing .phone-10 a:hover {background-position: -6px -487px; width: 130px; height: 190px; margin:-21px;}
+.ten-ten-landing .phone-10 span {background-position:-976px -730px; width: 78px; height: 68px; top:148px; left:19px !important;}
+
+.ten-ten-landing .phone-list {position:relative; margin-top:740px; margin-bottom:150px;}
+.ten-ten-landing .phone-list ul {position:relative; padding:0; margin:0;}
+.ten-ten-landing .phone-list ul > li {margin:-200px 0 -100px 0; padding:100px 0 0; height:550px;}
+.ten-ten-landing .phone-list ul > li.invisible {visibility:hidden;}
+.ten-ten-landing .phone-list ul > li .image {display:block; position:absolute; background-image:url(https://szeccsa.github.io/i/campaigns/10-10/phones-sprite.png); background-repeat:no-repeat; width:150px; height:350px; margin:100px 0 0;
+z-index:198;}
+.ten-ten-landing .phone-list ul > li .image.i1 {background-position:-10px -1px; width: 130px; height: 321px;}
+.ten-ten-landing .phone-list ul > li .image.i2 {background-position:-167px 0; width: 130px; height: 298px;}
+.ten-ten-landing .phone-list ul > li .image.i3 {background-position:-320px -7px; width: 149px; height: 308px; margin-top:115px;}
+.ten-ten-landing .phone-list ul > li .image.i4 {background-position:-498px -8px; width: 153px; height: 288px; margin-top:115px;}
+.ten-ten-landing .phone-list ul > li .image.i5 {background-position:-3px -348px; width: 138px; height: 319px;}
+.ten-ten-landing .phone-list ul > li .image.i6 {background-position:-168px -348px; width: 137px; height: 298px;}
+.ten-ten-landing .phone-list ul > li .image.i7 {background-position:-320px -369px; width: 146px; height: 288px; margin-top:125px;}
+.ten-ten-landing .phone-list ul > li .image.i8 {background-position:-500px -365px; width: 146px; height: 279px; margin-top:125px;}
+.ten-ten-landing .phone-list ul > li .image.i9 {background-position:-320px -738px; width: 158px; height: 315px; margin-top:105px;}
+.ten-ten-landing .phone-list ul > li .image.i10 {background-position:-504px -739px; width: 158px; height: 314px; margin-top:105px;}
+.ten-ten-landing .phone-list ul > li .image.i11 {background-position:0 -733px; width: 148px; height: 307px; margin-top:115px;}
+.ten-ten-landing .phone-list ul > li .image.i12 {background-position:-162px -730px; width: 150px; height: 309px; margin-top:115px;}
+.ten-ten-landing .phone-list ul > li .image.i13 {background-position:0 -1091px; width: 142px; height: 293px; margin-top:115px;}
+.ten-ten-landing .phone-list ul > li .image.i14 {background-position:-202px -1085px; width: 144px; height: 299px; margin-top:115px;}
+.ten-ten-landing .phone-list ul > li .image.i15 {background-position:0 -1426px; width: 140px; height: 294px; margin-top:120px;}
+.ten-ten-landing .phone-list ul > li .image.i16 {background-position:-360px -1098px; width: 149px; height: 286px; margin-top:135px;}
+.ten-ten-landing .phone-list ul > li .image.i17 {background-position:-167px -1426px; width: 137px; height: 294px; margin-top:120px;}
+.ten-ten-landing .phone-list ul > li h3 {color:#ffdf00; font-weight:100; font-size:22px; margin:0 !important;}
+.ten-ten-landing .phone-list ul > li h3 strong {color:#ffdf00; font-weight:bold;}
+.ten-ten-landing .phone-list ul > li h3 sup {font-size:12px; position:relative; top:-8px;}
+.ten-ten-landing .phone-list ul > li strong.color {display:block; font-style:italic; color:#fff; font-size:16px;}
+.ten-ten-landing .phone-list ul > li strong.cost {color:#ffdf00; font-size:38px;}
+.ten-ten-landing .phone-list ul > li .buy-button {padding-top:5px; height:60px;}
+.ten-ten-landing .phone-list ul > li.right .buy-button {padding-left:140px;}
+.ten-ten-landing .phone-list ul > li .tariff {position:relative; display:block; font-size:13px; color:#fff; z-index:200;}
+.ten-ten-landing .phone-list ul > li .tariff .info {position:relative; display:inline-block; background:url(https://szeccsa.github.io/i/campaigns/10-10/sprite.png) -820px -234px no-repeat; width: 16px; height: 16px; margin: 5px 0 -5px 5px; cursor:pointer; z-index: 300;}
+.ten-ten-landing .phone-list ul > li .tariff .info .toolbox {display:none; position:relative; height:194px; width:331px; top:-195px; left:-22px;}
+.ten-ten-landing .phone-list ul > li .tariff:hover .info .toolbox {display:block;}
+.ten-ten-landing .phone-list ul > li.right .tariff .info .toolbox {left:-295px;}
+.ten-ten-landing .phone-list ul > li .tariff .info .toolbox .top {position:absolute; display:block; background:url(https://szeccsa.github.io/i/campaigns/10-10/sprite.png) -741px -455px no-repeat; width: 331px; height: 160px;}
+.ten-ten-landing .phone-list ul > li .tariff .info .toolbox .bottom {position:absolute; display:block; background:url(https://szeccsa.github.io/i/campaigns/10-10/sprite.png) -741px -675px no-repeat; width: 331px; height: 33px; margin-top:160px;}
+.ten-ten-landing .phone-list ul > li.right .tariff .info .toolbox .bottom {background:url(https://szeccsa.github.io/i/campaigns/10-10/sprite.png) -741px -634px no-repeat;}
+.ten-ten-landing .phone-list ul > li .tariff .info .toolbox .contentr {position:absolute; height:154px; width:291px; padding:20px;}
+.ten-ten-landing .phone-list ul > li .tariff .info .toolbox .contentr > strong {color:#ffdf00; font-size:18px;}
+.ten-ten-landing .phone-list ul > li .tariff .info .toolbox .contentr > p {color:#FFF; font-size:14px; margin:5px 0 0 !important;}
+.ten-ten-landing .phone-list ul > li p.about {position:absolute; padding:13px 25px; left:-20px; color:#fff; background:url(https://szeccsa.github.io/i/campaigns/10-10/sprite.png) no-repeat -61px -1085px; width: 386px; height: 47px; z-index:199;}
+.ten-ten-landing .phone-list ul > li p.about.big {margin-top:35px !important; padding:10px 25px; background:url(https://szeccsa.github.io/i/campaigns/10-10/sprite.png) no-repeat -60px -1173px; width: 386px; height: 87px;}
+.ten-ten-landing .phone-list ul > li.right p.about {background:url(https://szeccsa.github.io/i/campaigns/10-10/sprite.png) no-repeat -583px -1085px;}
+.ten-ten-landing .phone-list ul > li.right p.about.big {background:url(https://szeccsa.github.io/i/campaigns/10-10/sprite.png) no-repeat -588px -1176px;}
+.ten-ten-landing .phone-list ul > li .text-holder {height:196px;}
+.ten-ten-landing .phone-list ul > li .text-holder > a {background:url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/icon_arrow-right.png) 0 7px no-repeat; padding:0 0 0 10px;position:relative; z-index:200;}
+.ten-ten-landing .phone-list ul > li.left {background:url(https://szeccsa.github.io/i/campaigns/10-10/left-phone-bg.png) left top no-repeat; position:relative; float:left; width:490px;}
+.ten-ten-landing .phone-list ul > li.left .text-holder {width:280px; margin:120px 0 0 180px; text-align:left !important;}
+.ten-ten-landing .phone-list ul > li.left p.about {margin:45px 80px 0 30px;}
+.ten-ten-landing .phone-list ul > li.left > .image {margin-left:10px;}
+.ten-ten-landing .phone-list ul > li.right {background:url(https://szeccsa.github.io/i/campaigns/10-10/right-phone-bg.png) right top no-repeat; position:relative; float:left; width:490px; text-align:right;}
+.ten-ten-landing .phone-list ul > li.right > .text-holder {width:280px; margin:130px 0 0 40px; text-align:right !important;}
+.ten-ten-landing .phone-list ul > li.right p.about {margin:45px 30px 0 80px;}
+.ten-ten-landing .phone-list ul > li.right > .text-holder h3 {text-align:right !important;}
+.ten-ten-landing .phone-list ul > li.right > .image {position:relative; float:right;}
+.ten-ten-landing .hiddens {display:none;}
+.ten-ten-landing .clear {clear:both;}
+.ten-ten-landing .footer {position:relative; background:url(https://szeccsa.github.io/i/campaigns/10-10/sprite.png) no-repeat -42px -849px; width: 1000px; height: 220px; margin:-160px 0 0 -10px;}
+.ten-ten-landing p.small {padding:0 40px; font-size:12px; color:#FFF;}
+.ten-ten-landing img.cursor {position:absolute; left:500px;top:305px; z-index:300;}
+.ten-ten-landing .footer a.okostarifak {position: absolute; width: 400px; height: 170px; margin: 40px 0 0 60px;}
+.ten-ten-landing .footer a.okos-mini-tarifa {position: absolute; width: 400px; height: 170px; margin: 40px 0 0 535px;}
+/* / 10-10 */
+/* limitnet */
+.content.limitnet {background:url(https://szeccsa.github.io/i/campaigns/limit-net-landing/landing.jpg) 0 0 no-repeat; height:2290px; width:980px !important;}
+.content.limitnet .button-handler {position:absolute; /*width:150px; height:50px; background:#0cf;*/}
+.content.limitnet .button-handler.p1 {margin:560px 0 0 220px;}
+.content.limitnet .button-handler.p2 {margin:560px 0 0 730px;}
+.content.limitnet .button-handler.p3 {margin:905px 0 0 220px;}
+.content.limitnet .button-handler.p4 {margin:905px 0 0 730px;}
+.content.limitnet .uzletkereso,
+.content.limitnet .details {position:absolute; background: url(https://szeccsa.github.io/i/campaigns/summer_campaign_2012/icon_arrow-right.png) no-repeat 0 7px transparent; padding: 0 0 0 10px;}
+.content.limitnet .details {font-size:18px; margin:1545px 0 0 40px;}
+.content.limitnet .uzletkereso.u1 {margin:660px 0 0 220px;}
+.content.limitnet .uzletkereso.u2 {margin:660px 0 0 730px;}
+.content.limitnet .uzletkereso.u3 {margin:1005px 0 0 220px;}
+.content.limitnet .uzletkereso.u4 {margin:1005px 0 0 730px;}
+.content.limitnet .smalltext {margin:2190px 0 0 0; padding:30px; line-height:16px; color:#333;}
+.content.limitnet .phone {display:block; position:absolute; width:160px; height:280px;}
+.content.limitnet .phone.u1 {margin:460px 0 0 30px;}
+.content.limitnet .phone.u2 {margin:460px 0 0 530px;}
+.content.limitnet .phone.u3 {margin:805px 0 0 30px;}
+.content.limitnet .phone.u4 {margin:805px 0 0 530px;}
+/* / limitnet */
+
+/* xfaktor 2012.10. */
+.xfbadge {position: absolute; left: 40px; top: 40px; width: 54px; height: 59px; margin: 0px; padding: 0px; overflow: visible; z-index: 9999;}
+.xfbadge .xfstar {display: block; position: absolute; left: 0px; top: 0px; width: 83px; height: 98px; overflow: hidden; background-position: 0px 0px; background-repeat: no-repeat;}
+.xfbadge .xftext {display: none; position: absolute; left: 55px; top: 10px; width: 159px; overflow: hidden; font-size: 12px; line-height: 15px; color: #fff; background: url(https://szeccsa.github.io/i/campaigns/xfaktor2012/xf-text.png) right bottom no-repeat;}
+.xfbadge .xftext div {width: 110px; height: auto; min-height: 92px; padding: 10px 25px 10px 24px; overflow: hidden; background: url(https://szeccsa.github.io/i/campaigns/xfaktor2012/xf-text.png) 0px 0px no-repeat;}
+.xfbadge:hover .xfstar {left: -10px; top: 7px; background-position: 0px -100px;}
+.xfbadge:hover .xftext {display: block;}
+
+.xfbadge.zambo-krisztian .xfstar {background-image: url(https://szeccsa.github.io/i/campaigns/xfaktor2012/zambo_krisztian.png);}
+.xfbadge.szabo-david .xfstar {background-image: url(https://szeccsa.github.io/i/campaigns/xfaktor2012/szabo_david.png);}
+.xfbadge.antal-timea .xfstar {background-image: url(https://szeccsa.github.io/i/campaigns/xfaktor2012/antal_timea.png);}
+.xfbadge.olah-gergo .xfstar {background-image: url(https://szeccsa.github.io/i/campaigns/xfaktor2012/olah_gergo.png);}
+/* /xfaktor 2012.10. */
+
+/* uzlettars 2012 */
+div.cont .utlanding {
+	background:url(https://szeccsa.github.io/i/uzlettars-tarifa/head-top.jpg) no-repeat -1px 0; }
+div.cont .utlanding .head {
+	background:url(https://szeccsa.github.io/i/uzlettars-tarifa/emblem.jpg) no-repeat 36px 150px #000;
+	position:relative; height:400px; top:10px; padding:10px 20px;
+	width:940px; }
+div.cont .utlanding .head h2 {
+	padding: 0; color: #fff; font-weight: bold; font-size: 32px; line-height: auto; }
+div.cont .utlanding .head h3.em1 {
+	margin: 55px 0 0px 225px; color: #FFF; font-size:23px; }
+div.cont .utlanding .head h3.em2 {
+	margin: 55px 0 0 225px; color: #f7db17; font-size:23px; }
+div.cont .utlanding .calcr {
+	position:relative;
+	top:-20px;
+	padding-bottom:120px;
+	margin-bottom:-120px;
+	background:url(https://szeccsa.github.io/i/uzlettars-tarifa/gradient.jpg) repeat-x 0 -23px; }
+div.cont .utlanding .calculator {
+	position:relative;
+	top:-20px;
+	padding-bottom:120px;
+	background:url(https://szeccsa.github.io/i/uzlettars-tarifa/calc-bg-pattern.jpg) repeat-y 26px 0; }
+div.cont .utlanding .calculator > h4 {
+	position: absolute;
+	z-index: 2000;
+	padding: 23px 0 0 134px;
+	font-size:20px;
+	color: #FFF; }
+div.cont .utlanding .calculator .tabsheet {
+	position:relative;
+	z-index:1000;
+	border:none !important;
+	width:980px; height:150px !important;
+	margin:0; }
+div.cont .utlanding .calculator.opened .tabsheet {
+	height:350px !important; }
+div.cont .utlanding .calculator .tabsheet .tabs {
+	position:absolute;
+	bottom: -118px;
+	right: 117px;
+	z-index: 1100;
+	background:none; }
+div.cont .utlanding .calculator .tabsheet .tabs ul > .t0 {
+	position:absolute;
+	bottom:0;
+	left:-110px; background:none;
+	width: 124px; height: 38px; }
+div.cont .utlanding .calculator .tabsheet .tabs ul > li a b {
+	font-weight:bold;
+	color:#FFF; }
+div.cont .utlanding .calculator .tabsheet.ts1 .tabs ul > .t0 a b,
+div.cont .utlanding .calculator .tabsheet.ts0 .tabs ul > .t1 a b {
+	color:#0b344e; }
+div.cont .utlanding .calculator.opened .tabsheet .tabs ul > li a b {
+	color:#0b344e; }
+div.cont .utlanding .calculator.opened .tabsheet.ts0 .tabs ul > .t1 a b,
+div.cont .utlanding .calculator.opened .tabsheet.ts1 .tabs ul > .t0 a b {
+	color:#666; }
+div.cont .utlanding .calculator.opened .tabsheet .tabs {
+	bottom: -115px; right: 116px; }
+div.cont .utlanding .calculator .tabsheet .tabs ul > .t0 a b {
+	padding:10px 0 0 0 !important;}
+div.cont .utlanding .calculator .tabsheet .tabs ul > .t1 a b {
+	padding:18px 0 0 0 !important;}
+div.cont .utlanding .calculator .tabsheet.ts1 .tabs ul > .t0 {
+	background: url(https://szeccsa.github.io/i/uzlettars-tarifa/tabs-bg.png) no-repeat 0 -8px; }
+div.cont .utlanding .calculator .tabsheet .tabs ul > li * {
+	background:none; }
+div.cont .utlanding .calculator .tabsheet .tabs ul > .t1 {
+	position:absolute;
+	bottom:0; background:none;
+	width: 110px; height: 46px;
+	color:#FFF; }
+div.cont .utlanding .calculator .tabsheet.ts0 .tabs ul > .t1 {
+	background: url(https://szeccsa.github.io/i/uzlettars-tarifa/tabs-bg.png) no-repeat -128px 0;
+	color:#0b344e; }
+div.cont .utlanding .calculator .tabsheet .sheet {
+	position:absolute;
+	overflow:visible !important;
+	z-index:1000;
+	border:none !important;
+	width:980px; min-height:274px;
+	margin:0; padding:0;
+	background:url(https://szeccsa.github.io/i/uzlettars-tarifa/calc-top.jpg) no-repeat 0 0; }
+div.cont .utlanding .calculator .tabsheet .sheet .utcalc-bot {
+	position:absolute;
+	bottom:-36px; left:26px;
+	bottom:-15px\0/;
+	width:922px; min-height:36px;
+	margin:0; padding:0;
+	background:url(https://szeccsa.github.io/i/uzlettars-tarifa/calc-bg.png) no-repeat 0 0; }
+div.cont .utlanding .calculator .tabsheet .sheet .utcalc  {
+	width:980px;
+	background:none;
+	margin: 0; padding:100px 0 0; }
+div.cont .utlanding .calculator.opened .tabsheet .sheet .utcalc  {
+	height:370px; }
+div.cont .utlanding .calculator.opened .tabsheet .sheet .utcalc-bot  {
+	bottom:-18px !important;
+	bottom:-15px\0/ !important; }
+div.cont .utlanding .calculator .tabsheet .sheet .utcalc > form {
+	padding:0 0 0 40px; }
+div.cont .utlanding .calculator .tabsheet .sheet .utcalc div.input.select.size5 select { width: 525px; }
+div.cont .utlanding .calculator .tabsheet .sheet .utcalc > p {
+	position:relative;
+	z-index:20;
+	padding: 22px 0 0 40px; }
+div.cont .utlanding .calculator .tabsheet .sheet .utcalc .field {
+	width:900px;
+	height: 34px; }
+div.cont .utlanding .calculator .tabsheet .sheet .utcalc label {
+	display:block;
+	width: 240px;
+	float:left;
+	color:#FFFFFF; }
+div.cont .utlanding .calculator .tabsheet .sheet .utcalc-result,
+div.cont .utlanding .calculator .tabsheet .sheet .utcalc-contact {
+	height:200px;
+	background:#FFF;
+	width: 880px;
+	position: relative; top:-44px;
+	padding-top:50px;
+	margin-left:48px;
+	border-radius: 10px;
+	z-index:10; }
+div.cont .utlanding .former {
+	padding:10px; }
+div.cont .utlanding small {
+	display:block;
+	padding:20px; }
+div.cont .utlanding div.field {
+	width:545px; }
+div.cont .utlanding div.input.text {
+	background: url('https://szeccsa.github.io/i/uzlettars-tarifa/form-sprite.png') no-repeat 0 -87px !important;
+	width: 309px !important; height: 36px !important; }
+div.cont .utlanding div.input.text.size1 {
+	background-position:0 -49px !important;
+	margin-right:1px;
+	width: 102px !important; }
+div.cont .utlanding div.input.text.size2 {
+	background-position: -104px -49px !important;
+	width: 206px !important; }
+div.cont .utlanding div.input.text input {
+	background: url('https://szeccsa.github.io/i/uzlettars-tarifa/form-sprite.png') no-repeat 0 -87px !important;
+	background: none !important; }
+div.cont .utlanding div.input.select {
+	background: url('https://szeccsa.github.io/i/uzlettars-tarifa/form-sprite.png') no-repeat 0 -178px !important;
+	width: 308px; height: 36px; }
+div.cont .utlanding div.input.select.size5 {
+	background: url('https://szeccsa.github.io/i/uzlettars-tarifa/form-sprite.png') no-repeat 0 0 !important;
+	width: 531px !important; height: 36px; }
+div.cont .utlanding div.input.select.size2 {
+	background: url('https://szeccsa.github.io/i/uzlettars-tarifa/form-sprite.png') no-repeat -316px -114px !important;
+	width: 171px; height: 36px; }
+div.cont .utlanding div.input.select.size1 {
+	background: url('https://szeccsa.github.io/i/uzlettars-tarifa/form-sprite.png') no-repeat 0 -124px !important;
+	width: 102px !important; height: 37px !important;
+	margin-right:1px; }
+div.cont .utlanding div.input.button {
+	background: url('https://szeccsa.github.io/i/uzlettars-tarifa/form-sprite.png') no-repeat -319px -49px !important;
+	width: 108px !important; height: 48px !important; }
+div.cont .utlanding div.input.button label {
+	text-indent:120%; overflow:hidden; white-space: nowrap; }
+div.cont .utlanding div.input.select input {
+	margin:3px 0 0 3px;
+	background: none !important; }
+div.cont .utlanding .success {
+	color: #ec5100;
+	font-size: 16px; }
+/* /uzlettars 2012 */
+
+
+/* joy kupon */
+
+/* www.telenor.hu/kupon */
+
+.joy-kupon .heading {
+	position: relative;
+	padding-bottom: 12px;
+	width: 980px;
+	height: 426px;
+}
+
+.joy-kupon .heading .note {
+	position: absolute;
+	bottom: 0px;
+	left: 515px;
+	display: block;
+	width: 198px;
+	text-align: center;
+	font-size: 10px;
+}
+
+.joy-kupon .heading img {
+	display: block;
+	width: 980px;
+	height: 426px;
+}
+
+.joy-kupon .select {
+	margin: 0;
+	width: 240px;
+	height: 36px;
+	background: transparent url(https://szeccsa.github.io/i/campaigns/joy-kupon/bg_select.gif) no-repeat 0 0;
+}
+
+.joy-kupon .select input {
+	left: 12px;
+	color: #000;
+}
+
+.joy-kupon .select select {
+	left: 0;
+	top: 0;
+	width: 240px;
+	height: 36px;
+	color: #000;
+	cursor: pointer;
+}
+
+.joy-kupon .results-container {
+	margin: 10px 0 0 30px;
+	width: 920px;
+	overflow: hidden;
+	border: 1px solid #b5b4b5;
+}
+
+.joy-kupon .results {
+	margin: 0 !important;
+	width: 920px !important;
+	overflow: visible !important;
+	background: transparent !important;
+	border: none !important;
+	border-collapse: collapse !important;
+}
+
+.joy-kupon .results thead tr td,
+.joy-kupon .results thead tr:first-child td {
+	border: none !important;
+}
+
+.joy-kupon .results tr:nth-child(even) td {
+	background: #eff1f1;
+}
+
+.joy-kupon .results tr td:first-child {
+	width: 305px;
+	font-weight: bold;
+	font-size: 16px;
+	border-left: none !important;
+}
+
+.joy-kupon .results tr:first-child td {
+	background: transparent !important;
+}
+
+.joy-kupon .results td {
+	padding: 12px 26px 12px 26px !important;
+	border-left: 1px solid #dddede;
+	border-top: 1px solid #dddede !important;
+}
+
+.joy-kupon .results .county {
+	display: none;
+}
+
+.joy-kupon .results-container {
+	margin-bottom: 35px;
+
+	-webkit-transition: height 500ms ease;
+	-moz-transition: height 500ms ease;
+	-ms-transition: height 500ms ease;
+	-o-transition: height 500ms ease;
+	transition: height 500ms ease;
+}
+
+.joy-kupon .results-container.county-1 .county-1,
+.joy-kupon .results-container.county-2 .county-2,
+.joy-kupon .results-container.county-3 .county-3,
+.joy-kupon .results-container.county-4 .county-4,
+.joy-kupon .results-container.county-5 .county-5,
+.joy-kupon .results-container.county-6 .county-6,
+.joy-kupon .results-container.county-7 .county-7,
+.joy-kupon .results-container.county-8 .county-8,
+.joy-kupon .results-container.county-9 .county-9,
+.joy-kupon .results-container.county-10 .county-10,
+.joy-kupon .results-container.county-11 .county-11,
+.joy-kupon .results-container.county-12 .county-12,
+.joy-kupon .results-container.county-13 .county-13,
+.joy-kupon .results-container.county-14 .county-14,
+.joy-kupon .results-container.county-15 .county-15,
+.joy-kupon .results-container.county-16 .county-16,
+.joy-kupon .results-container.county-17 .county-17,
+.joy-kupon .results-container.county-18 .county-18,
+.joy-kupon .results-container.county-19 .county-19,
+.joy-kupon .results-container.county-20 .county-20 {
+	display: table-row;
+}
+
+.joy-kupon .terms {
+	margin: 0 30px;
+	padding: 30px 0 0;
+	width: 920px;
+	border-top: 1px solid #bababa;
+}
+
+.joy-kupon .terms p {
+	margin: 0 0 16px 0;
+}
+
+/* /joy kupon */
+
+
+/* kuponakcio */
+
+.kuponakcio .select {
+	float: left;
+	margin: 0;
+	width: 240px;
+	height: 36px;
+	background: transparent url(https://szeccsa.github.io/i/campaigns/joy-kupon/bg_select.gif) no-repeat 0 0;
+}
+
+.kuponakcio .select input {
+	left: 12px;
+	color: #000;
+	background: transparent;
+}
+
+.kuponakcio .select select {
+	left: 0;
+	top: 0;
+	width: 240px;
+	height: 36px;
+	color: #000;
+	cursor: pointer;
+}
+
+.kuponakcio .results-container {
+	margin: 10px 0 0 20px;
+	width: 938px;
+	overflow: hidden;
+	border: 1px solid #b5b4b5;
+}
+
+.kuponakcio .results-container label {
+	display: block;
+	float: left;
+	margin-right: 20px;
+	line-height: 36px;
+	text-transform: uppercase;
+	font-family: 'myfontRegular', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #00ace7;
+}
+
+.kuponakcio .results {
+	margin: 0 !important;
+	width: 938px !important;
+	overflow: visible !important;
+	background: transparent !important;
+	border: none !important;
+	border-collapse: collapse !important;
+}
+
+.kuponakcio .results thead tr td,
+.kuponakcio .results thead tr:first-child td {
+	border: none !important;
+}
+
+.kuponakcio .results tr:nth-child(even) td {
+	background: #eff1f1;
+}
+
+.kuponakcio .results tr td:first-child {
+	width: 305px;
+	font-weight: bold;
+	font-size: 16px;
+	border-left: none !important;
+}
+
+.kuponakcio .results tr:first-child td {
+	background: transparent !important;
+}
+
+.kuponakcio .results td {
+	padding: 12px 26px 12px 26px !important;
+	border-left: 1px solid #dddede;
+	border-top: 1px solid #dddede !important;
+}
+
+.kuponakcio .results .group {
+	display: none;
+}
+
+.kuponakcio .results-container {
+	margin-bottom: 35px;
+
+	-webkit-transition: height 500ms ease;
+	-moz-transition: height 500ms ease;
+	-ms-transition: height 500ms ease;
+	-o-transition: height 500ms ease;
+	transition: height 500ms ease;
+}
+
+.kuponakcio .results-container.group-1 .group-1,
+.kuponakcio .results-container.group-2 .group-2,
+.kuponakcio .results-container.group-3 .group-3,
+.kuponakcio .results-container.group-4 .group-4,
+.kuponakcio .results-container.group-5 .group-5,
+.kuponakcio .results-container.group-6 .group-6,
+.kuponakcio .results-container.group-7 .group-7,
+.kuponakcio .results-container.group-8 .group-8,
+.kuponakcio .results-container.group-9 .group-9,
+.kuponakcio .results-container.group-10 .group-10,
+.kuponakcio .results-container.group-11 .group-11,
+.kuponakcio .results-container.group-12 .group-12,
+.kuponakcio .results-container.group-13 .group-13,
+.kuponakcio .results-container.group-14 .group-14,
+.kuponakcio .results-container.group-15 .group-15,
+.kuponakcio .results-container.group-16 .group-16,
+.kuponakcio .results-container.group-17 .group-17,
+.kuponakcio .results-container.group-18 .group-18,
+.kuponakcio .results-container.group-19 .group-19,
+.kuponakcio .results-container.group-20 .group-20 {
+	display: table-row;
+}
+
+/* /kuponakcio */
+/* hipernet landing */
+
+
+.content.hipernet-landing{width:980px;background:url(https://szeccsa.github.io/i/hipernet-landing/bg.jpg) 0 0 repeat-y;min-height:1000px;margin:0 auto;padding-top:30px;}
+.content.hipernet-landing .cl{clear:both;}
+.content.hipernet-landing h1{margin:30px 0 0 30px;padding:0;font:normal 44px 'myfontRegular';color:#fff;letter-spacing:-1px;}
+.content.hipernet-landing h1 span{color:#ffdf00;font-weight:bold;font-style:italic;}
+.content.hipernet-landing .minuscule{width:980px;height:521px;background:url(https://szeccsa.github.io/i/hipernet-landing/minuscule.png) 0 0 repeat-y;margin-top:-50px;margin-bottom:35px;}
+.content.hipernet-landing .separator{height:12px;background:url(https://szeccsa.github.io/i/hipernet-landing/separator.png) 0 0 repeat-x;}
+.content.hipernet-landing .device-block{width:430px;position:relative;padding-left:60px;font:normal 13px 'myfontRegular';color:#fff;position:relative;float:left;}
+.content.hipernet-landing .device-block .gift{position:absolute;width:162px;height:116px;background:url(https://szeccsa.github.io/i/hipernet-landing/t385.png) 0 0 no-repeat;left:260px;top:-33px;color:#fff;font:normal 11px 'myfontRegular';padding:35px 0 0 75px;}
+.content.hipernet-landing .device-block .gift h3{font-size:24px;color:#ffdf00;margin:0;text-transform:uppercase;font-weight:bold;font-style:italic;}
+.content.hipernet-landing .device-block .gift h4{font-size:16px;margin:4px 0;font-weight:normal;color:#fff;}
+.content.hipernet-landing .device-block .gift h4 strong{font-weight:bold;}
+.content.hipernet-landing .device-block.block-left{border-right:1px solid #021821;width:459px;padding-left:30px;}
+.content.hipernet-landing .device-block.block-left .gift{left:240px;background:url(https://szeccsa.github.io/i/hipernet-landing/onetouchc.png) 0 0 no-repeat;}
+.content.hipernet-landing .device-block .tariff-name{color:#fff;width:180px;}
+.content.hipernet-landing .device-block .tariff-name div{font:normal 30px 'myfontRegular';}
+.content.hipernet-landing .device-block .tariff-name span{font:normal 20px/20px 'myfontRegular';display:block;margin-bottom:10px;}
+.content.hipernet-landing .device-block .tariff-name h2{margin:0;font:bold 41px/30px 'myfontRegular';color:#00ace7;padding:0;text-transform:uppercase;display:block;letter-spacing:-1px;}
+.content.hipernet-landing .device-block .device-prices .device-price{font:normal 16px 'myfontRegular';}
+.content.hipernet-landing .device-block .device-prices .device-price span{font-size:26px;color:#ffdf00;font-weight:bold;}
+.content.hipernet-landing .device-block .device-prices .modem-price{font:normal 14px 'myfontRegular';}
+.content.hipernet-landing .device-block .device-prices .modem-price span{color:#ffdf00;font-weight:bold;}
+.content.hipernet-landing .device-block .huseg{margin:10px 0 20px 0;}
+.content.hipernet-landing .device-block .device-details{color:#8c9399;}
+.content.hipernet-landing .device-block .device-details span{color:#fff;}
+.content.hipernet-landing .device-block .device-details a{color:#00ace7;text-decoration:none;position: absolute; z-index:100;}
+.content.hipernet-landing .device-block .device-details h3{color:#fff;font:bold 14px 'myfontRegular';margin:0 0 5px 0;padding:0;}
+.content.hipernet-landing .device-block .device-details p{margin:0;}
+.content.hipernet-landing .device-block .plus{display:block;width:57px;height:62px;background:url(https://szeccsa.github.io/i/hipernet-landing/plus.png) 0 0 no-repeat;position:absolute;top:30px;}
+.content.hipernet-landing .device-block.tariff-pro,.content.hipernet-landing .device-block.tariff-medium{padding-top:87px;}
+.content.hipernet-landing .device-block.tariff-pro .gift,.content.hipernet-landing .device-block.tariff-medium .gift{top:54px;}
+.content.hipernet-landing .device-block.tariff-heavy .plus{left:165px;}
+.content.hipernet-landing .device-block.tariff-active .plus{left:200px;}
+.content.hipernet-landing .device-block.tariff-pro .plus{left:155px;top:117px;}
+.content.hipernet-landing .device-block.tariff-medium .plus{left:212px;top:117px;}
+.content.hipernet-landing .device-block .device-order{margin-top: 0;}
+.content.hipernet-landing .device-block .device-order .order-left{float:left;width:170px;height:128px;background:url(https://szeccsa.github.io/i/hipernet-landing/vseparator.png) right center no-repeat;padding-top:30px;}
+.content.hipernet-landing .device-block .device-order .order-right{float:left;margin-left:20px;padding-top:30px;}
+.content.hipernet-landing .device-block .device-order .order-right p{padding:10px 0;text-align:center;margin:0;}
+.content.hipernet-landing .device-block .device-order .order-right a{font:normal 15px 'myfontRegular';color:#00ace7;text-decoration:none;}
+.content.hipernet-landing .device-block .device-order h3{color:#ffdf00;font:normal 20px 'myfontRegular';margin:0 0 20px 0;}
+.content.hipernet-landing .device-block .device-order .order-button{display:block;width:142px;height:54px;background:url(https://szeccsa.github.io/i/hipernet-landing/button.png) 0 0 no-repeat;}
+.content.hipernet-landing .hipernet-slider{height:198px;background:#fff;}
+.content.hipernet-landing .hipernet-slider h3{color:#00ace7;font:bold 22px 'myfontRegular';padding:30px 0 25px 20px;margin:0;}
+.content.hipernet-landing .hipernet-slider .slider-cont{height:100px;width:980px;position:relative;}
+.content.hipernet-landing .hipernet-slider .slider-cont .slider-cont-inner{overflow:hidden;width:920px;margin:0 30px;}
+.content.hipernet-landing .hipernet-slider .slider-cont ul{margin:0;padding:0;}
+.content.hipernet-landing .hipernet-slider .slider-cont ul li{list-style-type:none;float:left;width:235px;height:100px;background:none;padding:0;}
+.content.hipernet-landing .hipernet-slider .slider-cont ul li .image{width: 80px;float:left;height:80px;text-align:center;}
+.content.hipernet-landing .hipernet-slider .slider-cont ul li .name{float:left;color:#000;font:normal 16px 'myfontRegular';height:80px;width:155px;}
+.content.hipernet-landing .hipernet-slider .slider-cont ul li .name strong{font-weight:strong;}
+.content.hipernet-landing .hipernet-slider .slider-cont ul li .details{color:#00ace7;font:normal 12px arial;padding-left:15px;background:url(https://szeccsa.github.io/i/hipernet-landing/arrow2.png) left center no-repeat;text-decoration:none;}
+.content.hipernet-landing .hipernet-slider .arrow{position:absolute;display:block;width:13px;height:21px;background:url(https://szeccsa.github.io/i/hipernet-landing/slider-arrows.png) no-repeat;top:50%;margin-top:-10px;cursor:pointer;}
+.content.hipernet-landing .hipernet-slider .arrow.left{left: 7px;background-position:left center;top: 19px;}
+.content.hipernet-landing .hipernet-slider .arrow.right{right: 7px;background-position:right center;top: 19px;}
+.content.hipernet-landing .bottom-text{font:normal 13px arial;color:#21282e;padding:20px;background:#fff;}
+.content.hipernet-landing .bottom-text p{margin:0;}
+.content.hipernet-landing div.inner{float:none !important;}
+.content.hipernet-landing a.opener{margin:10px 0;}
+/* /hipernet landing */
+/* prepaid landing */
+
+.content.prepaid-landing{width:980px;margin:0 auto;position:relative;}
+.content.prepaid-landing *{text-align:inherit;}
+.content.prepaid-landing .cl{clear:both;}
+.content.prepaid-landing .prepaid-top{background:url(https://szeccsa.github.io/i/prepaid-landing/bgtop.jpg) center top repeat-y;height:620px;}
+.content.prepaid-landing .prepaid-top h1{color:#fff;font:500 44px 'myfontRegular';position:absolute;top:55px;left:400px;}
+.content.prepaid-landing .prepaid-top h1 > span{font-size:39px;}
+.content.prepaid-landing .prepaid-top h1 > span .price{font-size:57px;color:#ffdf00;font-weight:900;text-shadow:0 0 13px rgba(251,247,194,.17);}
+.content.prepaid-landing .prepaid-top h2{color:#fff;font:500 27px 'myfontRegular';position:absolute;top:383px;left:45px;}
+.content.prepaid-landing .prepaid-top h2 .blue{color:#00ace7;}
+.content.prepaid-landing .prepaid-top h2 .yellow{color:#ffdf00;font-style:italic;}
+.content.prepaid-landing .prepaid-top .extrabox{position:absolute;width:476px;height:197px;background:url(https://szeccsa.github.io/i/prepaid-landing/extrabox.png) 0 0 no-repeat;left:462px;top:306px;padding:85px 0 0 60px;}
+.content.prepaid-landing .prepaid-top .extrabox p{font:500 20px 'myfontRegular';color:#fff;margin:0 0 10px 0;}
+.content.prepaid-landing .prepaid-top .extrabox ul{margin:0;padding:0;}
+.content.prepaid-landing .prepaid-top .extrabox ul li{background:none;list-style-type:none;font:500 16px 'myfontRegular';color:#fff;margin:0;padding:0;height:19px; padding:5px 0 5px 0;}
+.content.prepaid-landing .prepaid-top .extrabox ul li span{font:900 19px 'myfontRegular';color:#fff;font-style:italic;color:#ffdf00;margin-right:5px;}
+.content.prepaid-landing .prepaid-top .extrabox .button{width:128px;background:url(https://szeccsa.github.io/i/prepaid-landing/extrabox-button.png) 0 0 no-repeat;height:72px;position:absolute;bottom:32px;right:37px;}
+.content.prepaid-landing .prepaid-devices{background:url(https://szeccsa.github.io/i/prepaid-landing/bglights.jpg) center top repeat-y;height:1768px;}
+.content.prepaid-landing .device-block{height:380px;width:490px;float:left;margin-bottom:60px;}
+.content.prepaid-landing .device-block .device-image{width:270px;float:left;height:380px;text-align:center;position:relative;}
+.content.prepaid-landing .device-block .device-image .android{z-index:0;background:url(https://szeccsa.github.io/i/prepaid-landing/androids.png) no-repeat;position:absolute;display:block;}
+.content.prepaid-landing .device-block .device-image a{display:inline-block;z-index:1;position:relative;}
+.content.prepaid-landing .device-block.device01 .device-image a{margin-top:45px;}
+.content.prepaid-landing .device-block.device01 .device-image .android{background-position:0 0;width:94px;height:90px;top:-5px;right:21px;}
+.content.prepaid-landing .device-block.device02 .device-image a{margin-top:45px;}
+.content.prepaid-landing .device-block.device02 .device-image .android{background-position:-96px 0;width:66px;height:80px;top:10px;left:32px;}
+.content.prepaid-landing .device-block.device03 .device-image a{margin-top:47px;}
+.content.prepaid-landing .device-block.device03 .device-image .android{background-position:-164px 0;width:64px;height:80px;top:7px;right:54px;}
+.content.prepaid-landing .device-block.device04 .device-image a{margin-top:26px;}
+.content.prepaid-landing .device-block.device04 .device-image .badge{background:url(https://szeccsa.github.io/i/prepaid-landing/badge.png) 0 0 no-repeat;width:70px;height:70px;position:absolute;z-index:2;bottom:56px;right:27px;}
+.content.prepaid-landing .device-block.device-right.device04 .device-image .badge{right:auto;left:29px;}
+.content.prepaid-landing .device-block .device-details{width:220px;float:left;height:380px;}
+.content.prepaid-landing .device-block .device-details h3{font:100 24px/26px 'myfontRegular';color:#fff;margin:0 0 5px 0;}
+.content.prepaid-landing .device-block .device-details h3 span{font-weight:500;}
+.content.prepaid-landing .device-block .device-details .device-color{font:500 14px 'myfontRegular';color:#fff;}
+.content.prepaid-landing .device-block .device-details .device-price{font:500 48px 'myfontRegular';color:#ffdf00;letter-spacing:-1px;}
+.content.prepaid-landing .device-block .device-details .device-price span{font-size:32px;}
+.content.prepaid-landing .device-block .device-details a.cart{width:142px;height:54px;display:inline-block;background:url(https://szeccsa.github.io/i/prepaid-landing/cart-button.png) 0 0 no-repeat;margin:0 0 15px 0;}
+.content.prepaid-landing .device-block .device-details .tariff{font:500 14px 'myfontRegular';color:#00ace7;}
+.content.prepaid-landing .device-block .device-details .top3-details{font:500 12px 'myfontRegular';color:#fff;margin:10px 0;}
+.content.prepaid-landing .device-block .device-details .top3-details span{color:#ffdf00;}
+.content.prepaid-landing .device-block .device-details .links{background:url(https://szeccsa.github.io/i/prepaid-landing/links-border.png) top left no-repeat;height:50px;width:188px;padding:4px 10px 0 10px;display:inline-block;}
+.content.prepaid-landing .device-block .device-details .links a{font:500 13px 'myfontRegular';color:#00ace7;background:url(https://szeccsa.github.io/i/prepaid-landing/link-arrow.png) left center no-repeat;padding-left:10px;text-decoration:none;margin-top:3px;display:inline-block;}
+.content.prepaid-landing .device-block.device-right .device-image{float:right;}
+.content.prepaid-landing .device-block.device-right .device-details{float:right;text-align:right;}
+.content.prepaid-landing .device-block.device-right .links{background-position:bottom right;}
+.content.prepaid-landing .device-block.android-text{background:url(https://szeccsa.github.io/i/prepaid-landing/android-big.png) right top no-repeat;padding:66px 0 0 45px;width:445px;height:314px;}
+.content.prepaid-landing .device-block.android-text h3{margin:0;font:500 30px 'myfontRegular';color:#fff;margin-bottom:20px;}
+.content.prepaid-landing .device-block.android-text h3 span.bold{font-weight:900;}
+.content.prepaid-landing .device-block.android-text ul{margin:0;list-style-type:disc;}
+.content.prepaid-landing .device-block.android-text ul li{font:500 16px 'myfontRegular';color:#fff;list-style-type:disc;background:none;padding:0;margin:0 0 10px 20px;}
+.content.prepaid-landing .prepaid-bottom{height:305px;background:#000;}
+.content.prepaid-landing .prepaid-bottom .praktikum-csomag{display:block;background:url(https://szeccsa.github.io/i/prepaid-landing/bottom-blocks.png) left center no-repeat;width:520px;height:305px;float:left;margin-left:8px;}
+.content.prepaid-landing .prepaid-bottom .praktikum-oktato{display:block;background:url(https://szeccsa.github.io/i/prepaid-landing/bottom-blocks.png) right center no-repeat;width:430px;height:305px;float:right;margin-right:22px;}
+.content.prepaid-landing .prepaid-footer{background:#fff url(https://szeccsa.github.io/i/prepaid-landing/footer.jpg) center top no-repeat;padding:20px 30px;font:normal 12px/18px arial;color:#8e9399;}
+.content.prepaid-landing .prepaid-footer ul{margin:20px 0;padding:0;list-style-type:disc;}
+.content.prepaid-landing .prepaid-footer ul li{margin:0 0 10px 15px;padding:0;background:none;list-style-type:disc;}
+.content.prepaid-landing .gradient,
+.content.prepaid-landing .blue {color:#74b7df;}
+.content.prepaid-landing .green{color:#bad76c;}
+	/* en */
+	.content.prepaid-landing.en .prepaid-top .extrabox .button { background: url(https://szeccsa.github.io/i/prepaid-landing/extrabox-button-en.png) 0 0 no-repeat; }
+	.content.prepaid-landing.en .device-block.device04 .device-image .badge { background: url(https://szeccsa.github.io/i/prepaid-landing/badge-en.png) 0 0 no-repeat; }
+	.content.prepaid-landing.en .prepaid-bottom .praktikum-csomag { background: url(https://szeccsa.github.io/i/prepaid-landing/bottom-blocks-en.png) left center no-repeat; }
+	.content.prepaid-landing.en .prepaid-top .extrabox ul li { height: 36px; }
+	.content.prepaid-landing.en .prepaid-top .extrabox p { margin: 0; }
+	/* / en */
+/* /prepaid landing */
+/* cosmo_glamour_kuponakcio */
+
+.cosmo-glamour-kuponakcio .terms {
+	float: left;
+	clear: both;
+	margin: 0 20px;
+	width: 940px;
+	border-top: 1px solid #c4c4c4;
+}
+
+.cosmo-glamour-kuponakcio .terms p {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.cosmo-glamour-kuponakcio .cosmo,
+.cosmo-glamour-kuponakcio .glamour {
+	float: left;
+	clear: both;
+	width: 980px;
+}
+
+.cosmo-glamour-kuponakcio .cosmo .promo-container {
+	float: left;
+}
+
+.cosmo-glamour-kuponakcio .cosmo .promo-container img {
+	display: block;
+	float: left;
+}
+
+.cosmo-glamour-kuponakcio .cosmo .promo-container .cosmo-product {
+	margin-left: 20px;
+}
+
+.cosmo-glamour-kuponakcio .cosmo .promo-container .text {
+	float: left;
+	margin: 50px 0 0 20px;
+	width: 465px;
+}
+
+.cosmo-glamour-kuponakcio .cosmo-promo {
+	float: left;
+	padding-right: 20px;
+	width: 450px;
+	border-right: 1px solid #c4c4c4;
+}
+
+.cosmo-glamour-kuponakcio .cosmo-promo .product-details h3 {
+	display: block;
+	float: left;
+	margin: 50px 0 7px 0;
+	width: 220px;
+	font-size: 27px;
+	line-height: 30px;
+	font-weight: 200;
+}
+
+.cosmo-glamour-kuponakcio .cosmo-promo .product-details h3 b {
+	font-weight: 600;
+}
+
+.cosmo-glamour-kuponakcio .cosmo-promo .product-details .subtitle-1 {
+	display: block;
+	float: left;
+	margin: 0 0 7px 0;
+	width: 220px;
+	font-size: 27px;
+	font-style: italic;
+	font-weight: 600;
+	font-family: 'myfontRegular', arial, sans-serif;
+	color: #ff6624;
+}
+
+.cosmo-glamour-kuponakcio .cosmo-promo .product-details .subtitle-2 {
+	display: block;
+	float: left;
+	margin: 0 0 20px 0;
+	width: 220px;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'myfontRegular', arial, sans-serif;
+}
+
+.cosmo-glamour-kuponakcio .cosmo-promo .product-details .details-1 {
+	display: block;
+	float: left;
+	margin: 0 0 20px 0;
+	width: 220px;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: 'myfontRegular', arial, sans-serif;
+}
+.cosmo-glamour-kuponakcio .cosmo-promo .product-details .details-2 {
+	display: block;
+	float: left;
+	margin: 0 0 0 0;
+	width: 220px;
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'myfontRegular', arial, sans-serif;
+}
+/* /cosmo_glamour_kuponakcio */
+/* klk gate ( /mobiltelefonok ) */
+.klk-gate {
+	display:block;
+	width:720px; height:966px;
+	margin:0 !important; }
+.klk-gate > li {
+	display:block;
+	background:none;
+	width:239px;
+	height:322px;
+	float:left;
+	padding:0 !important;
+	margin:0 1px 0 0 !important; }
+.klk-gate > li a {
+	display:block;
+	height:322px;
+	overflow:hidden;
+	text-indent:-300%;
+	background-image:url(https://szeccsa.github.io/i/bg/klk-gate.jpg);
+	background-repeat:no-repeat; }
+.klk-gate > li.i1 a { background-position:0 0; }
+.klk-gate > li.i2 a { background-position:-240px 0; }
+.klk-gate > li.i3 a { background-position:-480px 0; }
+.klk-gate > li.i4 a { background-position:0 -322px; }
+.klk-gate > li.i5 a { background-position:-240px -322px; }
+.klk-gate > li.i6 a { background-position:-480px -322px; }
+.klk-gate > li.i7 a { background-position:0 -644px; }
+.klk-gate > li.i8 a { background-position:-240px -644px; }
+.klk-gate > li.i9 a { background-position:-480px -644px; }
+/* / klk gate ( /mobiltelefonok ) */

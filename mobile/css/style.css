@@ -284,7 +284,6 @@ html.white, html.white body {
 }
 
 #page > header {
-    min-width: 240px;
     width: 100%;
     position: relative;
     z-index: 99;
@@ -960,7 +959,7 @@ header nav#breadcrumb ul li:last-child span {
     top: 0;
     left: 0;
     z-index: 9;
-    background: url(https://szeccsa.github.io/mobile/i/general/bg_promo-pager-shine.png) right 0 no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/bg_promo-pager-shine.png) right 0 no-repeat;
     opacity: 0.8;
 }
 
@@ -983,7 +982,7 @@ header nav#breadcrumb ul li:last-child span {
     top: 0;
     left: 0;
     z-index: 9;
-    background: url(https://szeccsa.github.io/mobile/i/general/bg_promo-pager-shine.png) right -70px no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/bg_promo-pager-shine.png) right -70px no-repeat;
 }
 
 #promo .pager ul {
@@ -4060,7 +4059,7 @@ footer p.full-page a {
     }
 
     #promo .pager .shine {
-        background: url(https://szeccsa.github.io/mobile/i/general/bg_promo-pager-shine.png) right -60px no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/bg_promo-pager-shine.png) right -60px no-repeat;
     }
 
     #promo .pager ul {

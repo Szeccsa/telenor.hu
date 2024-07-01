@@ -3393,7 +3393,7 @@ $(document).ready(function () {
 
 /* /hipernet slider */
 
-/* video player */
+/* video player 
 $(document).ready(function () {
     $("#play-popup-video").each(function (index, element) {
         var _video = $(this).attr('rel');
@@ -3430,7 +3430,7 @@ $(document).ready(function () {
     });
 
 });
-/* / video player */
+ / video player */
 
 Number.prototype.dollarize = function () {
     num = this.toFixed(0);

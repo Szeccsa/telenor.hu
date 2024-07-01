@@ -41,7 +41,31 @@ em.cufontext { 	display: none !important; }
 .cfnzr{font-family:'myfontRegular', arial, sans-serif;}
 /* /preset */
 
+#topBanner {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #f8d7da;
+    color: #721c24;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+#topBanner p {
+    margin: 0;
+}
+
+#closeButton {
+    background-color: transparent;
+    border: none;
+    color: #721c24;
+    font-size: 20px;
+    cursor: pointer;
+}
 
 /* layout */
 div.container {width: 980px; height: auto !important; min-height: 100% !important; height: 100%; margin: 0 auto; padding: 0px 0px 0px 0px; overflow: visible; z-index: 100; background: transparent url('https://szeccsa.github.io/telenor.hu/i/bg/bg_container.png') center 47px no-repeat;}

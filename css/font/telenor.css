@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'myfontRegular';
+    src: url('https://szeccsa.github.io/telenor.hu/css/font/telenor.eot');
+    src: url('https://szeccsa.github.io/telenor.hu/css/font/telenor.eot#iefix') format('embedded-opentype'),
+         url('https://szeccsa.github.io/telenor.hu/css/font/telenor.woff') format('woff'),
+         url('https://szeccsa.github.io/telenor.hu/css/font/telenor.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myfontItalic';
+    src: url('https://szeccsa.github.io/telenor.hu/css/font/telenor-italic.eot');
+    src: url('https://szeccsa.github.io/telenor.hu/css/font/telenor-italic.eot#iefix') format('embedded-opentype'),
+         url('https://szeccsa.github.io/telenor.hu/css/font/telenor-italic.woff') format('woff'),
+         url('https://szeccsa.github.io/telenor.hu/css/font/telenor-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myfontBold';
+    src: url('https://szeccsa.github.io/telenor.hu/css/font/telenor-bold.eot');
+    src: url('https://szeccsa.github.io/telenor.hu/css/font/telenor-bold.eot#iefix') format('embedded-opentype'),
+         url('https://szeccsa.github.io/telenor.hu/css/font/telenor-bold.woff') format('woff'),
+         url('https://szeccsa.github.io/telenor.hu/css/font/telenor-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myfontBoldItalic';
+    src: url('https://szeccsa.github.io/telenor.hu/css/font/telenor-bold-italic.eot');
+    src: url('https://szeccsa.github.io/telenor.hu/css/font/telenor-bold-italic.eot#iefix') format('embedded-opentype'),
+         url('https://szeccsa.github.io/telenor.hu/css/font/telenor-bold-italic.woff') format('woff'),
+         url('https://szeccsa.github.io/telenor.hu/css/font/telenor-bold-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'myfontLight';
+    src: url('https://szeccsa.github.io/telenor.hu/css/font/telenor-light.eot');
+    src: url('https://szeccsa.github.io/telenor.hu/css/font/telenor-light.eot#iefix') format('embedded-opentype'),
+         url('https://szeccsa.github.io/telenor.hu/css/font/telenor-light.woff') format('woff'),
+         url('https://szeccsa.github.io/telenor.hu/css/font/telenor-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myfontLightItalic';
+    src: url('https://szeccsa.github.io/telenor.hu/css/font/telenor-light-italic.eot');
+    src: url('https://szeccsa.github.io/telenor.hu/css/font/telenor-light-italic.eot#iefix') format('embedded-opentype'),
+         url('https://szeccsa.github.io/telenor.hu/css/font/telenor-light-italic.woff') format('woff'),
+         url('https://szeccsa.github.io/telenor.hu/css/font/telenor-light-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'myfontMedium';
+    src: url('https://szeccsa.github.io/telenor.hu/css/font/telenor-medium.eot');
+    src: url('https://szeccsa.github.io/telenor.hu/css/font/telenor-medium.eot#iefix') format('embedded-opentype'),
+         url('https://szeccsa.github.io/telenor.hu/css/font/telenor-medium.woff') format('woff'),
+         url('https://szeccsa.github.io/telenor.hu/css/font/telenor-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myfontMediumItalic';
+    src: url('https://szeccsa.github.io/telenor.hu/css/font/telenor-medium-italic.eot');
+    src: url('https://szeccsa.github.io/telenor.hu/css/font/telenor-medium-italic.eot#iefix') format('embedded-opentype'),
+         url('https://szeccsa.github.io/telenor.hu/css/font/telenor-medium-italic.woff') format('woff'),
+         url('https://szeccsa.github.io/telenor.hu/css/font/telenor-medium-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

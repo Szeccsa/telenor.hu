@@ -271,7 +271,6 @@ html.white, html.white body {
 }
 
 #page {
-    min-width: 460px;
     width: 100%;
     overflow: hidden;
     min-height: 100%;

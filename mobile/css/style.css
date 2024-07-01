@@ -330,7 +330,7 @@ header nav#mainmenu .home {
     position: absolute;
     left: 10px;
     top: 10px;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) 0 0 no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) 0 0 no-repeat;
 }
 
 header nav#mainmenu .home a {
@@ -368,7 +368,7 @@ header nav#mainmenu .submenu span {
     position: absolute;
     right: 20px;
     top: 27px;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -115px 0 no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -115px 0 no-repeat;
 }
 
 header nav#mainmenu .submenu.active {
@@ -467,7 +467,7 @@ header #submenu .segment-selector a.next {
 
 header #submenu .segment-selector a span {
     position: absolute;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -138px -28px no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -138px -28px no-repeat;
     width: 17px;
     height: 24px;
     top: 24px;
@@ -497,7 +497,7 @@ header #submenu .segment-selector ul li {
     font-size: 23px;
     font-weight: bold;
     cursor: pointer;
-    background: #00aae4 url(https://szeccsa.github.io/mobile/i/general/bg_mainmenu-item.png) center 0 no-repeat;
+    background: #00aae4 url(https://szeccsa.github.io/telenor.hu/mobile/i/general/bg_mainmenu-item.png) center 0 no-repeat;
     background-size: auto 69px;
     position: absolute;
     left: 0;
@@ -533,7 +533,7 @@ header #submenu ul li > a, #landingpage-menu li > a, #landingpage-menu-more li >
     letter-spacing: -1px;
     font-weight: bold;
     cursor: pointer;
-    background: #00ACE7 url(https://szeccsa.github.io/mobile/i/general/bg_mainmenu-item.png) center 0 no-repeat;
+    background: #00ACE7 url(https://szeccsa.github.io/telenor.hu/mobile/i/general/bg_mainmenu-item.png) center 0 no-repeat;
     background-size: 100% 100%;
     -webkit-user-select: none;
     position: relative;
@@ -560,7 +560,7 @@ header #submenu ul li > a > span, #landingpage-menu li > a > span, #landingpage-
     top: 50%;
     margin: -9px 0 0 0;
     position: absolute;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -115px -28px no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -115px -28px no-repeat;
 }
 
 #landingpage-menu li > a > span, #landingpage-menu-more li > a > span {
@@ -630,7 +630,7 @@ header #submenu ul li ul li > a, #landingpage-menu li ul li > a {
     font-size: 24px;
     font-weight: normal;
     cursor: pointer;
-    background: #1f262b url(https://szeccsa.github.io/mobile/i/general/bg_mainmenu-item.png) center 0 no-repeat;
+    background: #1f262b url(https://szeccsa.github.io/telenor.hu/mobile/i/general/bg_mainmenu-item.png) center 0 no-repeat;
 }
 
 #landingpage-menu li ul li > a {
@@ -667,7 +667,7 @@ header nav#mainmenu .search span {
     display: block;
     top: 17px;
     left: 23px;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -90px 0 no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -90px 0 no-repeat;
 }
 
 header nav#mainmenu .search.active span {
@@ -742,7 +742,7 @@ header #search form .arrow {
     width: 10px;
     height: 16px;
     position: absolute;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -115px -46px no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -115px -46px no-repeat;
     right: 20px;
     top: 23px;
 }
@@ -780,7 +780,7 @@ header nav#breadcrumb ul li span {
     top: 16px;
     width: 5px;
     height: 8px;
-    background: url("https://szeccsa.github.io/mobile/i/general/sprite_main.png") -115px -62px no-repeat;
+    background: url("https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png") -115px -62px no-repeat;
 }
 
 header nav#breadcrumb ul li:last-child span {
@@ -1016,7 +1016,7 @@ header nav#breadcrumb ul li:last-child span {
     width: 22px;
     height: 22px;
     border: none;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) 0 -40px no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) 0 -40px no-repeat;
     border-radius: 0px;
     top: -1px;
 }
@@ -1414,7 +1414,7 @@ section.block.gray .device-promo.single:nth-child(2n) {
     height: 14px;
     display: block;
     position: relative;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -155px 0 no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -155px 0 no-repeat;
     text-indent: -9999px;
     margin: 8px 0 0 100px;
 }
@@ -1583,7 +1583,7 @@ section.block.gray .device-promo.single:nth-child(2n) {
     top: 50%;
     margin-top: -8px;
     left: 25px;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -125px -46px no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -125px -46px no-repeat;
     text-indent: -9999px;
 }
 
@@ -1791,7 +1791,7 @@ section.block.gray .device-promo.single:nth-child(2n) {
     width: 22px;
     height: 22px;
     margin: -10px;
-    0 0 0; background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -140px -115px no-repeat;
+    0 0 0; background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -140px -115px no-repeat;
 }
 
 #search-shop .chkbox-grp ul li.active span {
@@ -1850,7 +1850,7 @@ section.block.gray .device-promo.single:nth-child(2n) {
     height: 16px;
     position: absolute;
     margin: 0 0 0 -18px;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -220px -75px no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -220px -75px no-repeat;
 }
 
 .tabbed-content .tab-content .col {
@@ -1913,7 +1913,7 @@ section.block.gray .device-promo.single:nth-child(2n) {
     height: 16px;
     position: absolute;
     margin: 0 0 0 10px;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -125px -46px no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -125px -46px no-repeat;
 }
 
 .device-img.phone-page img.high {
@@ -1999,7 +1999,7 @@ section.block.gray .device-promo.single:nth-child(2n) {
     left: 50%;
     top: 50%;
     position: absolute;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) 0 0 no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) 0 0 no-repeat;
 }
 
 .tabbed-content .tab-content .icons .icon.android span {
@@ -2321,7 +2321,7 @@ section.block.gray .device-promo.single:nth-child(2n) {
     left: 50%;
     top: 50%;
     margin: -5px 0 0 -8px;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -185px -75px no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -185px -75px no-repeat;
 }
 
 .select-grp select {
@@ -2429,7 +2429,7 @@ section.block.gray .device-promo.single:nth-child(2n) {
     margin: -13px 0 0 0;
     width: 25px;
     height: 28px;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -186px -85px no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -186px -85px no-repeat;
 }
 
 .tabbed-content .tab-content .box button a {
@@ -2486,7 +2486,7 @@ section.block.gray .device-promo.single:nth-child(2n) {
     position: absolute;
     left: 50%;
     top: 50%;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) 0 0 no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) 0 0 no-repeat;
     text-indent: -9999px;
     display: block;
 }
@@ -2890,7 +2890,7 @@ section.block.no-bottommargin .item-list .vertical-align-container:last-child .i
     top: 50%;
     margin: -8px 0 0 0;
     right: 26px;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -125px -46px no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -125px -46px no-repeat;
     text-indent: -9999px;
 }
 
@@ -2967,7 +2967,7 @@ section.block.no-bottommargin .item-list .vertical-align-container:last-child .i
     position: absolute;
     top: 22px;
     right: -35px;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -115px -46px no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -115px -46px no-repeat;
     text-indent: -9999px;
 }
 
@@ -3006,7 +3006,7 @@ section.block.no-bottommargin .item-list .vertical-align-container:last-child .i
     position: absolute;
     top: 3px;
     left: 9px;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -115px -46px no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -115px -46px no-repeat;
     text-indent: -9999px;
 }
 
@@ -3109,7 +3109,7 @@ section.block.no-bottommargin .item-list .vertical-align-container:last-child .i
 
 .useful-links a span {
     position: absolute;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -22px -40px no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -22px -40px no-repeat;
 }
 
 .useful-links a.basket {
@@ -3238,7 +3238,7 @@ footer p.legal a {
     position: absolute;
     text-decoration: none;
     text-indent: -9999px;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -135px -52px no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -135px -52px no-repeat;
     width: 20px;
     height: 20px;
     right: 10px;
@@ -3329,7 +3329,7 @@ footer p.full-page a {
     position: absolute;
     left: 50%;
     top: 50%;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) 0 0 no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) 0 0 no-repeat;
 }
 
 #search-filters header ul#device-type li.type1 span {
@@ -3420,7 +3420,7 @@ footer p.full-page a {
     right: 20px;
     top: 50%;
     margin: -9px 0 0 0;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -115px -10px no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -115px -10px no-repeat;
 }
 
 #search-filters.open footer button.search span {
@@ -3481,7 +3481,7 @@ footer p.full-page a {
     top: 50%;
     right: 18px;
     margin: -9px 0 0 0;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -115px -10px no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -115px -10px no-repeat;
 }
 
 #search-filters .filter-group.open h1 span {
@@ -3489,7 +3489,7 @@ footer p.full-page a {
     height: 9px;
     right: 22px;
     margin: -5px 0 0 0;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -291px 0px no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -291px 0px no-repeat;
 }
 
 #search-filters .filter-group .manufacturers {
@@ -3611,7 +3611,7 @@ footer p.full-page a {
     position: absolute;
     top: 50%;
     left: 50%;
-    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) 0px -115px no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) 0px -115px no-repeat;
 }
 
 #search-filters .filter-group .style ul li.style1 span {
@@ -3722,7 +3722,7 @@ footer p.full-page a {
     width: 22px;
     height: 22px;
     margin: -10px;
-    0 0 0; background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -140px -115px no-repeat;
+    0 0 0; background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -140px -115px no-repeat;
 }
 
 #search-filters .filter-group .tariff ul li.active span {
@@ -3854,7 +3854,7 @@ footer p.full-page a {
     width: 22px;
     height: 22px;
     margin: -10px;
-    0 0 0; background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -140px -115px no-repeat;
+    0 0 0; background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -140px -115px no-repeat;
 }
 
 #search-filters .filter-group .properties .item.active span {
@@ -3931,7 +3931,7 @@ footer p.full-page a {
 
     header #submenu .segment-selector a span {
         position: absolute;
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -138px -28px no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) -138px -28px no-repeat;
         width: 17px;
         height: 24px;
         top: 12px;
@@ -4079,7 +4079,7 @@ footer p.full-page a {
     #promo .pager ul li.active {
         width: 16px;
         height: 16px;
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) 0 -29px no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main.png) 0 -29px no-repeat;
         -webkit-background-size: 231px 231px;
         top: -2px;
     }

@@ -120,7 +120,7 @@ div.head {}
 div.head strong {position: absolute; display: block; left: 9px; top: 53px; width: 121px; height: 55px; overflow: hidden; z-index: 800;}
 div.head strong a {position: absolute; display: block; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; background: url("https://szeccsa.github.io/telenor.hu/i/telenor_logo.gif") 0px 0px no-repeat;}
 
-div.head div.smallmenu {position: absolute; left: auto; right: 545px; top: 0px; width: auto; height: 47px; overflow: visible; font-size: 11px; line-height: 14px; white-space: nowrap; font-family:'myfontBold', arial, sans-serif; z-index: 1;}
+div.head div.smallmenu {position: absolute; left: auto; right: 525px; top: 0px; width: auto; height: 47px; overflow: visible; font-size: 11px; line-height: 14px; white-space: nowrap; font-family:'myfontBold', arial, sans-serif; z-index: 1;}
 div.head div.smallmenu ul {float: left; clear: both; width: auto; height: 47px; overflow: visible; list-style: none; white-space: nowrap;}
 div.head div.smallmenu ul li {display: block; float: left; clear: none; width: auto; height: 47px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; overflow: hidden; list-style: none; white-space: nowrap; z-index: 2;}
 div.head div.smallmenu ul li a {display: block; float: left; clear: none; width: auto; height: 47px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; overflow: hidden; color: #a8a9aa; text-decoration: none; text-transform: uppercase; white-space: nowrap;}
@@ -128,14 +128,14 @@ div.head div.smallmenu ul li a b {display: block; float: left; clear: none; widt
 /*div.head div.smallmenu ul li a:hover {color: #fff;}*/
 div.head div.smallmenu ul li.active {margin: 0px -100px 0px -100px; padding: 0px 100px 0px 100px; background: url('https://szeccsa.github.io/telenor.hu/i/head_smallmenu.png') center 0px no-repeat; z-index: 1;}
 div.head div.smallmenu ul li.active a {color: #fff;}
-div.head div.smallmenu ul li.basket {position:absolute; right:-300px;}
+div.head div.smallmenu ul li.basket {position:absolute; right:-280px;}
 div.head div.smallmenu ul li.basket a {padding-left: 16px; color: #ff5b00; background: url('https://szeccsa.github.io/telenor.hu/i/head_smallmenu.png') 0px -87px no-repeat;}
 div.head div.smallmenu ul li.lang a {width: 46px; color: #fff; background: url('https://szeccsa.github.io/telenor.hu/i/head_smallmenu.png') 0px -190px no-repeat;}
 div.head div.smallmenu ul li.lang a b {width: 46px; padding-left: 0px; padding-right: 0px; text-align: center;}
 div.head div.smallmenu ul li.accessibility a {width: 36px; color: #fff; background: url('https://szeccsa.github.io/telenor.hu/i/head_smallmenu.png') -92px -186px no-repeat;}
 div.head div.smallmenu ul li.accessibility a b {width: 20px; padding-left: 8px; padding-right: 8px; text-indent: -6969px;}
 
-div.head div.logedin-topbox{position:absolute;right:354px;top:7px;padding:0;margin:0;background:#000;border:1px solid #00425f;border-radius:4px;z-index:3000;}
+div.head div.logedin-topbox{position:absolute;right:370px;top:7px;padding:0;margin:0;background:#000;border:1px solid #00425f;border-radius:4px;z-index:3000;}
 div.head div.logedin-topbox:hover ul{display:block;}
 div.head div.logedin-topbox strong {color:#FFF;position:relative;margin:0;padding:7px 35px 7px 30px;left:0;top:0;width:auto; height:auto;}
 div.head div.logedin-topbox strong .nar {display:block;background:url(https://szeccsa.github.io/telenor.hu/i/logedin-icos.jpg) no-repeat 0 0; width:10px; height:20px;position:absolute;right:10px;}

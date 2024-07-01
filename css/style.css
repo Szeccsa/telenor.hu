@@ -63,6 +63,7 @@ em.cufontext { 	display: none !important; }
 #closeButton {
     background-color: transparent;
     border: none;
+	margin-right: 20px;
     color: #721c24;
     font-size: 20px;
     cursor: pointer;

@@ -1,0 +1,4871 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+
+audio, canvas, video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;}
+
+audio:not([controls]) {
+    display: none;
+}
+
+[hidden] {
+    display: none;
+}
+
+html {
+    font-size: 100%;
+    overflow-y: none;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    outline: none;
+}
+
+body {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.231;
+}
+
+body, button, input, select, textarea {
+    font-family: 'HelveticaNeue-Light', Helvetica, Arial, sans-serif;
+    color: #222;
+}
+
+::-moz-selection {
+    background: #fe57a1;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #fe57a1;
+    color: #fff;
+    text-shadow: none;
+}
+
+a {
+    color: #00ACE7;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #00ACE7;
+}
+
+a:hover {
+    color: #00ACE7;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:hover, a:active {
+    outline: 0;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+blockquote {
+    margin: 1em 40px;
+}
+
+dfn {
+    font-style: italic;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+ins {
+    background: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+pre, code, kbd, samp {
+    font-family: monospace, serif;
+    _font-family: 'courier new', monospace;
+    font-size: 1em;
+}
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+q {
+    quotes: none;
+}
+
+q:before, q:after {
+    content: "";
+    content: none;
+}
+
+small {
+    font-size: 85%;
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+div, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+dd {
+    margin: 0;
+}
+
+nav ul, nav ol {
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+figure {
+    margin: 0;
+}
+
+form {
+    margin: 0;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+legend {
+    border: 0;
+    *margin-left: -7px;
+    padding: 0;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    *vertical-align: middle;
+}
+
+button, input {
+    line-height: normal;
+    *overflow: visible;
+}
+
+table button, table input {
+    *overflow: auto;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"], [role="button"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical;
+}
+
+input:valid, textarea:valid {
+}
+
+input:invalid, textarea:invalid {
+    background-color: #f0dddd;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td {
+    vertical-align: top;
+}
+
+html, body {
+    background: #000;
+    height: 100%;
+    width: 100%;
+}
+
+html.white, html.white body {
+    background: #fff;
+}
+
+#page {
+    min-width: 460px;
+    width: 100%;
+    overflow: hidden;
+    min-height: 100%;
+    height: auto;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#page > header {
+    min-width: 240px;
+    width: 100%;
+    position: relative;
+    z-index: 99;
+    min-height: 60px;
+    height: auto;
+    display: block;
+}
+
+#page.search-result > header {
+    margin: 0 0 60px 0;
+}
+
+header nav {
+    display: block;
+    width: 100%;
+}
+
+header nav#mainmenu {
+    height: 60px;
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f6f6), color-stop(100%, #ffffff));
+    background: -webkit-linear-gradient(top, #f5f6f6 0%, #ffffff 100%);
+    background: linear-gradient(top, #f5f6f6 0%, #ffffff 100%);
+    border-radius: 10px 10px 10px 10px;
+}
+
+header.active nav#mainmenu {
+    border-radius: 10px 10px 0px 0px;
+}
+
+header nav#mainmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 60px;
+}
+
+header nav#mainmenu .home {
+    text-decoration: none;
+    width: 90px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) 0 0 no-repeat;
+}
+
+header nav#mainmenu .home a {
+    text-indent: -9999px;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+header nav#mainmenu .submenu {
+    text-decoration: none;
+    color: #21282e;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: 60px;
+    width: auto;
+    height: 60px;
+    display: block;
+    position: absolute;
+    padding: 0 49px 0 13px;
+    right: 70px;
+    top: 0px;
+    cursor: pointer;
+    border-left: 1px #d2d2d2 solid;
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f5f6f6));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f5f6f6 100%);
+    background: linear-gradient(top, #ffffff 0%, #f5f6f6 100%);
+}
+
+header nav#mainmenu .submenu span {
+    width: 16px;
+    height: 10px;
+    position: absolute;
+    right: 20px;
+    top: 27px;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -115px 0 no-repeat;
+}
+
+header nav#mainmenu .submenu.active {
+    background: #00ace7;
+    border-left: 1px #00ace7 solid;
+    border-bottom: 1px #f5f6f6 solid;
+    height: 59px;
+    border-radius: 0px 0px 0px 0px;
+    color: #fff;
+}
+
+header nav#mainmenu .submenu.active span {
+    width: 23px;
+    height: 18px;
+    top: 22px;
+    right: 17px;
+    background-position: -115px -10px;
+}
+
+header #submenu {
+    height: 0;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+}
+
+header.active.submenu #submenu {
+    opacity: 1;
+    height: auto;
+    z-index: 999;
+}
+
+header #submenu ul, #landingpage-menu ul {
+    list-style: none;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: auto;
+    overflow: hidden;
+}
+
+header #submenu > ul, #landingpage-menu > ul {
+    -webkit-user-select: none;
+    display: none;
+    z-index: 99;
+}
+
+#landingpage-menu > ul {
+    display: block;
+}
+
+header #submenu > ul.active {
+    z-index: 999;
+    display: block;
+}
+
+header #submenu .segment-selector {
+    height: 70px;
+    position: relative;
+}
+
+header #submenu .segment-selector ul {
+    height: 100%;
+    -webkit-user-select: none;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: now;
+    -webkit-touch-callout: none;
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
+
+header #submenu .segment-selector a {
+    text-indent: -9999px;
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    text-decoration: none;
+    top: 0;
+    z-index: 99;
+    cursor: pointer;
+    -webkit-user-select: none;
+}
+
+header #submenu .segment-selector a.prev {
+    left: 0;
+    display: none;
+}
+
+header #submenu .segment-selector a.next {
+    right: 0;
+}
+
+header #submenu .segment-selector a span {
+    position: absolute;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -138px -28px no-repeat;
+    width: 17px;
+    height: 24px;
+    top: 24px;
+}
+
+header #submenu .segment-selector a.prev span {
+    left: 22px;
+}
+
+header #submenu .segment-selector a.next span {
+    right: 22px;
+    background-position: -138px 0px;
+}
+
+header #submenu .segment-selector ul li {
+    height: 69px;
+    border-bottom: 1px #fff solid;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    line-height: 69px;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    letter-spacing: -1px;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #00aae4 url(https://szeccsa.github.io/mobile/i/general/bg_mainmenu-item.png) center 0 no-repeat;
+    background-size: auto 69px;
+    position: absolute;
+    left: 0;
+}
+
+header #submenu > ul li, #landingpage-menu li, #landingpage-menu-more li {
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    -webkit-user-select: none;
+}
+
+header #submenu > ul > li:last-child, #landingpage-menu > li:last-child, #landingpage-menu-more > li:last-child {
+    -webkit-box-shadow: 0px 10px 10px -5px rgba(36, 34, 34, 0.2);
+    -moz-box-shadow: 0px 10px 10px -5px rgba(36, 34, 34, 0.2);
+    box-shadow: 0px 10px 10px -5px rgba(36, 34, 34, 0.2);
+}
+
+header #submenu ul li > a, #landingpage-menu li > a, #landingpage-menu-more li > a {
+    height: 69px;
+    border-bottom: 1px #fff solid;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 0 0 22px;
+    line-height: 69px;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    font-size: 20px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #00ACE7 url(https://szeccsa.github.io/mobile/i/general/bg_mainmenu-item.png) center 0 no-repeat;
+    background-size: 100% 100%;
+    -webkit-user-select: none;
+    position: relative;
+}
+
+#landingpage-menu li > a, #landingpage-menu-more li > a {
+    background-color: #ffffff;
+    background-color: -moz-linear-gradient(top, #ffffff 0%, #ededed 100%);
+    background-color: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ededed));
+    background-color: -webkit-linear-gradient(top, #ffffff 0%, #ededed 100%);
+    background-color: linear-gradient(top, #ffffff 0%, #ededed 100%);
+    color: #8c9399;
+    border-bottom: 1px #d2d2d2 solid;
+}
+
+#landingpage-menu > li:first-child > a, #landingpage-menu-more > li:first-child > a {
+    border-top: 1px #d2d2d2 solid;
+}
+
+header #submenu ul li > a > span, #landingpage-menu li > a > span, #landingpage-menu-more li > a > span {
+    width: 23px;
+    height: 18px;
+    right: 20px;
+    top: 50%;
+    margin: -9px 0 0 0;
+    position: absolute;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -115px -28px no-repeat;
+}
+
+#landingpage-menu li > a > span, #landingpage-menu-more li > a > span {
+    width: 15px;
+    height: 9px;
+    margin: -4px 0 0 0;
+    background-position: -256px -113px;
+}
+
+#landingpage-menu li.nosub > a > span {
+    display: none;
+}
+
+header #submenu ul li.active > a > span {
+    background-position: -115px -10px;
+}
+
+#landingpage-menu li.active > a > span, #landingpage-menu-more li.active > a > span {
+    background-position: -240px -113px;
+}
+
+header #submenu ul li ul, #landingpage-menu li ul {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+#landingpage-menu-more li ul {
+    display: none;
+    width: 100%;
+    overflow: hidden;
+}
+
+header #submenu ul li.active ul, #landingpage-menu li.active ul {
+    height: auto;
+}
+
+#landingpage-menu-more li.active ul {
+    display: block;
+}
+
+header #submenu ul li ul li, #landingpage-menu li ul li {
+    background: #1f252b;
+    height: 0px;
+    -webkit-transform: transformZ(0);
+    -webkit-transition: height 0.3s ease;
+    transition: height 0.3s ease;
+}
+
+header #submenu ul li.active ul li, #landingpage-menu li.active ul li {
+    height: 70px;
+    -webkit-transition: height 0.3s ease;
+    transition: height 0.3s ease;
+}
+
+header #submenu ul li ul li > a, #landingpage-menu li ul li > a {
+    height: 69px;
+    border-bottom: 1px #4d545b solid;
+    display: block;
+    text-decoration: none;
+    text-transform: none;
+    color: #8c9399;
+    padding: 0 0 0 22px;
+    line-height: 69px;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    letter-spacing: -1px;
+    font-size: 24px;
+    font-weight: normal;
+    cursor: pointer;
+    background: #1f262b url(https://szeccsa.github.io/mobile/i/general/bg_mainmenu-item.png) center 0 no-repeat;
+}
+
+#landingpage-menu li ul li > a {
+    font-size: 20px;
+}
+
+header nav#mainmenu .search {
+    text-decoration: none;
+    width: 69px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+    border-left: 1px #d2d2d2 solid;
+    text-indent: -9999px;
+}
+
+header nav#mainmenu .search.active {
+    background: #00ace7;
+    border-left: 1px #00ace7 solid;
+    border-bottom: 1px #f5f6f6 solid;
+    height: 59px;
+    border-radius: 0px 10px 0px 0px;
+}
+
+header nav#mainmenu .search span {
+    width: 25px;
+    height: 25px;
+    text-indent: -9999px;
+    position: absolute;
+    display: block;
+    top: 17px;
+    left: 23px;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -90px 0 no-repeat;
+}
+
+header nav#mainmenu .search.active span {
+    background-position: -90px -25px;
+}
+
+header #search {
+    height: 60px;
+    display: none;
+    width: 100%;
+    background: #00ace7;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+header.active.search #search {
+    display: block;
+    z-index: 999;
+}
+
+header #search form {
+    margin: 0;
+    padding: 0;
+}
+
+header #search form input.search-text {
+    outline: none;
+    /*color: #cfe3ea;*/
+    color: #4cc4ed;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    font-size: 26px;
+    letter-spacing: -1px;
+    height: 38px;
+    width: 66%;
+    border: 1px #4cc4ed solid;
+    background: white;
+    /*background: #00a6e5; background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00a6e5), color-stop(100%, #00b1e9)); background: -webkit-linear-gradient(top, #00a6e5 0%, #00b1e9 100%); background: linear-gradient(top, #00a6e5 0%, #00b1e9 100%);*/
+    margin: 10px 0 0 10px;
+    padding: 0 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 0px 0px 0px 0px;
+}
+
+header #search input::-webkit-input-placeholder {
+    color: #4cc4ed;
+}
+
+header #search form input.search-submit {
+    outline: none;
+    color: #fff;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    height: 40px;
+    width: 96px;
+    position: absolute;
+    border: none;
+    top: 10px;
+    right: 31px;
+    background: #00ace7;
+    padding: 0;
+    margin: 0;
+}
+
+header #search form .arrow {
+    width: 10px;
+    height: 16px;
+    position: absolute;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -115px -46px no-repeat;
+    right: 20px;
+    top: 23px;
+}
+
+header nav#breadcrumb {
+    height: 40px;
+}
+
+header nav#breadcrumb ul {
+    height: 40px;
+    overflow: hidden;
+    padding: 0 0 0 15px;
+}
+
+header nav#breadcrumb ul li {
+    line-height: 40px;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    color: #f5f4ea;
+    font-size: 16px;
+    text-align: left;
+    margin: 0 11px 0 0;
+    padding: 0 16px 0 0;
+    float: left;
+    position: relative;
+}
+
+header nav#breadcrumb ul li a {
+    text-decoration: none;
+    color: #f5f4ea;
+}
+
+header nav#breadcrumb ul li span {
+    position: absolute;
+    right: 0;
+    top: 16px;
+    width: 5px;
+    height: 8px;
+    background: url("https://szeccsa.github.io/mobile/i/general/sprite_main.png") -115px -62px no-repeat;
+}
+
+header nav#breadcrumb ul li:last-child span {
+    display: none;
+}
+
+#promo {
+    width: 100%;
+    min-height: 370px;
+    background: #fff;
+    position: relative;
+    z-index: 9;
+    margin: -10px 0 0 0;
+    background: #000;
+    overflow: hidden;
+}
+
+#promo.static-promo {
+    min-height: 330px;
+    height: 330px;
+    margin: 0 0 -10px 0;
+}
+
+#promo .wrapper {
+    height: 330px;
+    overflow: hidden;
+    min-width: 100%;
+    width: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-user-select: none;
+    -webkit-transition-duration: 0ms;
+    -webkit-transition-delay: now;
+    -webkit-touch-callout: none;
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
+
+#promo .wrapper.snapping {
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-easing: ease;
+}
+
+#promo.static-promo .wrapper {
+    width: 460px;
+}
+
+#promo .wrapper .slide {
+    width: 100%;
+    display: block;
+    position: absolute;
+    height: 100%;
+    overflow: hidden;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+}
+
+#promo .wrapper .slide img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: none;
+    position: absolute;
+    -webkit-user-select: none;
+    z-index: 9;
+}
+
+#promo.static-promo .wrapper .slide {
+    border-radius: 10px 10px 0px 0px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    background-size: auto 100%;
+}
+
+#promo.static-promo .wrapper .slide img {
+    left: 50%;
+    height: 100%;
+    width: auto;
+    top: -10px;
+    display: none;
+}
+
+#promo .info {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+    border-radius: 10px 10px 0px 0px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#promo.static-promo .info {
+    bottom: 0px;
+    height: auto;
+    overflow: hidden;
+    padding: 10px 10px 20px 10px;
+}
+
+#promo .info p {
+    color: #fff;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: left;
+    padding: 4px 0 0 0;
+    font-weight: bold;
+    min-width: 200px;
+    max-width: 60%;
+    margin: 0;
+    position: absolute;
+    left: 20px;
+    opacity: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: now;
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
+
+#promo.static-promo .info p {
+    max-width: 100%;
+    width: 100%;
+    padding: 0 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    left: 0;
+    top: 0;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    font-weight: normal;
+}
+
+#promo.static-promo .info p b.orange {
+    color: #ff5b00;
+}
+
+#promo .info p.out {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -999, 0, 0, 1);
+}
+
+#promo .info .btn {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border: none;
+    background: #00ace7;
+    height: 46px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    font-size: 17px;
+    line-height: 46px;
+    margin: 0;
+    padding: 0 20px;
+    font-weight: bold;
+    z-index: 99;
+    border-radius: 7px 7px 7px 7px;
+}
+
+#promo .info .shine {
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background: url(https://szeccsa.github.io/mobile/i/general/bg_promo-pager-shine.png) right 0 no-repeat;
+    opacity: 0.8;
+}
+
+#promo .pager {
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #000;
+    z-index: 9;
+    padding: 10px 0 0 0;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#promo .pager .shine {
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background: url(https://szeccsa.github.io/mobile/i/general/bg_promo-pager-shine.png) right -70px no-repeat;
+}
+
+#promo .pager ul {
+    width: 100%;
+    height: 40px;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    z-index: 99;
+    position: relative;
+}
+
+#promo .pager ul li {
+    -webkit-user-select: none;
+    display: inline-block;
+    position: relative;
+    margin: 4px 5px;
+    padding: 0;
+    line-height: 18px;
+    width: 18px;
+    height: 18px;
+    border: 2px #313232 solid;
+    border-radius: 11px 11px 11px 11px;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+
+#promo .pager ul li.active {
+    width: 22px;
+    height: 22px;
+    border: none;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) 0 -40px no-repeat;
+    border-radius: 0px;
+    top: -1px;
+}
+
+section.block {
+    width: 100%;
+    min-height: 60px;
+    height: auto;
+    background: #fff;
+    position: relative;
+    z-index: 9;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 10px 10px 10px 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+section.block.square {
+    border-radius: 0px 0px 0px 0px;
+}
+
+section.block.top-square {
+    border-radius: 0px 0px 10px 10px;
+}
+
+section.block.bottom-square {
+    border-radius: 10px 10px 0px 0px;
+}
+
+section.block.full-square {
+    border-radius: 0px 0px 0px 0px;
+    border-top: 1px #d2d2d2 solid;
+}
+
+section.block.no-topborder {
+    border-top: none;
+}
+
+section.block.no-bottommargin {
+    margin-bottom: 0;
+}
+
+section.block.white {
+    background: #fff;
+}
+
+section.block.black {
+    background: #000;
+    border-radius: 0px 0px 0px 0px;
+}
+
+section.block.gray {
+    background: #f1f3f4;
+}
+
+section.block.dark-gray {
+    background: #21282e;
+}
+
+section.block.gray.top-square {
+    border-top: 1px #d2d2d2 solid;
+}
+
+section.block.blue {
+    background: #00ace7;
+}
+
+section.block.gradient {
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f5f6f6));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f5f6f6 100%);
+    background: linear-gradient(top, #ffffff 0%, #f5f6f6 100%);
+}
+
+section.block.behind {
+    z-index: 8;
+    margin: -15px 0;
+}
+
+section.block h2 {
+    display: block;
+    width: 100%;
+    margin: 0 0 20px 0;
+    padding: 20px;
+    letter-spacing: -1px;
+    font-size: 24px;
+    line-height: 26px;
+    color: #21282e;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    font-weight: bold;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px #d2d2d2 solid;
+}
+
+section.block h2.no-bottommargin {
+    margin-bottom: 0;
+}
+
+section.block h2.no-bottomborder {
+    border-bottom: none;
+}
+
+section.block h2 a {
+    text-decoration: none;
+    color: #00ace7;
+}
+
+section.block h3 {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    letter-spacing: -1px;
+    font-size: 20px;
+    line-height: 22px;
+    color: #21282e;
+    text-transform: uppercase;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    font-weight: bold;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+section.block.blue h3 {
+    color: #fff;
+    margin: 15px 0 0 0;
+}
+
+section.block h3.blue {
+    color: #00ace7;
+}
+
+section.block h3.light {
+    font-weight: normal;
+    font-size: 22px;
+}
+
+section.block h3.normal {
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    padding: 10px 20px 10px 20px;
+}
+
+section.block.black {
+    border-radius: 0px 0px 0px 0px;
+}
+
+section.block.black h3 {
+    color: #FDDC04;
+}
+
+section.block.black p {
+    color: #fff;
+}
+
+section.block h4, section.block h5, section.block h6 {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0px 20px 10px 20px;
+    letter-spacing: 0px;
+    font-size: 17px;
+    line-height: 20px;
+    color: #00ace7;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    font-weight: bold;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+section.block h5 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+section.block h6 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+section.block p {
+    padding: 0 20px;
+}
+
+section.block ul, section.block ol {
+    padding: 0 20px 0 40px;
+    margin: 1em 0;
+}
+
+section.block ul ul, section.block ol ol {
+    padding: 0 20px 0 0;
+    margin: 0;
+}
+
+section.block fieldset {
+    padding: 0 10px;
+}
+
+section.block table tr td ul, section.block > ul {
+    display: block;
+    padding: 0 20px;
+    list-style: none;
+    margin: 0 0 20px 0;
+}
+
+section.block table tr td ul {
+    padding: 0 20px 0 0;
+    margin: 0;
+}
+
+section.block table tr td ul li, section.block > ul li {
+    color: #21282e;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    font-size: 16px;
+    line-height: 20px;
+    display: block;
+    padding: 0 0 0 18px;
+    position: relative;
+    margin: 0 0 2px 0;
+}
+
+section.block table tr td ul li > span, section.block > ul li > span {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 8px;
+    height: 8px;
+    background: #00a6d6;
+    border-radius: 4px 4px 4px 4px;
+}
+
+section.block ul.plus li > span {
+    border-radius: 0px 0px 0px 0px;
+    height: 2px;
+    top: 8px;
+}
+
+section.block ul.plus li > span b {
+    position: absolute;
+    left: 3px;
+    height: 8px;
+    top: -3px;
+    background: #00a6d6;
+    width: 2px;
+}
+
+section.block > p {
+    font-family: 'Droid Sans', Helvetica, Arial;
+    color: #21282e;
+    font-size: 16px;
+    display: block;
+    padding: 0 20px;
+    margin: 0 0 10px 0;
+}
+
+section.block p.blue {
+    color: #00a6d6;
+}
+
+section.block p.lead {
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+section.block p.small {
+    font-size: 14px;
+}
+
+section.block > ul li a, section.block > p a {
+    font-family: 'Droid Sans', Helvetica, Arial;
+    color: #00ACE7;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.device-promo-wrapper {
+    width: 100%;
+    display: block;
+    position: relative;
+    min-height: 140px;
+    height: auto;
+    overflow: hidden;
+}
+
+.device-promo-slide {
+    height: auto;
+    overflow: hidden;
+    min-width: 1840px;
+    position: absolute;
+    -webkit-user-select: none;
+    -webkit-transition-duration: 0ms;
+    -webkit-transition-delay: now;
+    -webkit-touch-callout: none;
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
+
+.device-promo-slide.snapping {
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-easing: ease;
+}
+
+.device-promo {
+    width: 460px;
+    display: block;
+    position: relative;
+    min-height: 140px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    -webkit-user-select: none;
+}
+
+.device-promo.single {
+    border-top: 1px #d2d2d2 solid;
+    padding-top: 20px;
+    min-height: 150px;
+}
+
+.device-promo.single p.icons {
+    margin: 8px 0 0 80px;
+}
+
+.device-promo.single:nth-child(2n) {
+    background: #f1f3f4;
+}
+
+section.block.gray .device-promo.single:nth-child(2n) {
+    background: #fff;
+}
+
+.device-promo.single:first-child {
+    border-top: none;
+    margin: 20px 0 0 0;
+}
+
+.device-promo.single.no-topmargin {
+    margin-top: 0;
+}
+
+.device-promo .device-img {
+    text-decoration: none;
+    border: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.device-promo.single.left .device-img {
+    left: auto;
+    right: 0;
+}
+
+.device-promo.single .device-img img {
+    margin: 20px 0 0 20px;
+}
+
+.device-promo .device-img img.high {
+    display: none;
+}
+
+.device-promo .device-name {
+    color: #000;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: left;
+    display: block;
+    width: 280px;
+    min-height: 20px;
+    height: auto;
+    overflow: hidden;
+    letter-spacing: -1px;
+    margin: 0 0 0 100px;
+}
+
+.device-promo.left .device-name {
+    margin: 0 0 0 70px;
+}
+
+.device-promo .rating, .device-title .rating {
+    width: 82px;
+    height: 14px;
+    display: block;
+    position: relative;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -155px 0 no-repeat;
+    text-indent: -9999px;
+    margin: 8px 0 0 100px;
+}
+
+.device-promo.left .rating {
+    margin: 8px 0 0 70px;
+}
+
+.device-title .rating {
+    margin: 8px 0 0 0;
+}
+
+.device-promo .rating.star1, .device-title .rating.star1 {
+    background-position: -155px 0px;
+}
+
+.device-promo .rating.star2, .device-title .rating.star2 {
+    background-position: -155px -14px;
+}
+
+.device-promo .rating.star3, .device-title .rating.star3 {
+    background-position: -155px -28px;
+}
+
+.device-promo .rating.star4, .device-title .rating.star4 {
+    background-position: -155px -42px;
+}
+
+.device-promo .rating.star5, .device-title .rating.star5 {
+    background-position: -155px -56px;
+}
+
+.device-promo .properties {
+    display: block;
+    width: 290px;
+    margin: 10px 0 0 80px;
+    position: relative;
+    /*height: 34px;*/
+    overflow: hidden;
+    font-family: 'Droid Sans', Helvetica, Arial;
+}
+
+.device-promo .properties span {
+    float: left;
+    display: block;
+    font-size: 12px;
+    line-height: 17px;
+    height: 17px;
+    width: auto;
+    overflow: hidden;
+    color: #21282e;
+    font-family: 'Droid Sans', Helvetica, Arial;
+}
+
+.device-promo .properties span b {
+    float: right;
+    display: block;
+    text-align: center;
+    width: 21px;
+    height: 17px;
+    font-size: 14px;
+    color: #00ace7;
+}
+
+.device-promo .properties span:last-child b {
+    display: none;
+}
+
+.device-promo ul.bullet {
+    margin-left: 100px;
+    margin-top: 10px;
+    padding-left: 0px;
+}
+
+.device-promo.left ul.bullet {
+    margin-left: 70px;
+}
+
+.device-promo ul.bullet li {
+    font-size: 14px;
+}
+
+.device-promo .info {
+    border-top: 1px #d2d2d2 solid;
+    padding: 20px 20px 10px 20px;
+    font-size: 14px;
+    color: #21282e;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    line-height: 16px;
+    height: 32px;
+    overflow: hidden;
+    position: relative;
+    z-index: 999;
+}
+
+.device-promo .price {
+    display: block;
+    width: 290px;
+    margin: 10px 0 0 100px;
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 24px;
+    color: #ff5b00;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    font-weight: bold;
+}
+
+.device-promo.left .price {
+    margin-left: 70px;
+}
+
+.device-promo .price.big {
+    line-height: 34px;
+    font-size: 34px;
+    height: 34px;
+    margin: 0 0 0 100px;
+    letter-spacing: -1px;
+}
+
+.device-promo.left .price.big {
+    margin-left: 70px;
+}
+
+.device-promo .price.strike {
+    letter-spacing: -1px;
+    font-size: 18px;
+    text-decoration: line-through;
+    height: 18px;
+}
+
+.device-promo .device-link {
+    width: 59px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-top: 1px #d2d2d2 solid;
+    border-left: 1px #d2d2d2 solid;
+    text-decoration: none;
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f5f6f6));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f5f6f6 100%);
+    background: linear-gradient(top, #ffffff 0%, #f5f6f6 100%);
+}
+
+.device-promo.left .device-link {
+    left: 0;
+    right: auto;
+}
+
+.device-promo.single .device-link {
+    background: none;
+    border: none;
+}
+
+.device-promo.single .info + .device-link {
+    top: -32px;
+}
+
+.device-promo .device-link span {
+    width: 10px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    left: 25px;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -125px -46px no-repeat;
+    text-indent: -9999px;
+}
+
+.device-promo.left .device-link span {
+    background-position: -220px -75px;
+}
+
+.device-title {
+    overflow: hidden;
+    height: auto;
+    padding: 20px;
+    min-height: 40px;
+}
+
+.device-title h1 {
+    color: #fff;
+    line-height: 24px;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    letter-spacing: -1px;
+    margin: 0;
+    padding: 0;
+}
+
+.device-title h1 span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tabbed-content {
+    background: #fff;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing : border-box;
+    box-sizing: border-box;
+    min-height: 100px;
+    width : 100%;
+    position: relative;
+    z-index: 99;
+}
+
+.tabbed-content.top-margin {
+    margin: 20px 0 0 0;
+}
+
+.tabbed-content header {
+    height: 60px;
+    overflow: hidden;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tabbed-content header.small {
+    height: 50px;
+    min-height: 50px;
+}
+
+.tabbed-content header ul {
+    height: 60px;
+    overflow: hidden;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    padding: 0;
+}
+
+#device-tabbed {
+    height: 50px;
+}
+
+.tabbed-content header.small ul {
+    height: 50px;
+    background: #00ace7;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.tabbed-content header ul li {
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    position: relative;
+    z-index: 9;
+    padding: 0;
+    width: 50%;
+}
+
+.tabbed-content header.small ul li {
+    line-height: 40px;
+}
+
+.tabbed-content header.blue-top ul li {
+    border: 1px #00ace7 solid;
+    border-width: 1px 1px 0px 0px;
+}
+
+.tabbed-content header ul li:first-child {
+    border-radius: 10px 0px 0px 0px;
+}
+
+.tabbed-content header ul li:last-child {
+    border-radius: 0px 10px 0px 0px;
+}
+
+.tabbed-content header ul li:first-child:last-child {
+    border-radius: 10px;
+}
+
+.tabbed-content header ul li.active {
+    background: #fff;
+    color: #21282e;
+    border-radius: 10px 10px 0px 0px;
+    z-index: 999;
+    margin: 0 -8px 0 0;
+}
+
+.tabbed-content header.gray ul li.active {
+    background: #eff0f1;
+}
+
+.tabbed-content header ul li.active + li {
+    padding: 0 0 0 16px;
+}
+
+.tabbed-content header ul li.active:last-child {
+    margin: 0 0 0 -8px;
+}
+
+.tabbed-content .tab-content {
+    /*-moz-box-sizing: border-box; -webkit-box-sizing: border-box; -o-box-sizing 		: border-box; box-sizing: border-box; height: auto;*/
+    display: block;
+    /*display: -o-box;*/
+    width: 100%;
+    position: relative;
+    z-index: 999;
+}
+
+.tabbed-content .tab-content .col.cols-2 {
+    position: relative;
+    display: inline-block;
+    margin: 0 -3px 0 1px;
+}
+
+#search-shop .chkbox-grp {
+}
+
+#search-shop .chkbox-grp ul {
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    height: 49px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#search-shop .chkbox-grp ul li {
+    display: -webkit-box;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    padding: 0 0 0 40px;
+    height: 49px;
+    line-height: 49px;
+    overflow: hidden;
+    cursor: pointer;
+    color: #00ACE7;
+    font-size: 17px;
+    letter-spacing: -1px;
+    font-family: 'Droid Sans', Helvetica, Arial;
+}
+
+#search-shop .chkbox-grp ul li.active {
+}
+
+#search-shop .chkbox-grp ul li:first-child {
+    border-left: none;
+}
+
+#search-shop .chkbox-grp ul li:last-child {
+    border-right: none;
+}
+
+#search-shop .chkbox-grp ul li span {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    width: 22px;
+    height: 22px;
+    margin: -10px;
+    0 0 0; background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -140px -115px no-repeat;
+}
+
+#search-shop .chkbox-grp ul li.active span {
+    background-position: -163px -115px;
+}
+
+#search-shop div.submit {
+    text-align: center;
+}
+
+#search-shop button.search {
+    line-height: 46px;
+    background: #00ACE7;
+    padding: 0 20px 0 20px;
+    border-radius: 8px;
+    border: none;
+    top: 50%;
+    margin: -23px 0 0 0;
+    color: #fff;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+#pictures.phone-photos-overlay {
+    display: none;
+    top: 0;
+    left: 0;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    z-index: 9999;
+    background: #fff;
+    padding: 20px 0 40px 0;
+    text-align: center;
+}
+
+#pictures.phone-photos-overlay img {
+    width: 300px;
+    height: auto;
+    padding: 0 0 20px 0;
+}
+
+#pictures.phone-photos-overlay p.desc {
+    font-size: 12px;
+    color: #00ACE7;
+    padding: 0;
+    margin: 0;
+}
+
+#pictures.phone-photos-overlay p.desc span {
+    width: 10px;
+    height: 16px;
+    position: absolute;
+    margin: 0 0 0 -18px;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -220px -75px no-repeat;
+}
+
+.tabbed-content .tab-content .col {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    height: auto;
+    /*display:table-cell;*/
+    vertical-align: top;
+}
+
+.tabbed-content .tab-content .col.border-right {
+    border-right: 1px #d2d2d2 solid;
+}
+
+.tabbed-content .tab-content .col.cols-1 {
+    -webkit-box-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+    width: 100%;
+}
+
+.tabbed-content .tab-content .col.cols-2 {
+    -webkit-box-flex: 0;
+    -o-box-flex: 0;
+    box-flex: 0;
+    width: 49%;
+}
+
+.tabbed-content .tab-content .col.device-data {
+    width: 100%;
+}
+
+.device-img.phone-page {
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+
+.device-img.phone-page img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 230px;
+}
+
+.device-img.phone-page p.more-pictures {
+    text-align: center;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.device-img.phone-page p.more-pictures span {
+    width: 10px;
+    height: 16px;
+    position: absolute;
+    margin: 0 0 0 10px;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -125px -46px no-repeat;
+}
+
+.device-img.phone-page img.high {
+    display: none;
+}
+
+.tabbed-content .tab-content .properties {
+    display: block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding: 0 10px 20px 16px;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    font-family: 'Droid Sans', Helvetica, Arial;
+}
+
+.tabbed-content .tab-content .properties span {
+    float: left;
+    display: block;
+    font-size: 13px;
+    line-height: 14px;
+    height: auto;
+    margin: 0 0 10px 0;
+    padding: 0 0 0 14px;
+    width: auto;
+    color: #21282e;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    clear: left;
+    position: relative;
+}
+
+.tabbed-content .tab-content .properties span:first-child {
+    padding: 0 0 0 4px;
+}
+
+.tabbed-content .tab-content .properties span b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    text-align: center;
+    width: 12px;
+    height: 17px;
+    font-size: 14px;
+    color: #00ace7;
+}
+
+.tabbed-content .tab-content .properties span:first-child b {
+    display: none;
+}
+
+.tabbed-content .tab-content .icons {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    overflow: hidden;
+    text-align: center;
+    width: 200px;
+}
+
+.tabbed-content .tab-content .icons .icon {
+    width: 44px;
+    height: 44px;
+    float: left;
+    position: relative;
+    border: 1px #d2d2d2 solid;
+    margin: 2px;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f5f6f6));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f5f6f6 100%);
+    background: linear-gradient(top, #ffffff 0%, #f5f6f6 100%);
+}
+
+.tabbed-content .tab-content .icons .icon span {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) 0 0 no-repeat;
+}
+
+.tabbed-content .tab-content .icons .icon.android span {
+    width: 20px;
+    height: 24px;
+    margin: -12px 0 0 -10px;
+    background-position: -26px -160px;
+}
+
+.tabbed-content .tab-content .icons .icon.bluetooth span {
+    width: 17px;
+    height: 23px;
+    margin: -8px 0 0 -11px;
+    background-position: -74px -160px;
+}
+
+.tabbed-content .tab-content .icons .icon.mp3 span {
+    width: 21px;
+    height: 24px;
+    margin: -10px 0 0 -12px;
+    background-position: -118px -160px;
+}
+
+.tabbed-content .tab-content .icons .icon.browser span {
+    width: 26px;
+    height: 27px;
+    margin: -13px 0 0 -13px;
+    background-position: -139px -160px;
+}
+
+.tabbed-content .tab-content .icons .icon.camera span {
+    width: 25px;
+    height: 22px;
+    margin: -12px 0 0 -11px;
+    background-position: 0px -160px;
+}
+
+.tabbed-content .tab-content .icons .icon.wifi span {
+    width: 22px;
+    height: 26px;
+    margin: -11px 0 0 -13px;
+    background-position: -48px -160px;
+}
+
+.tabbed-content .tab-content .icons .icon.radio span {
+    width: 21px;
+    height: 23px;
+    margin: -10px 0 0 -11px;
+    background-position: -95px -160px;
+}
+
+.tabbed-content .tab-content .icons .icon.email span {
+    width: 19px;
+    height: 21px;
+    margin: -10px 0 0 -10px;
+    background-position: -166px -160px;
+}
+
+.tabbed-content .tab-content .box {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    background: #eff0f1;
+    overflow: hidden;
+    height: auto;
+    min-height: 50px;
+    border: 1px #d2d2d2 solid;
+    border-width: 1px 0px 1px 1px;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    display: block;
+}
+
+.tabbed-content .tab-content .box.white {
+    background: #fff;
+}
+
+.tabbed-content .tab-content .no-left-boxborder .box {
+    border-left-width: 0px !important;
+}
+
+.tabbed-content .tab-content .box:first-child {
+    top: -10px;
+    border-width: 0px 0px 1px 1px;
+}
+
+.tabbed-content .tab-content .device-data .box:first-child, .tabbed-content .tab-content .pack .box:first-child {
+    top: 0;
+}
+
+.tabbed-content .tab-content .pack .box:first-child {
+}
+
+.tabbed-content .tab-content .box.tl-rounded {
+    border-radius: 10px 0px 0px 0px;
+    border-top: none;
+}
+
+.tabbed-content .tab-content .box.tr-rounded {
+    border-radius: 0 10px 0px 0px;
+    border-top: none;
+}
+
+.tabbed-content .tab-content .box.nobottom-margin {
+    margin: 0;
+}
+
+.tabbed-content .tab-content .box.nobottom-padding {
+    padding: 10px 10px 0px 10px;
+}
+
+.tabbed-content .tab-content .box.notop-border {
+    border-width: 0px 0px 1px 1px;
+}
+
+.tabbed-content .tab-content .box.nobottom-border {
+    border-width: 1px 0px 0px 1px;
+}
+
+.tabbed-content .tab-content .box.notop-border.nobottom-border {
+    border-width: 0px 0px 0px 1px;
+}
+
+.tabbed-content .tab-content .box.nopadding {
+    padding: 0;
+}
+
+.tabbed-content .tab-content .box .price {
+    color: #ff5b00;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    display: block;
+    margin: 10px 0 5px 0;
+}
+
+.tabbed-content .tab-content .box .price > span {
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.tabbed-content .tab-content .box .text {
+    color: #020202;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0px;
+}
+
+.tabbed-content .tab-content .box .text.nowrap {
+    white-space: nowrap;
+}
+
+.tabbed-content .tab-content .box.nopadding .text {
+    padding: 0px 20px 20px 20px;
+}
+
+.tabbed-content .tab-content .box .text a {
+    text-decoration: none;
+    color: #00ace7;
+}
+
+.tabbed-content .tab-content .box h2 {
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-size: 17px;
+    text-transform: none;
+    color: #21282e;
+    line-height: 17px;
+    letter-spacing: 0px;
+    font-family: 'Droid Sans', Helvetica, Arial;
+}
+
+.tabbed-content .tab-content .box h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    text-transform: none;
+    color: #21282e;
+    line-height: 16px;
+    letter-spacing: 0px;
+}
+
+.chkbox-grp, .select-grp {
+    width: 100%;
+    padding: 0 10px;
+    margin: 10px 0 10px -10px;
+    position: relative;
+    display: block;
+    z-index: 999;
+}
+
+.chkbox-grp input.checkbox {
+    margin: 6px 12px 6px 0;
+}
+
+.select-grp.nomargin {
+    margin: 0 0 1px 0;
+}
+
+.select-grp.nopadding {
+    padding: 0;
+}
+
+.select-grp.nobottom-margin {
+    margin: 10px 0 0px -10px;
+}
+
+.select-grp.nobottom-margin.commitment {
+    background: #ffffff;
+}
+
+#commitment-options.off {
+    outline: 1px solid #d2d2d2;
+}
+
+.select-grp label {
+    color: #21282e;
+    font-size: 14px;
+    height: 22px;
+    font-weight: normal;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    display: block;
+    margin: 0;
+}
+
+.select-grp .select-replace {
+    height: 58px;
+    display: block;
+    border: 1px #d2d2d2 solid;
+    border-width: 1px 0px 1px 0px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 0 0 -10px;
+    line-height: 58px;
+    background: #fff;
+    color: #ff5b00;
+    font-size: 26px;
+    text-align: left;
+    font-weight: normal;
+    position: relative;
+    z-index: 999;
+}
+
+.select-grp.nomargin .select-replace {
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.select-grp.black .select-replace {
+    color: #21282e;
+}
+
+.select-grp.medium .select-replace {
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+.select-grp.no-bottomborder .select-replace {
+    border-width: 1px 0px 0px 0px;
+}
+
+.select-grp.blue .select-replace {
+    color: #00ace7;
+}
+
+.select-grp .select-replace.medium {
+    font-size: 17px;
+}
+
+.select-grp .select-replace.small {
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.select-grp .select-replace.small b {
+    width: 74%;
+    display: block;
+    position: relative;
+    font-weight: normal;
+}
+
+.select-grp .select-replace b {
+    font-weight: bold;
+    padding: 12px 0;
+}
+
+.select-grp .select-replace b > span {
+    font-size: 18px;
+    color: #00ace7;
+    padding: 0 0 0 4px;
+}
+
+.select-grp .select-replace > span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 58px;
+    width: 58px;
+    border: 1px #d2d2d2 solid;
+    border-width: 0px 0px 0px 1px;
+    cursor: pointer;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #eeeeee));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+    background: linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+}
+
+.select-grp .select-replace > span > span {
+    position: absolute;
+    width: 16px;
+    height: 9px;
+    left: 50%;
+    top: 50%;
+    margin: -5px 0 0 -8px;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -185px -75px no-repeat;
+}
+
+.select-grp select {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 58px;
+    margin: 0 0 0 -10px;
+    z-index: 9999;
+    top: 0;
+    opacity: 0.01;
+    cursor: pointer;
+}
+
+.select-grp.nomargin select {
+    margin: 0;
+}
+
+.box .select-grp select {
+    top: 23px;
+}
+
+.box .select-grp.nolabel select {
+    top: 2px;
+}
+
+.tabbed-content .tab-content .box .monthly-tariff {
+    color: #21282e;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: normal;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    display: block;
+    position: relative;
+}
+
+.tabbed-content .tab-content .box .monthly-tariff b {
+    font-size: 26px;
+    line-height: 26px;
+    color: #ff5b00;
+    padding: 0 0 0 4px;
+    position: relative;
+    top: 4px;
+}
+
+.tabbed-content .tab-content .box #phone_result h6 {
+    font-size: 26px;
+    line-height: 26px;
+    color: #ff5b00;
+    padding: 0 0 0 4px;
+    position: relative;
+    top: 4px;
+    margin: 0;
+}
+
+.tabbed-content .tab-content .box #phone_result h6 small {
+    color: #21282e;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: normal;
+    font-family: 'Droid Sans', Helvetica, Arial;
+}
+
+.tabbed-content .tab-content .box .tariff-info {
+    color: #21282e;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: normal;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    display: block;
+    position: relative;
+    margin: 10px 0 15px 0;
+}
+
+.tabbed-content .tab-content .box button {
+    width: 100%;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    height: 56px;
+    display: block;
+    line-height: 56px;
+    color: #fff;
+    font-size: 15px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+    position: relative;
+}
+
+.tabbed-content .tab-content .box button.basket {
+    padding: 0 0 0 60px;
+    text-align: left;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.tabbed-content .tab-content .box button.basket span {
+    position: absolute;
+    left: 21px;
+    top: 50%;
+    margin: -13px 0 0 0;
+    width: 25px;
+    height: 28px;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -186px -85px no-repeat;
+}
+
+.tabbed-content .tab-content .box button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.tabbed-content .tab-content .box .fb-like {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    width: 50%;
+    height: 22px;
+    overflow: hidden;
+}
+
+.tabbed-content .tab-content .box .plusone {
+    position: absolute;
+    right: -14px;
+    top: 15px;
+    width: 90px;
+    height: 22px;
+    overflow: hidden;
+}
+
+.tabbed-content .tab-content .box .wrapper {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: -webkit-box;
+}
+
+.tabbed-content .tab-content .box .social {
+    height: 52px;
+    border-left: 1px #d2d2d2 solid;
+    text-indent: -9999px;
+    display: block;
+    width : 24.9%;
+    cursor: pointer;
+    position: relative;
+    float: left;
+}
+
+.tabbed-content .tab-content .box .social:first-child {
+    border-left: none;
+}
+
+.tabbed-content .tab-content .box .social span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) 0 0 no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.tabbed-content .tab-content .box .social.fb span {
+    width: 12px;
+    height: 23px;
+    background-position: -24px -40px;
+    margin: -11px 0 0 -6px;
+}
+
+.tabbed-content .tab-content .box .social.tw span {
+    width: 17px;
+    height: 22px;
+    background-position: -36px -40px;
+    margin: -10px 0 0 -8px;
+}
+
+.tabbed-content .tab-content .box .social.iwiw span {
+    width: 22px;
+    height: 25px;
+    background-position: -185px -115px;
+    margin: -12px 0 0 -11px;
+}
+
+.tabbed-content .tab-content .box .social.email span {
+    width: 29px;
+    height: 21px;
+    background-position: -208px -115px;
+    margin: -10px 0 0 -14px;
+}
+
+.tabbed-content .tab-content .box button.orange {
+    background: #ff5b00;
+}
+
+.tabbed-content .tab-content .box button.gray {
+    background: #8c9399;
+}
+
+.tabbed-content .tab-content .box .table-list {
+    width: 100%;
+    position: relative;
+    list-style: none;
+    -webkit-margin-before: 0;
+    margin: 0 0 10px 0;
+    padding : 0;
+}
+
+.tabbed-content .tab-content .box .table-list li {
+    margin: 0 0 0 1px;
+    padding: 0;
+    height: 60px;
+    overflow: hidden;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.tabbed-content .tab-content .box .table-list li:nth-child(2n + 1) {
+    background: #f3f5f6;
+}
+
+.tabbed-content .tab-content .box .table-list li .col-1 {
+    width: 50%;
+    height: 59px;
+    padding: 10px 0 0 20px;
+    display: block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    border: 1px #d2d2d2 solid;
+    border-width: 0px 1px 1px 0px;
+    position: relative;
+}
+
+.tabbed-content .tab-content .box .table-list li .col-1 > b {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    color: #00ace7;
+    display: block;
+    float: left;
+}
+
+.tabbed-content .tab-content .box .table-list li .col-1 > b a {
+    text-decoration: none;
+}
+
+.tabbed-content .tab-content .box .table-list li .col-1.service b {
+    font-size: 13px;
+    line-height: 14px;
+    padding: 0 12px 0 0;
+}
+
+.tabbed-content .tab-content .box .table-list li .col-1 > span {
+    display: block;
+    clear: left;
+    font-size: 15px;
+}
+
+.tabbed-content .tab-content .box .table-list li .col-1 .sign {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    height: 15px;
+    margin: -11px 0 0 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: #8c9399;
+    width: 30px;
+    text-align: center;
+}
+
+.tabbed-content .tab-content .box .table-list li .col-2 {
+    width: 50%;
+    height: 59px;
+    padding: 0 0 0 20px;
+    display: block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    border: 1px #d2d2d2 solid;
+    border-width: 0px 0px 1px 0px;
+    color: #ff5b00;
+    font-size: 26px;
+    line-height: 59px;
+}
+
+.netshop-services {
+    position: relative;
+    margin: 0 0 20px 10px;
+    height: 111px;
+    display: block;
+    background: url(https://szeccsa.github.io/mobile/i/general/bg_netshop-services.jpg) 0 0 no-repeat;
+}
+
+.netshop-services.block-1 {
+    width: 441px;
+}
+
+.netshop-services.block-2 {
+    background-position: -441px 0px;
+    width: 221px;
+}
+
+table {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 20px;
+    display: block;
+    margin: 0 0 20px 0;
+}
+
+table.table-cols-4 {
+    padding: 0 10px;
+}
+
+table.table-cols-5, table.table-cols-6 {
+    padding: 0 2px;
+}
+
+table thead {
+    color: #00ACE7;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    border-bottom: 1px #D2D2D2 solid;
+    padding: 4px;
+}
+
+table.table-cols-4 thead {
+    font-size: 13px;
+}
+
+table thead tr th, table thead tr td {
+    vertical-align: bottom;
+    padding: 0 0 6px 0;
+}
+
+table tbody {
+    font-size: 15px;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    color: #21282E;
+}
+
+table tbody tr td {
+    vertical-align: top;
+    text-align: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px 12px 6px 0px;
+}
+
+table tbody tr {
+    border-bottom: 1px #D2D2D2 solid;
+}
+
+table.table-cols-2 tbody tr td {
+    width: 50%;
+}
+
+table.table-cols-4 tbody tr td {
+    width: 25%;
+    font-size: 13px;
+}
+
+table.table-cols-5 tbody tr td {
+    width: 20%;
+    font-size: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+table.table-cols-6 tbody tr td {
+    font-size: 11px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+table tbody tr td span {
+    display: block;
+}
+
+table.table-cols-2 tbody tr td a {
+    text-decoration: none;
+    color: #00ACE7;
+}
+
+.item-list {
+    width: 100%;
+    display: block;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    border-top: 1px #d2d2d2 solid;
+    margin: 0 0 20px 0;
+}
+
+section.block.no-bottommargin .item-list {
+    margin-bottom: 0;
+}
+
+.item-list .vertical-align-container {
+    display: table;
+    width: 50%;
+    float: left;
+    height: 50px;
+    position: relative;
+}
+
+.item-list.full .vertical-align-container {
+    width: 100%;
+}
+
+.item-list .item {
+    text-decoration: none;
+    text-align: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    min-height: 50px;
+    height: 50px;
+    display: -webkit-box;
+    border-bottom: 1px #d2d2d2 solid;
+    border-left: 1px #d2d2d2 solid;
+    padding: 0 30px 0 20px;
+    margin: 0;
+    overflow: hidden;
+    float: left;
+    line-height: 22px;
+    letter-spacing: -1px;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    font-size: 18px;
+    color: #21282e;
+    font-weight: bold;
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f5f6f6));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f5f6f6 100%);
+    background: linear-gradient(top, #ffffff 0%, #f5f6f6 100%);
+    position: relative;
+    -webkit-box-align: center;
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+    float: none;
+}
+
+.item-list.full .item {
+    width: 100%;
+    letter-spacing: 0px;
+    padding: 0 60px 0 20px !important;
+}
+
+.item-list.full.double .item {
+    padding: 5px 60px 5px 20px !important;
+    min-height: 70px;
+}
+
+.item-list.black .item {
+    background: #000;
+    color: #fff;
+}
+
+.item-list .item.blue {
+    background: #00ace7 !important;
+}
+
+.item-list .item.blue b {
+    color: #fff !important;
+}
+
+.item-list .item.full {
+    text-align: center;
+}
+
+.item-list .item.full b, .item-list.results .item.full b {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+.item-list .item.full > span {
+    display: none;
+}
+
+.item-list.light .item {
+    font-weight: normal;
+    padding: 0 55px 0 15px;
+    font-size: 17px;
+    line-height: 19px;
+}
+
+.item-list.results .item {
+    padding: 10px 40px 10px 20px !important;
+    line-height: 20px;
+}
+
+.item-list.results .item:nth-child(n + 1) {
+    background: #f1f3f4;
+}
+
+.item-list.results .item:nth-child(2n + 1) {
+    background: #fff;
+}
+
+.item-list.results .item b {
+    color: #00ace7;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.item-list.results .item:hover b {
+    color: #fff;
+}
+
+.item-list.results .item b .desc {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #21282e;
+    position: relative;
+    width: 100%;
+    float: left;
+    clear: left;
+    margin: 5px 0 0 0;
+}
+
+.item-list .vertical-align-container:nth-child(odd) .item {
+    border-left: none;
+}
+
+.item-list .item:hover {
+    background: #00abe6;
+    color: #fff;
+}
+
+section.block.no-bottommargin .item-list .vertical-align-container:last-child .item {
+    border-bottom: none;
+}
+
+.item-list.orange .item:hover {
+    background: #fe5b00;
+}
+
+.item-list .item span:not(.desc) {
+    width: 10px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    margin: -8px 0 0 0;
+    right: 26px;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -125px -46px no-repeat;
+    text-indent: -9999px;
+}
+
+.item-list .item:hover span {
+    background-position: -115px -46px;
+}
+
+.top-links, .telenor-online {
+    padding: 0 10px 15px 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    position: relative;
+}
+
+.top-links {
+    padding: 20px 10px;
+}
+
+.telenor-online form {
+    margin: 0 60px 0 0;
+    padding: 0;
+    position: relative;
+    display: block;
+    width: auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.telenor-online form input {
+    height: 60px;
+    border: none;
+    display: inline-block;
+    padding: 0 0 0 22px;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    font-size: 20px;
+    color: #21282e;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    outline: none;
+    -webkit-appearance: none;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.telenor-online form input::-webkit-input-placeholder {
+    color: #21282e;
+}
+
+.telenor-online form input.pwd {
+    border-left: 1px #00ace7 solid;
+}
+
+.telenor-online form input.submit {
+    width: 60px;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    right: -59px;
+    top: 0;
+    background: #1f262b;
+    text-indent: -9999px;
+}
+
+.telenor-online form span {
+    width: 10px;
+    height: 16px;
+    position: absolute;
+    top: 22px;
+    right: -35px;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -115px -46px no-repeat;
+    text-indent: -9999px;
+}
+
+.top-links > a, .telenor-online > a {
+    width: 50%;
+    display: block;
+    float: left;
+    text-align: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    padding: 0 0 0 40px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    height: 22px;
+    margin: 20px 0;
+    letter-spacing: -1px;
+    position: relative;
+}
+
+.top-links > a {
+    width: 33%;
+    padding: 0 0 0 30px;
+    margin: 0;
+    height: 60px;
+    line-height: 60px;
+}
+
+.top-links > a span, .telenor-online > a span {
+    width: 10px;
+    height: 16px;
+    position: absolute;
+    top: 3px;
+    left: 9px;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -115px -46px no-repeat;
+    text-indent: -9999px;
+}
+
+.top-links > a span {
+    top: 50%;
+    margin: -8px 0 0 0;
+}
+
+.contacts {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 0 20px 0;
+    overflow: hidden;
+    height: auto;
+}
+
+.contacts ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contacts ul li {
+    display: block;
+    height: 68px;
+    position: relative;
+    float: left;
+    width: 50%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #8c9399;
+    line-height: 19px;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    text-align: left;
+    letter-spacing: -1px;
+    margin: 0 0 10px 0;
+}
+
+.contacts ul li a {
+    display: block;
+    font-style: italic;
+    position: relative;
+    font-size: 40px;
+    line-height: 40px;
+    color: #ff5b00;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+    text-decoration: none;
+}
+
+.useful-links {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    position: relative;
+    background: #fff;
+    height: 60px;
+    overflow: hidden;
+    border-top: 1px #d2d2d2 solid;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.useful-links a {
+    text-decoration: none;
+    display: -webkit-box;
+    border-left: 1px #d2d2d2 solid;
+    height: 60px;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    position: relative;
+}
+
+.useful-links a:first-child {
+    border: none;
+}
+
+.useful-links a.lang {
+    width: 60px;
+    background: #00ace7;
+    color: #fff;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0px 0px 0px 10px;
+    text-align: center;
+    display: block;
+    max-width: 60px;
+}
+
+.useful-links a span {
+    position: absolute;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -22px -40px no-repeat;
+}
+
+.useful-links a.basket {
+    color: #ff5b00;
+    line-height: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    display: block;
+    padding: 0 0 0 50px;
+    min-width: 50px;
+}
+
+.useful-links a.basket span {
+    width: 20px;
+    height: 21px;
+    left: 18px;
+    top: 50%;
+    margin-top: -10px;
+    background-position: -76px -50px;
+}
+
+.useful-links a.fb {
+    width: 60px;
+    background: #fff;
+    text-align: center;
+    display: inline-block;
+    max-width: 60px;
+    text-indent: -9999px;
+}
+
+.useful-links a.fb span {
+    width: 14px;
+    height: 25px;
+    top: 50%;
+    left: 50%;
+    margin-left: -7px;
+    margin-top: -12px;
+    background-position: -22px -40px;
+}
+
+.useful-links a.tw {
+    width: 60px;
+    background: #fff;
+    text-align: center;
+    display: inline-block;
+    max-width: 60px;
+    text-indent: -9999px;
+}
+
+.useful-links a.tw span {
+    width: 17px;
+    height: 22px;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -11px;
+    background-position: -36px -40px;
+}
+
+.useful-links a.yt {
+    width: 60px;
+    background: #fff;
+    border-radius: 0px 0px 10px 0px;
+    text-align: center;
+    display: inline-block;
+    max-width: 60px;
+    text-indent: -9999px;
+}
+
+.useful-links a.yt span {
+    width: 23px;
+    height: 28px;
+    top: 50%;
+    left: 50%;
+    margin-left: -11px;
+    margin-top: -14px;
+    background-position: -53px -40px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background: #000;
+    position: relative;
+    z-index: 9;
+    margin: 0;
+    overflow: hidden;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 10px 0 0 0;
+}
+
+footer section.block .item-list {
+    border-top: none;
+    margin: 0 0 15px 0;
+}
+
+footer section.block .item-list .item {
+    border-bottom: none;
+    border-top: 1px #464a4d solid;
+    border-left: 1px #464a4d solid;
+}
+
+footer section.block .item-list .vertical-align-container:nth-child(1) .item, footer section.block .item-list .vertical-align-container:nth-child(2) .item {
+    border-top: none;
+}
+
+footer p.legal {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    padding: 0 10px;
+    margin: 0 0 10px 0;
+    line-height: 22px;
+    font-size: 15px;
+    color: #8c9399;
+    position: relative;
+    font-family: 'Droid Sans', Helvetica, Arial;
+}
+
+footer p.legal a {
+    position: absolute;
+    text-decoration: none;
+    text-indent: -9999px;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -135px -52px no-repeat;
+    width: 20px;
+    height: 20px;
+    right: 10px;
+    top: 0;
+}
+
+footer p.full-page {
+    text-align: center;
+}
+
+footer p.full-page a {
+    font-size: 18px;
+    color: #00ACE7;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 0 0 10px 0;
+}
+
+#search-filters {
+    margin: 0 0 -15px 0;
+}
+
+#search-filters header {
+    background: #21282e;
+    border-radius: 10px 10px 0px 0px;
+    height: 100px;
+}
+
+#search-filters header ul#device-type {
+    height: 100px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#search-filters header ul#device-type li {
+    height: 90px;
+    margin: 10px 0 0 0;
+    border-left: 1px #4d545b solid;
+    display: block;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    position: relative;
+    min-width: 100px;
+    max-width: 25%;
+    overflow: hidden;
+    font-size: 14px;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    color: #8c9399;
+    line-height: 130px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#search-filters header ul#device-type li a {
+    color: #8c9399;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#search-filters header ul#device-type li.active a {
+    color: #fff;
+}
+
+#search-filters header ul#device-type li:first-child {
+    border-left: none;
+}
+
+#search-filters header ul#device-type li.active {
+    height: 100px;
+    margin: 0;
+    line-height: 150px;
+    background: #00ace7;
+    border-radius: 10px 10px 0px 0px;
+    color: #fff;
+}
+
+#search-filters header ul#device-type li span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) 0 0 no-repeat;
+}
+
+#search-filters header ul#device-type li.type1 span {
+    width: 21px;
+    height: 33px;
+    margin: -36px 0 0 -10px;
+    background-position: -239px 0px;
+}
+
+#search-filters header ul#device-type li.type1.active span {
+    margin-top: -31px;
+    background-position: -265px 0px;
+}
+
+#search-filters header ul#device-type li.type2 span {
+    width: 45px;
+    height: 32px;
+    margin: -36px 0 0 -22px;
+    background-position: -239px -38px;
+}
+
+#search-filters header ul#device-type li.type2.active span {
+    margin-top: -31px;
+    background-position: -239px -76px;
+}
+
+#search-filters header ul#device-type li.type3 span {
+    width: 54px;
+    height: 37px;
+    margin: -39px 0 0 -27px;
+    background-position: 0px -71px;
+}
+
+#search-filters header ul#device-type li.type3.active span {
+    margin-top: -34px;
+    background-position: -64px -71px;
+}
+
+#search-filters header ul#device-type li.type4 span {
+    width: 24px;
+    height: 34px;
+    margin: -34px 0 0 -12px;
+    background-position: -130px -73px;
+}
+
+#search-filters header ul#device-type li.type4.active span {
+    margin-top: -29px;
+    background-position: -155px -73px;
+}
+
+#search-filters footer {
+    height: 66px;
+    margin: 0 0 15px 0;
+    background: none;
+}
+
+#search-filters footer .result-sum {
+    line-height: 66px;
+    color: #fff;
+    margin: 0 0 0 25px;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#search-filters footer button.search {
+    position: absolute;
+    right: 11px;
+    height: 46px;
+    line-height: 46px;
+    background: #21282e;
+    padding: 0 60px 0 20px;
+    border-radius: 8px;
+    border: none;
+    top: 50%;
+    margin: -23px 0 0 0;
+    color: #fff;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+#search-filters footer button.search span {
+    width: 23px;
+    height: 18px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin: -9px 0 0 0;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -115px -10px no-repeat;
+}
+
+#search-filters.open footer button.search span {
+    background-position: -115px -28px;
+}
+
+#search-filters .filter-group {
+    background: #009edc;
+    margin: 10px 0 0 0;
+}
+
+#search-filters .filter-group {
+    display: none;
+}
+
+#search-filters.open .filter-group {
+    display: block;
+}
+
+#search-filters .filter-group.open {
+    background: none;
+}
+
+#search-filters .filter-group > div {
+    display: none;
+}
+
+#search-filters .filter-group.open > div {
+    display: block;
+}
+
+#search-filters .filter-group h1 {
+    height: 48px;
+    margin: 0;
+    padding: 0 0 0 20px;
+    text-transform: uppercase;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    letter-spacing: 0px;
+    font-size: 20px;
+    line-height: 48px;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    border-top: 1px #0091d2 solid;
+    border-bottom: 1px #0091d2 solid;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#search-filters .filter-group.open h1 {
+    border-bottom: none;
+}
+
+#search-filters .filter-group h1 span {
+    position: absolute;
+    width: 23px;
+    height: 18px;
+    top: 50%;
+    right: 18px;
+    margin: -9px 0 0 0;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -115px -10px no-repeat;
+}
+
+#search-filters .filter-group.open h1 span {
+    width: 15px;
+    height: 9px;
+    right: 22px;
+    margin: -5px 0 0 0;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -291px 0px no-repeat;
+}
+
+#search-filters .filter-group .manufacturers {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#search-filters .filter-group .manufacturers .wrapper {
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    height: 49px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 0 -1px 0;
+}
+
+#search-filters .filter-group .manufacturers .wrapper input {
+    display: none;
+}
+
+#search-filters .filter-group .manufacturers .item {
+    display: -webkit-box;
+    position: relative;
+    width: 33%;
+    text-align: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    padding: 0 0 0 18px;
+    height: 49px;
+    line-height: 49px;
+    font-size: 17px;
+    color: #b3e6f8;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    border: 1px #0091d2 solid;
+    cursor: pointer;
+}
+
+#search-filters .filter-group .manufacturers .item:nth-child(3n + 2) {
+    border-width: 1px 0px;
+}
+
+#search-filters .filter-group .manufacturers .item.active {
+    background: #ff5b00;
+    color: #fff;
+    border-color: #fff;
+    font-weight: bold;
+    z-index: 9999;
+    border-width: 1px 1px 1px 1px;
+}
+
+#search-filters .filter-group .manufacturers .item.active:nth-child(3n) {
+    border-width: 1px 0px 1px 1px;
+}
+
+#search-filters .filter-group .manufacturers .item.active:nth-child(3n + 1) {
+    border-width: 1px 1px 1px 0px;
+}
+
+#search-filters .filter-group .style {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 999;
+    margin: -1px 0 0 0;
+}
+
+#search-filters .filter-group .style ul {
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    height: 59px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#search-filters .filter-group .style ul li {
+    display: -webkit-box;
+    position: relative;
+    width: 25%;
+    text-align: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    padding: 0;
+    height: 59px;
+    line-height: 333px;
+    overflow: hidden;
+    border: 1px #0091d2 solid;
+    border-width: 1px 0px 1px 1px;
+    cursor: pointer;
+}
+
+#search-filters .filter-group .style ul li:first-child {
+    border-left: none;
+}
+
+#search-filters .filter-group .style ul li:last-child {
+    border-right: none;
+}
+
+#search-filters .filter-group .style ul li.active {
+    background: #ff5b00;
+    color: #fff;
+    border-color: #fff;
+    border-width: 1px;
+}
+
+#search-filters .filter-group .style ul li span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) 0px -115px no-repeat;
+}
+
+#search-filters .filter-group .style ul li.style1 span {
+    background-position: -20px -115px;
+    width: 19px;
+    height: 30px;
+    margin: -15px 0 0 -10px;
+}
+
+#search-filters .filter-group .style ul li.style2 span {
+    background-position: -57px -115px;
+    width: 16px;
+    height: 35px;
+    margin: -17px 0 0 -8px;
+}
+
+#search-filters .filter-group .style ul li.style3 span {
+    background-position: -90px -115px;
+    width: 17px;
+    height: 37px;
+    margin: -18px 0 0 -9px;
+}
+
+#search-filters .filter-group .style ul li.style4 span {
+    background-position: -124px -115px;
+    width: 16px;
+    height: 38px;
+    margin: -19px 0 0 -8px;
+}
+
+#search-filters .filter-group .style ul li.style1.active span {
+    background-position: 0px -115px;
+}
+
+#search-filters .filter-group .style ul li.style2.active span {
+    background-position: -40px -115px;
+}
+
+#search-filters .filter-group .style ul li.style3.active span {
+    background-position: -73px -115px;
+}
+
+#search-filters .filter-group .style ul li.style4.active span {
+    background-position: -107px -115px;
+}
+
+#search-filters .filter-group .tariff {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 999;
+    margin: -1px 0 0 0;
+}
+
+#search-filters .filter-group .tariff ul {
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    height: 49px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#search-filters .filter-group .tariff ul li {
+    display: -webkit-box;
+    position: relative;
+    width: 25%;
+    text-align: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    padding: 0 0 0 40px;
+    height: 49px;
+    line-height: 49px;
+    overflow: hidden;
+    border: 1px #0091d2 solid;
+    border-width: 1px 0px 1px 1px;
+    cursor: pointer;
+    color: #b3e6f8;
+    font-size: 17px;
+    letter-spacing: -1px;
+    font-family: 'Droid Sans', Helvetica, Arial;
+}
+
+#search-filters .filter-group .tariff ul li.active {
+    background: #ff5b00;
+    color: #fff;
+    border-color: #fff;
+    border-width: 1px;
+}
+
+#search-filters .filter-group .tariff ul li:first-child {
+    border-left: none;
+}
+
+#search-filters .filter-group .tariff ul li:last-child {
+    border-right: none;
+}
+
+#search-filters .filter-group .tariff ul li span {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    width: 22px;
+    height: 22px;
+    margin: -10px;
+    0 0 0; background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -140px -115px no-repeat;
+}
+
+#search-filters .filter-group .tariff ul li.active span {
+    background-position: -163px -115px;
+}
+
+#search-filters .filter-group .tariff .max-price {
+    height: 78px;
+    overflow: hidden;
+    display: -webkit-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px #0091d2 solid;
+}
+
+#search-filters .filter-group .tariff .max-price span {
+    font-size: 17px;
+    color: #b3e2f5;
+    line-height: 96px;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    letter-spacing: -1px;
+    font-weight: bold;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+}
+
+#search-filters .filter-group .tariff .max-price > span {
+    padding: 0 16px 0 20px;
+}
+
+#search-filters .filter-group .tariff .max-price input {
+    border: 1px #9bd8f1 solid;
+    height: 42px;
+    width: 280px;
+    background: #52b9e6;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #52b9e6), color-stop(100%, #66c6eb));
+    background: -webkit-linear-gradient(top, #B3E6F8 0%, #b8ecff 100%);
+    background: linear-gradient(top, #52b9e6 0%, #66c6eb 100%);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0 0 20px;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    font-size: 26px;
+    color: #fff;
+    /*0091D2*/
+    -webkit-box-flex: 2;
+    box-flex: 2;
+    position: relative;
+    top: -6px;
+    outline: none;
+    border-radius: 0px 0px 0px 0px;
+}
+
+#search-filters .filter-group .tariff > input {
+    display: none;
+}
+
+#search-filters .filter-group .tariff .max-price input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+#search-filters .filter-group .properties {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#search-filters .filter-group .properties .wrapper {
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    height: 49px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 0 -1px 0;
+}
+
+#search-filters .filter-group .properties .item {
+    display: -webkit-box;
+    position: relative;
+    width: 33%;
+    text-align: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    padding: 0 0 0 42px;
+    height: 49px;
+    line-height: 49px;
+    font-size: 17px;
+    color: #b3e6f8;
+    font-family: 'Droid Sans', Helvetica, Arial;
+    border: 1px #0091d2 solid;
+    cursor: pointer;
+}
+
+#search-filters .filter-group .properties .item:nth-child(3n + 2) {
+    border-width: 1px 0px;
+}
+
+#search-filters .filter-group .properties .item.active {
+    background: #ff5b00;
+    color: #fff;
+    border-color: #fff;
+    font-weight: bold;
+    z-index: 9999;
+    border-width: 1px 1px 1px 1px;
+}
+
+#search-filters .filter-group .properties .item.active:nth-child(3n) {
+    border-width: 1px 0px 1px 1px;
+}
+
+#search-filters .filter-group .properties .item.active:nth-child(3n + 1) {
+    border-width: 1px 1px 1px 0px;
+}
+
+#search-filters .filter-group .properties .item span {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    width: 22px;
+    height: 22px;
+    margin: -10px;
+    0 0 0; background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -140px -115px no-repeat;
+}
+
+#search-filters .filter-group .properties .item.active span {
+    background-position: -163px -115px;
+}
+
+@media only screen and (max-width: 320px) {
+    #page {
+        min-width: 300px;
+    }
+
+    header nav#breadcrumb {
+        height: 30px;
+    }
+
+    header nav#breadcrumb ul {
+        height: 30px;
+    }
+
+    header nav#breadcrumb ul li {
+        line-height: 30px;
+        font-size: 12px;
+        margin: 0 7px 0 0;
+        padding: 0 12px 0 0;
+    }
+
+    header nav#breadcrumb ul li span {
+        top: 11px;
+    }
+
+    header nav#mainmenu {
+        height: 50px;
+    }
+
+    header nav#mainmenu ul {
+        height: 50px;
+    }
+
+    header nav#mainmenu .home {
+        top: 5px;
+    }
+
+    header nav#mainmenu .submenu {
+        font-size: 18px;
+        letter-spacing: -1px;
+        line-height: 50px;
+        height: 50px;
+        padding: 0 36px 0 13px;
+        right: 70px;
+        top: 0px;
+    }
+
+    header nav#mainmenu .submenu span {
+        right: 12px;
+        top: 22px;
+    }
+
+    header nav#mainmenu .submenu.active {
+        height: 49px;
+    }
+
+    header nav#mainmenu .submenu.active span {
+        top: 16px;
+        right: 8px;
+    }
+
+    header #submenu {
+        top: 50px;
+    }
+
+    header #submenu .segment-selector {
+        height: 50px;
+    }
+
+    header #submenu .segment-selector a span {
+        position: absolute;
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) -138px -28px no-repeat;
+        width: 17px;
+        height: 24px;
+        top: 12px;
+    }
+
+    header #submenu .segment-selector ul li {
+        height: 49px;
+        line-height: 49px;
+        letter-spacing: 0px;
+        font-size: 16px;
+    }
+
+    header #submenu ul li > a, #landingpage-menu li > a {
+        height: 49px;
+        line-height: 49px;
+        font-size: 13px;
+        background-image: url(https://szeccsa.github.io/mobile/i/general/bg_mainmenu-item-320.png);
+    }
+
+    header #submenu ul li > a > span, #landingpage-menu li > a > span {
+        right: 20px;
+    }
+
+    header #submenu ul li.active ul li, #landingpage-menu li.active ul li {
+        height: 50px;
+        -webkit-transition: height 0.3s ease;
+        transition: height 0.3s ease;
+    }
+
+    header #submenu ul li ul li > a, #landingpage-menu li ul li > a {
+        height: 49px;
+        line-height: 49px;
+        font-size: 13px;
+        letter-spacing: 0px;
+    }
+
+    header nav#mainmenu .search {
+        height: 50px;
+    }
+
+    header nav#mainmenu .search.active {
+        height: 49px;
+    }
+
+    header nav#mainmenu .search span {
+        top: 14px;
+    }
+
+    header nav#mainmenu .search.active span {
+        background-position: -90px -25px;
+    }
+
+    header #search {
+        top: 50px;
+    }
+
+    header.active.search #search {
+        height: 50px;
+    }
+
+    header #search form input.search-text {
+        font-size: 18px;
+        letter-spacing: 0px;
+        height: 30px;
+        width: 50%;
+        margin: 10px 0 0 10px;
+        padding: 0 10px;
+    }
+
+    header #search form input.search-submit {
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0px;
+        height: 30px;
+        top: 10px;
+    }
+
+    header #search form .arrow {
+        top: 18px;
+    }
+
+    #promo {
+        min-height: 280px;
+        margin: -20px 0 0 0;
+    }
+
+    #promo .wrapper {
+        height: 250px;
+    }
+
+    #promo.static-promo .wrapper {
+        width: 300px;
+    }
+
+    #promo .info {
+        height: 70px;
+        bottom: 30px;
+    }
+
+    #promo .info .shine {
+        height: 70px;
+    }
+
+    #promo .info p {
+        font-size: 12px;
+        max-width: 50%;
+        min-width: 180px;
+        line-height: 16px;
+    }
+
+    #promo.static-promo .info p {
+        font-size: 20px;
+    }
+
+    #promo .info .btn {
+        top: 18px;
+        height: 30px;
+        font-size: 11px;
+        line-height: 30px;
+        padding: 0 10px;
+    }
+
+    #promo .pager {
+        height: 30px;
+    }
+
+    #promo .pager .shine {
+        background: url(https://szeccsa.github.io/mobile/i/general/bg_promo-pager-shine.png) right -60px no-repeat;
+    }
+
+    #promo .pager ul {
+        height: 30px;
+    }
+
+    #promo .pager ul li {
+        margin: 2px 5px;
+        padding: 0;
+        line-height: 12px;
+        width: 12px;
+        height: 12px;
+        border: 2px #313232 solid;
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    #promo .pager ul li.active {
+        width: 16px;
+        height: 16px;
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main.png) 0 -29px no-repeat;
+        -webkit-background-size: 231px 231px;
+        top: -2px;
+    }
+
+    section.block .device-promo {
+        width: 300px;
+    }
+
+    section.block .top-links {
+        padding: 20px 5px;
+    }
+
+    section.block .top-links a {
+        font-size: 14px;
+        line-height: 16px;
+        height: 32px;
+        padding: 14px 0 14px 30px;
+    }
+
+    section.block .top-links a span {
+        top: 30px;
+    }
+
+    section.block h2 {
+        margin: 0 0 15px 0;
+        padding: 15px 20px;
+        letter-spacing: 0px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    section.block h3 {
+        letter-spacing: 0px;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 10px 20px;
+        letter-spacing: 0px;
+    }
+
+    section.block h3.light {
+        font-size: 15px;
+    }
+
+    section.block ul.bullet li {
+        font-size: 14px;
+        margin: 0 0 1px 0;
+    }
+
+    section.block .device-promo ul.bullet li {
+        font-size: 13px;
+    }
+
+    section.block p {
+        font-size: 14px;
+    }
+
+    .device-promo .info {
+        font-size: 13px;
+        line-height: 14px;
+        padding: 10px 20px 10px 20px;
+    }
+
+    .device-promo.single:first-child {
+        margin: 10px 0 0 0;
+    }
+
+    .device-promo.left .device-name {
+        margin: 0 0 0 20px;
+    }
+
+    .device-promo.left .price {
+        margin-left: 20px;
+    }
+
+    .device-promo.left .price.big {
+        margin-left: 20px;
+    }
+
+    .device-promo.left ul.bullet {
+        margin-left: 20px;
+        width: 180px;
+    }
+
+    .device-promo .device-name {
+        font-size: 14px;
+        line-height: 16px;
+        width: 180px;
+        min-height: 20px;
+        letter-spacing: 0px;
+    }
+
+    .device-promo .properties {
+        width: 180px;
+        height: auto;
+    }
+
+    .device-promo .properties span {
+        font-size: 11px;
+        line-height: 15px;
+        height: 15px;
+    }
+
+    .device-promo .properties span b {
+        font-size: 13px;
+        width: 17px;
+        height: 15px;
+    }
+
+    .device-promo .price {
+        font-size: 18px;
+        margin: 5px 0 0 100px;
+    }
+
+    .device-promo .device-link {
+        display: none;
+    }
+
+    .item-list {
+        margin: 0 0 10px 0;
+    }
+
+    .item-list .item {
+        min-height: 40px;
+        line-height: 16px;
+        letter-spacing: -1px;
+        font-size: 14px;
+    }
+
+    .item-list.light .item {
+        padding: 0 26px 0 15px;
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: 0px;
+    }
+
+    .item-list.full.double .item {
+        font-size: 12px;
+        line-height: 12px;
+        min-height: 56px;
+    }
+
+    .item-list.light .item span {
+        right: 10px;
+    }
+
+    .item-list.full.double .item span {
+        right: 20px;
+    }
+
+    .telenor-online form {
+        margin: 0 30px 0 0;
+    }
+
+    .telenor-online form input {
+        height: 30px;
+        padding: 0 0 0 10px;
+        font-size: 12px;
+    }
+
+    .telenor-online form input.submit {
+        width: 30px;
+        right: -29px;
+    }
+
+    .telenor-online form span {
+        top: 8px;
+        right: -20px;
+    }
+
+    .telenor-online > a {
+        padding: 0 0 0 26px;
+        font-size: 12px;
+        line-height: 22px;
+        height: 22px;
+        letter-spacing: 0px;
+        margin: 10px 0;
+    }
+
+    .contacts {
+        margin: 0 0 10px 0;
+    }
+
+    .contacts ul li {
+        height: 60px;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0px;
+        position: relative;
+    }
+
+    .contacts ul li a {
+        font-size: 28px;
+        line-height: 30px;
+        margin: 5px 0 0 0;
+        position: absolute;
+        top: 28px;
+    }
+
+    .useful-links {
+        height: 40px;
+    }
+
+    .useful-links a.lang {
+        width: 60px;
+        height: 40px;
+        line-height: 40px;
+        text-transform: uppercase;
+        font-size: 14px;
+        max-width: 60px;
+    }
+
+    .useful-links a.basket {
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+
+    .useful-links a.fb {
+        height: 40px;
+    }
+
+    .useful-links a.tw {
+        height: 40px;
+    }
+
+    .useful-links a.yt {
+        height: 40px;
+    }
+
+    footer p.legal {
+        line-height: 20px;
+        font-size: 10px;
+        padding: 0 40px 0 10px;
+    }
+
+    #search-filters header {
+        height: 80px;
+    }
+
+    #search-filters header ul#device-type {
+        height: 80px;
+    }
+
+    #search-filters header ul#device-type li {
+        height: 70px;
+        margin: 10px 0 0 0;
+        min-width: 60px;
+        font-size: 11px;
+        line-height: 110px;
+    }
+
+    #search-filters header ul#device-type li.active {
+        height: 80px;
+        line-height: 130px;
+    }
+
+    #search-filters header ul#device-type li span {
+        top: 55%;
+    }
+
+    #search-filters footer {
+        height: 46px;
+    }
+
+    #search-filters footer .result-sum {
+        line-height: 46px;
+        font-size: 14px;
+    }
+
+    #search-filters footer button.search {
+        height: 26px;
+        line-height: 26px;
+        margin: -13px 0 0 0;
+        font-size: 14px;
+    }
+
+    #search-filters .filter-group {
+        background: #009edc;
+        margin: 5px 0 0 0;
+    }
+
+    #search-filters .filter-group h1 {
+        height: 30px;
+        letter-spacing: 0px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    #search-filters .filter-group .manufacturers .wrapper {
+        height: 32px;
+    }
+
+    #search-filters .filter-group .manufacturers .item {
+        padding: 0 0 0 12px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 12px;
+    }
+
+    #search-filters .filter-group .tariff ul {
+        height: 36px;
+    }
+
+    #search-filters .filter-group .tariff ul li {
+        height: 36px;
+        line-height: 36px;
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+
+    #search-filters .filter-group .tariff .max-price {
+        height: 48px;
+    }
+
+    #search-filters .filter-group .tariff .max-price span {
+        font-size: 12px;
+        line-height: 60px;
+        letter-spacing: 0px;
+    }
+
+    #search-filters .filter-group .tariff .max-price > span {
+        padding: 0 12px 0 14px;
+    }
+
+    #search-filters .filter-group .tariff .max-price input {
+        height: 28px;
+        width: 140px;
+        padding: 0 0 0 20px;
+        font-size: 20px;
+        top: -2px;
+    }
+
+    #search-filters .filter-group .properties .wrapper {
+        width: 100%;
+        overflow: hidden;
+        display: -webkit-box;
+        height: 32px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0 0 -1px 0;
+    }
+
+    #search-filters .filter-group .properties .item {
+        display: -webkit-box;
+        position: relative;
+        width: 33%;
+        text-align: left;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-box-flex: 1;
+        box-flex: 1;
+        padding: 0 0 0 12px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 12px;
+        color: #b3e6f8;
+        font-family: 'Droid Sans', Helvetica, Arial;
+        border: 1px #0091d2 solid;
+        cursor: pointer;
+    }
+
+    #search-filters .filter-group .properties .item span {
+        display: none;
+    }
+
+    .device-title {
+        min-width: 120px;
+    }
+
+    .device-title h1 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .tabbed-content header {
+        height: 50px;
+    }
+
+    .tabbed-content header ul {
+        height: 50px;
+    }
+
+    .tabbed-content header ul li {
+        line-height: 40px;
+        font-size: 14px;
+    }
+
+    .tabbed-content .tab-content .device-img img.low {
+        display: block;
+        width: 130px;
+    }
+
+    .tabbed-content .tab-content .device-img img.high {
+        display: none;
+    }
+
+    .tabbed-content .tab-content .box {
+        margin: 0 0 5px 0;
+    }
+
+    .tabbed-content .tab-content .box .price {
+        font-size: 26px;
+    }
+
+    .tabbed-content .tab-content .box .price > span {
+        font-size: 20px;
+    }
+
+    .tabbed-content .tab-content .box .text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .tabbed-content .tab-content .box h2 {
+        font-size: 14px;
+    }
+
+    .tabbed-content .tab-content .box h3 {
+        font-size: 13px;
+    }
+
+    .select-grp label {
+        font-size: 12px;
+    }
+
+    .select-grp .select-replace {
+        height: 38px;
+        font-size: 18px;
+        line-height: 38px;
+    }
+
+    .select-grp .select-replace.medium {
+        font-size: 14px;
+    }
+
+    .select-grp .select-replace.small {
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .select-grp .select-replace.small b {
+        width: 80%;
+        padding-top: 8px;
+    }
+
+    .select-grp .select-replace > span {
+        width: 28px;
+        height: 38px;
+    }
+
+    .select-grp select {
+        top: 4px;
+    }
+
+    .tabbed-content .tab-content .box .monthly-tariff {
+        font-size: 12px;
+    }
+
+    .tabbed-content .tab-content .box .monthly-tariff b {
+        font-size: 18px;
+        top: 2px;
+    }
+
+    .tabbed-content .tab-content .box .tariff-info {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .tabbed-content .tab-content .box button {
+        height: 36px;
+    }
+
+    .tabbed-content .tab-content .box button, .tabbed-content .tab-content .box button.basket {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .tabbed-content .tab-content .box button.basket span {
+        display: none;
+    }
+
+    .tabbed-content .tab-content .properties span {
+        marign: 0 0 5px 0;
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .tabbed-content .tab-content .box .fb-like {
+        position: relative;
+        display: block;
+        margin: 0 0 4px 0;
+        top: 0;
+        width: 100px;
+    }
+
+    .tabbed-content .tab-content .box .plusone {
+        position: relative;
+        display: block;
+        top: 0;
+        width: 100px;
+    }
+
+    .tabbed-content .tab-content .icons {
+        width: 120px;
+    }
+
+    .tabbed-content .tab-content .icons .icon {
+        width: 34px;
+        height: 34px;
+    }
+
+    .tabbed-content .tab-content .box .table-list li .col-1 {
+        padding: 10px 0 0 10px;
+    }
+
+    .tabbed-content .tab-content .box .table-list li .col-1 > b {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .tabbed-content .tab-content .box .table-list li .col-1 > span {
+        font-size: 13px;
+    }
+
+    .tabbed-content .tab-content .box .table-list li .col-1 .sign {
+        font-size: 14px;
+        right: 10px;
+        width: 20px;
+    }
+
+    .tabbed-content .tab-content .box .table-list li .col-2 {
+        font-size: 22px;
+    }
+
+    .tabbed-content .tab-content .box .table-list li .col-1.service b {
+        font-size: 11px;
+        line-height: 13px;
+        padding: 0 8px 0 0;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2.0), only screen and (-o-min-device-pixel-ratio: 2.0), only screen and (min--moz-device-pixel-ratio: 2.0), only screen and (min-device-pixel-ratio: 2.0) {
+    header nav#mainmenu .home {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) 0 0 no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+
+    header nav#mainmenu .submenu span {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -115px 0 no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+
+    header nav#mainmenu .search span {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -90px 0 no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+
+    header nav#breadcrumb ul li span {
+        background: url("https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png") -115px -62px no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+
+    header #submenu .segment-selector a span {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -138px -28px no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+
+    header #submenu ul li > a > span {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -115px -28px no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+
+    header #search form .arrow {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -115px -46px no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+
+    .device-promo .device-link span {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -125px -46px no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+
+    .device-promo .rating {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -155px 0 no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+
+    /*.device-promo .device-img img.low {display: none;}
+.device-promo .device-img img.high {display: block; width: 100px; height: 130px;}*/
+    .item-list .item span {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -125px -46px no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+
+    .top-links > a span, .telenor-online > a span {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -115px -46px no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+
+    .telenor-online form span {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -115px -46px no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+
+    .useful-links a span {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -22px -40px no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+
+    footer p.legal a {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -135px -52px no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+
+    #search-filters header ul#device-type li span {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) 0 0 no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+
+    #search-filters footer button.search span {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -115px -10px no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+
+    #search-filters .filter-group h1 span {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -115px -10px no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+
+    #search-filters .filter-group .style ul li span {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) 0px -115px no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+
+    #search-filters .filter-group .tariff ul li span {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -140px -115px no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+
+    #search-filters .filter-group .properties .item span {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -140px -115px no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+
+    section.block .tabbed-content .tab-content .icons .icon span {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) 0 0 no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+}
+
+@media screen and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2.0), only screen and (-o-min-device-pixel-ratio: 2.0), only screen and (min--moz-device-pixel-ratio: 2.0), only screen and (min-device-pixel-ratio: 2.0) {
+    #promo .pager ul li.active {
+        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) 0 -40px no-repeat;
+        -webkit-background-size: 320px 320px;
+    }
+}
+
+#page.no-netshop .netshop-rel {
+    display: none !important;
+}
+
+.nocallout {
+    -webkit-touch-callout: none;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+textarea[contenteditable] {
+    -webkit-appearance: none;
+}
+
+.gifhidden {
+    position: absolute;
+    left: -100%;
+}
+
+.ir {
+    display: block;
+    border: 0;
+    text-indent: -999em;
+    overflow: hidden;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    text-align: left;
+    direction: ltr;
+}
+
+.ir br {
+    display: none;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; width: 100%;
+    display: block;
+}
+
+section.block .externalContent {
+    padding: 0 0 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+.orange-pipe.blue-pipe {
+    padding-left: 40px !important;
+}
+
+.landing-10-frointos .device-promo .properties {
+    font-size: 12px;
+}
+
+.landing-10-frointos .device-promo .properties span strong {
+    display: inline-block;
+    text-align: center;
+    width: 21px;
+    height: 17px;
+    font-size: 14px;
+    color: #00ACE7;
+}
+
+.landing-10-frointos .device-promo .properties > strong.tarifa {
+    float: none;
+    clear: both;
+    display: block;
+}
+
+.landing-10-frointos .device-promo .price {
+    margin: 5px 0 0 130px;
+}
+
+.landing-10-frointos .device-promo .properties {
+    margin: 5px 0 0 110px;
+}
+
+.landing-10-frointos .device-promo .device-name {
+    margin: 0 0 0 130px;
+}
+
+.landing-10-frointos .device-promo .properties span {
+    height: inherit !important;
+}

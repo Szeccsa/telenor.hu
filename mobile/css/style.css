@@ -3863,7 +3863,7 @@ footer p.full-page a {
 
 @media only screen and (max-width: 320px) {
     #page {
-        min-width: 300px;
+        width: 100%;
     }
 
     header nav#breadcrumb {
@@ -4627,109 +4627,109 @@ footer p.full-page a {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2.0), only screen and (-o-min-device-pixel-ratio: 2.0), only screen and (min--moz-device-pixel-ratio: 2.0), only screen and (min-device-pixel-ratio: 2.0) {
     header nav#mainmenu .home {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) 0 0 no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) 0 0 no-repeat;
         -webkit-background-size: 320px 320px;
     }
 
     header nav#mainmenu .submenu span {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -115px 0 no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) -115px 0 no-repeat;
         -webkit-background-size: 320px 320px;
     }
 
     header nav#mainmenu .search span {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -90px 0 no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) -90px 0 no-repeat;
         -webkit-background-size: 320px 320px;
     }
 
     header nav#breadcrumb ul li span {
-        background: url("https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png") -115px -62px no-repeat;
+        background: url("https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png") -115px -62px no-repeat;
         -webkit-background-size: 320px 320px;
     }
 
     header #submenu .segment-selector a span {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -138px -28px no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) -138px -28px no-repeat;
         -webkit-background-size: 320px 320px;
     }
 
     header #submenu ul li > a > span {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -115px -28px no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) -115px -28px no-repeat;
         -webkit-background-size: 320px 320px;
     }
 
     header #search form .arrow {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -115px -46px no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) -115px -46px no-repeat;
         -webkit-background-size: 320px 320px;
     }
 
     .device-promo .device-link span {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -125px -46px no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) -125px -46px no-repeat;
         -webkit-background-size: 320px 320px;
     }
 
     .device-promo .rating {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -155px 0 no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) -155px 0 no-repeat;
         -webkit-background-size: 320px 320px;
     }
 
     /*.device-promo .device-img img.low {display: none;}
 .device-promo .device-img img.high {display: block; width: 100px; height: 130px;}*/
     .item-list .item span {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -125px -46px no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) -125px -46px no-repeat;
         -webkit-background-size: 320px 320px;
     }
 
     .top-links > a span, .telenor-online > a span {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -115px -46px no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) -115px -46px no-repeat;
         -webkit-background-size: 320px 320px;
     }
 
     .telenor-online form span {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -115px -46px no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) -115px -46px no-repeat;
         -webkit-background-size: 320px 320px;
     }
 
     .useful-links a span {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -22px -40px no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) -22px -40px no-repeat;
         -webkit-background-size: 320px 320px;
     }
 
     footer p.legal a {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -135px -52px no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) -135px -52px no-repeat;
         -webkit-background-size: 320px 320px;
     }
 
     #search-filters header ul#device-type li span {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) 0 0 no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) 0 0 no-repeat;
         -webkit-background-size: 320px 320px;
     }
 
     #search-filters footer button.search span {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -115px -10px no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) -115px -10px no-repeat;
         -webkit-background-size: 320px 320px;
     }
 
     #search-filters .filter-group h1 span {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -115px -10px no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) -115px -10px no-repeat;
         -webkit-background-size: 320px 320px;
     }
 
     #search-filters .filter-group .style ul li span {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) 0px -115px no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) 0px -115px no-repeat;
         -webkit-background-size: 320px 320px;
     }
 
     #search-filters .filter-group .tariff ul li span {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -140px -115px no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) -140px -115px no-repeat;
         -webkit-background-size: 320px 320px;
     }
 
     #search-filters .filter-group .properties .item span {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) -140px -115px no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) -140px -115px no-repeat;
         -webkit-background-size: 320px 320px;
     }
 
     section.block .tabbed-content .tab-content .icons .icon span {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) 0 0 no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) 0 0 no-repeat;
         -webkit-background-size: 320px 320px;
     }
 }
@@ -4739,7 +4739,7 @@ footer p.full-page a {
 
 @media screen and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2.0), only screen and (-o-min-device-pixel-ratio: 2.0), only screen and (min--moz-device-pixel-ratio: 2.0), only screen and (min-device-pixel-ratio: 2.0) {
     #promo .pager ul li.active {
-        background: url(https://szeccsa.github.io/mobile/i/general/sprite_main_highres.png) 0 -40px no-repeat;
+        background: url(https://szeccsa.github.io/telenor.hu/mobile/i/general/sprite_main_highres.png) 0 -40px no-repeat;
         -webkit-background-size: 320px 320px;
     }
 }

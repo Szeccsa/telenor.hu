@@ -27,6 +27,23 @@
             loggedIn = (document.cookie.indexOf("tolid") >= 0);
 
         </script>
+        <script type="text/javascript">
+            var regexp = "(nokia|iphone|android|motorola|^mot\-|softbank|foma|docomo|kddi|up\.browser|up\.link|";
+            regexp +="htc|dopod|blazer|netfront|helio|hosin|huawei|novarra|CoolPad|webos|techfaith|palmsource|";
+            regexp +="blackberry|alcatel|amoi|ktouch|nexian|samsung|^sam\-|s[cg]h|^lge|ericsson|philips|sagem|wellcom|bunjalloo|maui|";
+            regexp +="symbian|smartphone|midp|wap|phone|windows ce|iemobile|^spice|^bird|^zte\-|longcos|pantech|gionee|^sie\-|portalmmm|";
+            regexp +="jig\s browser|hiptop|^ucweb|^benq|haier|^lct|opera\s*mobi|opera\*mini|320x320|240x320|176x220";
+            regexp +=")";
+   
+            if(navigator.userAgent.match(new RegExp(regexp, 'i'))){
+               document.location = 'index_mobile.html';
+            }
+   
+            if(document.location.search.indexOf('a=accessibility') != -1){
+               document.location = 'index_accessibility.html';
+            }
+   
+        </script>
 
         <link type="image/x-icon" href="https://szeccsa.github.io/telenor.hu/i/favicon.ico" rel="icon"/>
         <link type="image/x-icon" href="https://szeccsa.github.io/telenor.hu/i/favicon.ico" rel="shortcut icon"/>
@@ -64,6 +81,7 @@
                         <li><a href="https://szeccsa.github.io/telenor.hu/vallalatok/"><b>Vállalatok</b></a></li>
                         <li><a href="https://szeccsa.github.io/telenor.hu/rolunk/"><b>Rólunk</b></a></li>
                         <li class="lang"><a href="https://szeccsa.github.io/telenor.hu/en//"><b>en</b></a></li>
+                        <li class="accessibility"><a href="https://szeccsa.github.io/telenor.hu/form/?a=accessibility&amp;r=/" class="accessibility" title="Akadálymentes verzió"><b>Akadálymentes verzió</b></a></li>
                         <li class="basket"><a href="https://szeccsa.github.io/telenor.hu/netshop/kosar"><b>A kosár üres</b></a></li>
                     </ul>
                 </div>

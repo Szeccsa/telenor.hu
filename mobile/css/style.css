@@ -4871,3 +4871,7 @@ section.block .externalContent {
 div.box-gradient, form {
     display: table;
 }
+
+h4.price {
+    color: #ff5b00;
+}

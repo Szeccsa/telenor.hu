@@ -23,7 +23,7 @@ div.mainPromoRotatorCorp a.video {
     margin: 25px 0 0;
     width:720px;
     z-index:201;
-    background:url(https://szeccsa.github.io/i/buttons/play-button.png) no-repeat 50% 50%;
+    background:url(https://szeccsa.github.io/telenor.hu/i/buttons/play-button.png) no-repeat 50% 50%;
 }
 div.cont.vallalaticont div.mainPromoRotatorCorp div.promos {
     position:absolute;
@@ -31,7 +31,7 @@ div.cont.vallalaticont div.mainPromoRotatorCorp div.promos {
 div.cont .corp_main_upper_right{
     width: 269px;
     height:366px;
-    background: url(https://szeccsa.github.io/i/corp_mainpromorotator/corp_right_upper_box_bg.jpg) no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/i/corp_mainpromorotator/corp_right_upper_box_bg.jpg) no-repeat;
     position: absolute;
     margin-left: 720px;
 }
@@ -51,7 +51,7 @@ div.cont .corp_main_upper_right .corp_main_upper_right_ul{
 }
 
 div.cont .corp_main_upper_right .corp_main_upper_right_ul li{
-    list-style-image: url(https://szeccsa.github.io/i/corp_mainpromorotator/right_upper_list.png);
+    list-style-image: url(https://szeccsa.github.io/telenor.hu/i/corp_mainpromorotator/right_upper_list.png);
     background:none;
     width: 220px;
     padding:10px 0 10px 0px;
@@ -71,7 +71,7 @@ div.cont .corp_main_upper_right div.corp_main_upper_right_sep,div.cont .corp_mai
     height:2px;
     left:10px;
     margin-top: 10px;
-    background: url(https://szeccsa.github.io/i/corp_mainpromorotator/corp_main_upper_right_sep.png) no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/i/corp_mainpromorotator/corp_main_upper_right_sep.png) no-repeat;
 }
 
 div.cont .corp_main_upper_right .corp_main_upper_right_ul div.corp_main_upper_right_sep{
@@ -81,7 +81,7 @@ div.cont .corp_main_upper_right .corp_main_upper_right_ul div.corp_main_upper_ri
 
 div.cont .corp_main_middle{
     position: absolute;
-    background: url(https://szeccsa.github.io/i/corp_mainpromorotator/middle_bg.jpg) no-repeat center center;
+    background: url(https://szeccsa.github.io/telenor.hu/i/corp_mainpromorotator/middle_bg.jpg) no-repeat center center;
     left: 305px;
     top: 366px;
     z-index: 4000;
@@ -99,12 +99,12 @@ div.cont .corp_main_middle .corp_main_middle_mask{
 }
 
 div.cont .corp_main_middle .corp_main_middle_mask.top{
-    background: url(https://szeccsa.github.io/i/corp_mainpromorotator/middle_mask_top.jpg) no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/i/corp_mainpromorotator/middle_mask_top.jpg) no-repeat;
 }
 
 div.cont .corp_main_middle .corp_main_middle_mask.bottom{
     top: 385px;
-    background: url(https://szeccsa.github.io/i/corp_mainpromorotator/middle_mask_bottom.jpg) no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/i/corp_mainpromorotator/middle_mask_bottom.jpg) no-repeat;
 }
 
 div.cont .corp_main_middle div{
@@ -122,7 +122,7 @@ div.cont .corp_main_middle .separator{
     width: 640px;
     height:2px;
     padding: 0;
-    background: url(https://szeccsa.github.io/i/corp_mainpromorotator/corp_main_upper_right_sep.png) repeat-x;
+    background: url(https://szeccsa.github.io/telenor.hu/i/corp_mainpromorotator/corp_main_upper_right_sep.png) repeat-x;
 }
 
 div.cont .corp_main_middle .clear, div.cont .corp_main_footer_promo_box .clear{
@@ -135,7 +135,7 @@ div.cont .corp_main_middle ul{
 }
 
 rp_main_middle ul li {
-    list-style-image: url(https://szeccsa.github.io/i/corp_mainpromorotator/right_upper_list.png);
+    list-style-image: url(https://szeccsa.github.io/telenor.hu/i/corp_mainpromorotator/right_upper_list.png);
     background:none;
     width: 220px;
     padding:10px 0 0px 0px;
@@ -167,14 +167,14 @@ div.cont .corp_main_footer_promo .corp_main_footer_promo_mask{
 
 
 div.cont .corp_main_footer_promo .corp_main_footer_promo_mask.top{
-    background: url(https://szeccsa.github.io/i/corp_mainpromorotator/footer_top.jpg) no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/i/corp_mainpromorotator/footer_top.jpg) no-repeat;
     height: 16px;
 }
 
 div.cont .corp_main_footer_promo .corp_main_footer_promo_mask.bottom{
     top: 235px;
     height: 37px;
-    background: url(https://szeccsa.github.io/i/corp_mainpromorotator/footer_bottom.jpg) no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/i/corp_mainpromorotator/footer_bottom.jpg) no-repeat;
 }
 
 div.cont .corp_main_footer_promo_box{
@@ -182,11 +182,11 @@ div.cont .corp_main_footer_promo_box{
     width: 320px;
     height: 218px;
     margin:20px 0 0 5px;
-    background: url(https://szeccsa.github.io/i/corp_mainpromorotator/promo_bg.jpg) no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/i/corp_mainpromorotator/promo_bg.jpg) no-repeat;
 }
 
 div.cont .corp_main_footer_promo_box:hover{
-    background: url(https://szeccsa.github.io/i/corp_mainpromorotator/promo_bg_shadow.jpg) no-repeat;
+    background: url(https://szeccsa.github.io/telenor.hu/i/corp_mainpromorotator/promo_bg_shadow.jpg) no-repeat;
 }
 
 div.cont .corp_main_footer_promo_box h3{
@@ -221,7 +221,7 @@ div.content.manager-searcher {
         margin:20px 0 30px 20px;
     }
     div.content.manager-searcher .promo-pict {
-        background:url(https://szeccsa.github.io/i/corp/manager-searcher/promo.jpg) top right no-repeat;
+        background:url(https://szeccsa.github.io/telenor.hu/i/corp/manager-searcher/promo.jpg) top right no-repeat;
         height:219px;
     }
     div.content.manager-searcher > h2 {
@@ -245,7 +245,7 @@ div.content.manager-searcher {
         div.content.manager-searcher .searchbar > input {
             float:left;
             position:relative;
-            background:url(https://szeccsa.github.io/i/corp/manager-searcher/input-bg.png) 0 0;
+            background:url(https://szeccsa.github.io/telenor.hu/i/corp/manager-searcher/input-bg.png) 0 0;
             width:51px; height:36px;
             padding: 0 10px;
             font-size:13px;
@@ -254,7 +254,7 @@ div.content.manager-searcher {
         div.content.manager-searcher .searchbar > button {
             float:left;
             position:relative;
-            background:url(https://szeccsa.github.io/i/corp/manager-searcher/ok-button.png) 0 0;
+            background:url(https://szeccsa.github.io/telenor.hu/i/corp/manager-searcher/ok-button.png) 0 0;
             width:84px; height:48px;
             cursor:pointer;
             margin:-7px 0 0 20px;
@@ -299,13 +299,13 @@ div.content.manager-searcher {
 
 /* / Corporation manager-search */
 
-.mask-top{background:transparent url(https://szeccsa.github.io/i/mask-bg.png) repeat-x 0 0;height:10px;margin:10px 0;}
+.mask-top{background:transparent url(https://szeccsa.github.io/telenor.hu/i/mask-bg.png) repeat-x 0 0;height:10px;margin:10px 0;}
  div.corporate .blue{color:#00ace7!important;}
- div.corporate .callback-form .input i.af{background:transparent url(https://szeccsa.github.io/i/corporate-sprite.png) no-repeat 0 -2px;background-position:-841px -2px;display:inline-block;height:38px;width:16px;}
+ div.corporate .callback-form .input i.af{background:transparent url(https://szeccsa.github.io/telenor.hu/i/corporate-sprite.png) no-repeat 0 -2px;background-position:-841px -2px;display:inline-block;height:38px;width:16px;}
  div.corporate .callback-form .input.combined{display:relative;}
  div.corporate .callback-form .input.combined > input[type=text]{background-position:-397px -43px;margin-left:-4px;padding-right:4px;width:94px;}
  div.corporate .callback-form .input.combined > span > input[type=text]{background-position:-304px -43px;width:86px;}
- div.corporate .callback-form .input.combined > span > select{background:transparent url(https://szeccsa.github.io/i/corporate-sprite.png) repeat-x -304px -43px;cursor:pointer;filter:alpha(opacity=0) progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=10,color=#FFFFFF);height:36px;left:0;opacity:0;padding:8px 0 8px 8px;position:absolute;top:0;width:87px;z-index:10;}
+ div.corporate .callback-form .input.combined > span > select{background:transparent url(https://szeccsa.github.io/telenor.hu/i/corporate-sprite.png) repeat-x -304px -43px;cursor:pointer;filter:alpha(opacity=0) progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=10,color=#FFFFFF);height:36px;left:0;opacity:0;padding:8px 0 8px 8px;position:absolute;top:0;width:87px;z-index:10;}
  div.corporate .callback-form .row{margin-left:16px;padding:11px 0;}
  div.corporate .callback-form .row [class*=col]{float:left;}
  div.corporate .callback-form .row label{color:#00ace7;font-family:'myfontRegular';font-size:12px px;font-weight:700;line-height:36px;}
@@ -319,7 +319,7 @@ div.content.manager-searcher {
  body.en div.corporate .callback-form input#corpname{width:320px;}
  div.corporate .callback-form input#zipcode{width:56px;}
  div.corporate .callback-form input#phonenumber {width: 175px;}
- div.corporate .callback-form input[type=text]{background:transparent url(https://szeccsa.github.io/i/corporate-sprite.png) repeat-x -304px -2px;display:inline-block;height:20px;margin:0;padding:8px 0 8px 8px;}
+ div.corporate .callback-form input[type=text]{background:transparent url(https://szeccsa.github.io/telenor.hu/i/corporate-sprite.png) repeat-x -304px -2px;display:inline-block;height:20px;margin:0;padding:8px 0 8px 8px;}
  div.corporate .callback-form input[type=text].normal{width:217px;}
  div.corporate .callback-form input[type=text].wide{width:530px;}
  div.corporate .callback-form,.survey-header,.survey-footer{padding:22px;}
@@ -336,8 +336,8 @@ div.content.manager-searcher {
  div.corporate .survey-content .section h3{margin-top:0;width:600px;}
  div.corporate .survey-content .section label{color:#00ace7;font-size:15px;height:32px;margin-top:22px;width:600px;}
  div.corporate .survey-content input[type=button].blue{background-position:-20px -64px;}
- div.corporate .survey-content input[type=button].blue,.survey-content input[type=button].grey{background:transparent url(https://szeccsa.github.io/i/corporate-sprite.png) no-repeat -20px -64px;color:transparent;cursor:pointer;font-size:1px;height:32px;line-height:1px!important;margin-top:-16px;padding:0 0 0 87px !important;position:absolute;right:0;top:50%;width:87px;}
- div.corporate .survey-content input[type=button].checkbox{background:transparent url(https://szeccsa.github.io/i/corp/webofice/slidedown-narrows.png) no-repeat -4px -2px;color:transparent;font-size:1px;height:21px;line-height:1px!important;margin-top:-8px;padding:0 0 0 20px !important;position:absolute;right:0;top:50%;width:21px;}
+ div.corporate .survey-content input[type=button].blue,.survey-content input[type=button].grey{background:transparent url(https://szeccsa.github.io/telenor.hu/i/corporate-sprite.png) no-repeat -20px -64px;color:transparent;cursor:pointer;font-size:1px;height:32px;line-height:1px!important;margin-top:-16px;padding:0 0 0 87px !important;position:absolute;right:0;top:50%;width:87px;}
+ div.corporate .survey-content input[type=button].checkbox{background:transparent url(https://szeccsa.github.io/telenor.hu/i/corp/webofice/slidedown-narrows.png) no-repeat -4px -2px;color:transparent;font-size:1px;height:21px;line-height:1px!important;margin-top:-8px;padding:0 0 0 20px !important;position:absolute;right:0;top:50%;width:21px;}
  div.corporate .survey-content input[type=button].checkbox.checked{background-position:-4px -45px;}
  div.corporate .survey-content input[type=button].grey.normal{background-position:-20px 0;}
  div.corporate .survey-content input[type=button].grey.pressed{background-position:-20px -32px;}
@@ -349,44 +349,44 @@ div.content.manager-searcher {
  div.corporate > div{padding:22px 22px 22px 0 !important;}
  div.corporate div.corporate-col{float:left;width:378px;}
  div.corporate div.corporate-col h3,div.corporate div.corporate-col p{margin-top:10px;}
- div.corporate div.dyna-light{background:transparent url(https://szeccsa.github.io/i/corporate/light-repeatable.jpg) repeat-y 0 0;color:#fff;margin:0 auto;padding:20px 10px;position:relative;width:530px;min-height:216px;}
- div.corporate div.dyna-light > span{background:transparent url(https://szeccsa.github.io/i/corporate/light-sprite.jpg) no-repeat 0 0;height:108px;left:0;position:absolute;width:550px;}
+ div.corporate div.dyna-light{background:transparent url(https://szeccsa.github.io/telenor.hu/i/corporate/light-repeatable.jpg) repeat-y 0 0;color:#fff;margin:0 auto;padding:20px 10px;position:relative;width:530px;min-height:216px;}
+ div.corporate div.dyna-light > span{background:transparent url(https://szeccsa.github.io/telenor.hu/i/corporate/light-sprite.jpg) no-repeat 0 0;height:108px;left:0;position:absolute;width:550px;}
  div.corporate div.dyna-light > span.bottom-light{background-position:0 -108px;bottom:0;}
  div.corporate div.dyna-light > span.top-light{top:0;}
  div.corporate div.dyna-light div.dyna-light-inner{position:relative;}
  div.corporate div.dyna-light div.dyna-light-inner > ul{margin:16px 20px;}
  div.corporate div.grey-highlight{-moz-border-radius:10px;background-color:#e5e5e5;border-radius:10px;padding:22px;}
  div.corporate div.grey-highlight p,div.corporate div.grey-highlight ul,div.corporate div.grey-highlight h3{margin-left:0;}
- div.corporate div.light{background:transparent url(https://szeccsa.github.io/i/corporate/telenor_mobilhid_light.jpg) no-repeat 0 0;color:#fff;height:254px;margin:0 auto;padding:20px 10px;width:526px;}
+ div.corporate div.light{background:transparent url(https://szeccsa.github.io/telenor.hu/i/corporate/telenor_mobilhid_light.jpg) no-repeat 0 0;color:#fff;height:254px;margin:0 auto;padding:20px 10px;width:526px;}
  div.corporate div.light > ul > li,div.corporate div.dyna-light div.dyna-light-inner > ul > li{margin:10px 0;}
- div.corporate div.light.high{background:transparent url(https://szeccsa.github.io/i/corporate/telenor_adatkozpont_light.jpg) no-repeat 0 0;height:305px;}
+ div.corporate div.light.high{background:transparent url(https://szeccsa.github.io/telenor.hu/i/corporate/telenor_adatkozpont_light.jpg) no-repeat 0 0;height:305px;}
  div.corporate h2.blue{font-size:30px!important;font-weight:700!important;line-height: 30px;}
  div.corporate h3.big{font-size:22px;}
- div.corporate input[type=button].callback{background:transparent url(https://szeccsa.github.io/i/corporate-sprite.png) no-repeat -107px 0;color:transparent;cursor:pointer;font-size:1px;height:48px;line-height:1px!important;padding:0 0 0 194px !important;width:194px;}
- body.en div.corporate input[type=button].callback{background:transparent url(https://szeccsa.github.io/i/corp/en/corporate-sprite.png) no-repeat -147px 0; padding:0 !important; width:154px; }
+ div.corporate input[type=button].callback{background:transparent url(https://szeccsa.github.io/telenor.hu/i/corporate-sprite.png) no-repeat -107px 0;color:transparent;cursor:pointer;font-size:1px;height:48px;line-height:1px!important;padding:0 0 0 194px !important;width:194px;}
+ body.en div.corporate input[type=button].callback{background:transparent url(https://szeccsa.github.io/telenor.hu/i/corp/en/corporate-sprite.png) no-repeat -147px 0; padding:0 !important; width:154px; }
 
 
- div.corporate span.dropdown{background:transparent url(https://szeccsa.github.io/i/corporate/to_infinity_and_beyond.png) no-repeat -3px -4px;cursor:pointer;height:21px;position:absolute;right:0;top:0;width:21px;}
+ div.corporate span.dropdown{background:transparent url(https://szeccsa.github.io/telenor.hu/i/corporate/to_infinity_and_beyond.png) no-repeat -3px -4px;cursor:pointer;height:21px;position:absolute;right:0;top:0;width:21px;}
  div.corporate-footer{clear:both;width:100%;}
  div.corporate-footer .contact p{color:#8c9399;float:left;font-size:12px;padding-right:0;position:relative;width:200px;}
  div.corporate-footer .contact p em{display:block;font-style:normal;margin-right:10px;}
  div.corporate-footer .contact p span{color:#00ace7;font-size:38px;font-weight:700;line-height:34px;position:absolute;right:0;top:-1px;}
- div.corporate-footer .links{background:transparent url(https://szeccsa.github.io/i/corporate/footer-bg.jpg) no-repeat 0 0;height:138px;padding:10px;}
+ div.corporate-footer .links{background:transparent url(https://szeccsa.github.io/telenor.hu/i/corporate/footer-bg.jpg) no-repeat 0 0;height:138px;padding:10px;}
  div.corporate-footer .links h4{color:#fff;margin-bottom:10px;}
  div.corporate-footer .links ul li{color:#00ace7;float:left;font-size:12px;width:270px;}
  div.corporate-footer .links ul,div.corporate-footer .contact{zoom:1;}
  div.corporate.content{float:left;width:780px!important;}
- ul.circle > li{background:transparent url(https://szeccsa.github.io/i/corporate/list-bullet-circle.png) no-repeat 0 4px!important;}
- ul.gt > li{background:transparent url(https://szeccsa.github.io/i/corporate/list-bullet-gt.png) no-repeat 0 4px!important;}
- ul.pipe > li{background:transparent url(https://szeccsa.github.io/i/corporate/list-bullet-pipe.png) no-repeat 0 4px!important;}
+ ul.circle > li{background:transparent url(https://szeccsa.github.io/telenor.hu/i/corporate/list-bullet-circle.png) no-repeat 0 4px!important;}
+ ul.gt > li{background:transparent url(https://szeccsa.github.io/telenor.hu/i/corporate/list-bullet-gt.png) no-repeat 0 4px!important;}
+ ul.pipe > li{background:transparent url(https://szeccsa.github.io/telenor.hu/i/corporate/list-bullet-pipe.png) no-repeat 0 4px!important;}
 
 
 /* webofice */
 div.cont .little-promoboxes {
-    background:url(https://szeccsa.github.io/i/corp/webofice/left-promo.jpg) 0 0 no-repeat;
+    background:url(https://szeccsa.github.io/telenor.hu/i/corp/webofice/left-promo.jpg) 0 0 no-repeat;
     height:778px;
 }
-body.en div.cont .little-promoboxes { background:url(https://szeccsa.github.io/i/corp/en/left-promo.jpg) 0 0 no-repeat; }
+body.en div.cont .little-promoboxes { background:url(https://szeccsa.github.io/telenor.hu/i/corp/en/left-promo.jpg) 0 0 no-repeat; }
     div.cont .little-promoboxes a {
         display:block;
         position:absolute;
@@ -402,14 +402,14 @@ body.en div.cont .little-promoboxes { background:url(https://szeccsa.github.io/i
 div.cont .calculator-promobox {
 	display:block;
 	text-indent:-999em;
-    background:url(https://szeccsa.github.io/i/corp/webofice/calculator-promo.png) 0 0 no-repeat;
+    background:url(https://szeccsa.github.io/telenor.hu/i/corp/webofice/calculator-promo.png) 0 0 no-repeat;
 	width:180px;
 	height:209px;
 }
 div.cont #webofice-video-promobox {
 	display:block;
 	text-indent:-999em;
-    background:url(https://szeccsa.github.io/i/corp/webofice/video-promo.png) 0 0 no-repeat;
+    background:url(https://szeccsa.github.io/telenor.hu/i/corp/webofice/video-promo.png) 0 0 no-repeat;
 	width:180px;
 	height:243px;
 }
@@ -424,9 +424,9 @@ div.cont .webofice-video-promobox {
 	overflow: hidden;
 	z-index: 999;
 	text-indent:-999em;
-  background:url(https://szeccsa.github.io/i/corp/webofice/video-promo2.png) 0 0 no-repeat;
+  background:url(https://szeccsa.github.io/telenor.hu/i/corp/webofice/video-promo2.png) 0 0 no-repeat;
 }
-body.en div.cont #webofice-video-promobox { background:url(https://szeccsa.github.io/i/corp/en/video-promo.png) 0 0 no-repeat; }
+body.en div.cont #webofice-video-promobox { background:url(https://szeccsa.github.io/telenor.hu/i/corp/en/video-promo.png) 0 0 no-repeat; }
 .video-centerer {
 	display:none;
 	position:fixed;
@@ -444,7 +444,7 @@ body.en div.cont #webofice-video-promobox { background:url(https://szeccsa.githu
 .video-centerer .close {
 	display:block;
 	width:42px; height:38px;
-	background:url(https://szeccsa.github.io/i/corp/webofice/close-video.png) 0 0;
+	background:url(https://szeccsa.github.io/telenor.hu/i/corp/webofice/close-video.png) 0 0;
 	position:absolute;
 	right:10px; top:10px;
 	z-index:10;
@@ -504,7 +504,7 @@ div.cont div.content.webofice .promo-image {
 div.cont div.content.webofice .grey-slide-title {
     height:40px;
     line-height:40px;
-    background-image:url(https://szeccsa.github.io/i/corp/webofice/slidedown-narrows.png);
+    background-image:url(https://szeccsa.github.io/telenor.hu/i/corp/webofice/slidedown-narrows.png);
     background-color:transparent;
     border-bottom:1px solid #e5e5e5;
 }
@@ -515,7 +515,7 @@ div.cont div.content.webofice .grey-slide-title.open {
 	width: 526px;
 	height:180px;
 	margin:0 auto;
-	background:url(https://szeccsa.github.io/i/corp/webofice/little-blue-flekk.jpg) 50% 50% no-repeat;	
+	background:url(https://szeccsa.github.io/telenor.hu/i/corp/webofice/little-blue-flekk.jpg) 50% 50% no-repeat;	
 }
 .little-blue-flekk ul{
 	color:#FFF;
@@ -526,7 +526,7 @@ div.cont div.content.webofice .grey-slide-title.open {
 
 /* corporate */
 
-div.corporate-front{width:980px;position:relative;background:#fff url(https://szeccsa.github.io/i/corporate-front/bg.png) 0 0 no-repeat;margin:0 auto;}
+div.corporate-front{width:980px;position:relative;background:#fff url(https://szeccsa.github.io/telenor.hu/i/corporate-front/bg.png) 0 0 no-repeat;margin:0 auto;}
 div.corporate-front ul{margin:0;}
 div.corporate-front div{position:static;}
 div.corporate-front .cl{clear:both;}
@@ -537,8 +537,8 @@ div.corporate-front ul.header-menu li a{font:normal 24px/69px 'myfontRegular';co
 div.corporate-front ul.header-menu li a > cufon{display:none !important;}
 div.corporate-front ul.header-menu li a div{height:59px;display:block;float:left;}
 div.corporate-front ul.header-menu li a div.leftside,div.corporate-front ul.header-menu li a div.rightside{width:25px;}
-div.corporate-front ul.header-menu li.active a div,div.corporate-front ul.header-menu li a:hover div{background:url(https://szeccsa.github.io/i/corporate-front/menubg.png) 0 -59px repeat-x;color:#062339;}
-div.corporate-front ul.header-menu li.active div.leftside,div.corporate-front ul.header-menu li a:hover div.leftside,div.corporate-front ul.header-menu li.active a div.rightside,div.corporate-front ul.header-menu li a:hover div.rightside{background:url(https://szeccsa.github.io/i/corporate-front/menubg.png) no-repeat;}
+div.corporate-front ul.header-menu li.active a div,div.corporate-front ul.header-menu li a:hover div{background:url(https://szeccsa.github.io/telenor.hu/i/corporate-front/menubg.png) 0 -59px repeat-x;color:#062339;}
+div.corporate-front ul.header-menu li.active div.leftside,div.corporate-front ul.header-menu li a:hover div.leftside,div.corporate-front ul.header-menu li.active a div.rightside,div.corporate-front ul.header-menu li a:hover div.rightside{background:url(https://szeccsa.github.io/telenor.hu/i/corporate-front/menubg.png) no-repeat;}
 div.corporate-front ul.header-menu li.active a div.leftside,div.corporate-front ul.header-menu li a:hover div.leftside{background-position:0 0;}
 div.corporate-front ul.header-menu li.active a div.rightside,div.corporate-front ul.header-menu li a:hover div.rightside{background-position:0 -118px;}
 div.corporate-front ul.header-menu li:first-child a div.leftside{width:17px;}
@@ -549,10 +549,10 @@ div.corporate-front ul.header-contents li{display:none;padding:10px;height:264px
 div.corporate-front ul.header-contents li.active{display:block;}
 div.corporate-front ul.header-contents li .img{float:left;margin-right:20px;width:310px;position:relative;}
 div.corporate-front ul.header-contents li .img img{display:block;z-index:0;}
-div.corporate-front ul.header-contents li .img span{position:absolute;right:0;top:0;display:block;height:262px;z-index:1;width:130px;background:url(https://szeccsa.github.io/i/corporate-front/imglight.png) 0 0 no-repeat;}
+div.corporate-front ul.header-contents li .img span{position:absolute;right:0;top:0;display:block;height:262px;z-index:1;width:130px;background:url(https://szeccsa.github.io/telenor.hu/i/corporate-front/imglight.png) 0 0 no-repeat;}
 div.corporate-front ul.header-contents li .header-menu-content{float:right;width:630px;font:100 23px/27px 'myfontRegular';color:#000;}
 div.corporate-front ul.header-contents li .header-menu-content p{letter-spacing:-.5px;margin:0;}
-div.corporate-front ul.header-contents li .header-menu-content .darkbox{padding:15px 25px;margin:25px auto;background:#00151e url(https://szeccsa.github.io/i/corporate-front/darkboxlight.png) center top no-repeat;text-align:center;font:500 16px 'myfontRegular';color:#fff;width:500px;position:relative;
+div.corporate-front ul.header-contents li .header-menu-content .darkbox{padding:15px 25px;margin:25px auto;background:#00151e url(https://szeccsa.github.io/telenor.hu/i/corporate-front/darkboxlight.png) center top no-repeat;text-align:center;font:500 16px 'myfontRegular';color:#fff;width:500px;position:relative;
 border:#00ace7 solid 4px;
 box-shadow:0 0 25px rgba(0,172,231,.5);
 top:-10px;
@@ -563,27 +563,27 @@ border-radius:10px;
 }
 div.corporate-front ul.header-contents li .header-menu-content .darkbox h2{font:900 24px 'myfontRegular';color:#fff;margin:0;text-align:center;}
 div.corporate-front ul.header-contents li .header-menu-content .darkbox h2 span{color:#0091d2;font-weight:100;}
-div.corporate-front ul.header-contents li .header-menu-content .darkbox span.dbcorner{display:block;width:10px;height:10px;position:absolute;z-index:1000;background:url(https://szeccsa.github.io/i/corporate-front/iecorner.png) no-repeat;}
+div.corporate-front ul.header-contents li .header-menu-content .darkbox span.dbcorner{display:block;width:10px;height:10px;position:absolute;z-index:1000;background:url(https://szeccsa.github.io/telenor.hu/i/corporate-front/iecorner.png) no-repeat;}
 div.corporate-front ul.header-contents li .header-menu-content .darkbox span.dbcorner.tl{top:0;left:0;background-position:top left;}
 div.corporate-front ul.header-contents li .header-menu-content .darkbox span.dbcorner.tr{top:0;right:0;background-position:top right;}
 div.corporate-front ul.header-contents li .header-menu-content .darkbox span.dbcorner.bl{bottom:0;left:0;background-position:bottom left;}
 div.corporate-front ul.header-contents li .header-menu-content .darkbox span.dbcorner.br{bottom:0;right:0;background-position:bottom right;}
-div.corporate-front ul.header-contents li .header-menu-content a.reszletek{position:absolute;bottom:10px;left:340px;width:107px;height:38px;background:url(https://szeccsa.github.io/i/corporate-front/buttons.png) -2px top no-repeat;display:block;text-indent:-9999px;}
-body.en div.corporate-front ul.header-contents li .header-menu-content a.reszletek { background: url(https://szeccsa.github.io/i/corp/en/buttons.png) -2px top no-repeat; }
+div.corporate-front ul.header-contents li .header-menu-content a.reszletek{position:absolute;bottom:10px;left:340px;width:107px;height:38px;background:url(https://szeccsa.github.io/telenor.hu/i/corporate-front/buttons.png) -2px top no-repeat;display:block;text-indent:-9999px;}
+body.en div.corporate-front ul.header-contents li .header-menu-content a.reszletek { background: url(https://szeccsa.github.io/telenor.hu/i/corp/en/buttons.png) -2px top no-repeat; }
 
 div.corporate-front .blocks{margin:10px 0 0 20px;height:247px;}
 div.corporate-front .blocks div.block-left{float:left;width:300px;height:217px;z-index:1;position:relative;}
-div.corporate-front .blocks div.block-center{float:left;width:460px;height:217px;margin-left:-60px;z-index:0;position:relative;background:url(https://szeccsa.github.io/i/corporate-front/segithetunkbg.png) center center no-repeat;color:#fff;font:100 16px 'myfontRegular';}
+div.corporate-front .blocks div.block-center{float:left;width:460px;height:217px;margin-left:-60px;z-index:0;position:relative;background:url(https://szeccsa.github.io/telenor.hu/i/corporate-front/segithetunkbg.png) center center no-repeat;color:#fff;font:100 16px 'myfontRegular';}
 div.corporate-front .blocks div.block-center .block-center-container{margin:0 auto;width:260px;}
 div.corporate-front .blocks div.block-center .block-center-container h3{font:500 22px/47px 'myfontRegular';color:#fff;margin:0;}
 div.corporate-front .blocks div.block-center .block-center-container .callback{font:500 18px/38px 'myfontRegular';height:89px;}
-div.corporate-front .blocks div.block-center .block-center-container .callback .callback-button{width:161px;height:38px;background:url(https://szeccsa.github.io/i/corporate-front/buttons.png) -2px -152px no-repeat;display:block;text-indent:-9999px;margin:0 auto;}
-body.en div.corporate-front .blocks div.block-center .block-center-container .callback .callback-button{ background:url(https://szeccsa.github.io/i/corp/en/buttons.png) -2px -152px no-repeat; }
+div.corporate-front .blocks div.block-center .block-center-container .callback .callback-button{width:161px;height:38px;background:url(https://szeccsa.github.io/telenor.hu/i/corporate-front/buttons.png) -2px -152px no-repeat;display:block;text-indent:-9999px;margin:0 auto;}
+body.en div.corporate-front .blocks div.block-center .block-center-container .callback .callback-button{ background:url(https://szeccsa.github.io/telenor.hu/i/corp/en/buttons.png) -2px -152px no-repeat; }
 div.corporate-front .blocks div.block-center .block-center-container .table{margin:0;}
 div.corporate-front .blocks div.block-center .block-center-container table{margin:2px 0;color:#fff;width:auto;background:none;}
 div.corporate-front .blocks div.block-center .block-center-container table tr{background:none;}
 div.corporate-front .blocks div.block-center .block-center-container table tr td{height:34px;line-height:34px;padding:0 6px 0 0;background:none;border:0;margin:0;vertical-align:middle;color:#fff;font:100 16px 'myfontRegular';}
-div.corporate-front .blocks div.block-center .block-center-container table tr td .ico-mail{width:17px;height:14px;display:block;background:url(https://szeccsa.github.io/i/corporate-front/ico-mail.png) 0 0 no-repeat;text-indent:-9999px;}
+div.corporate-front .blocks div.block-center .block-center-container table tr td .ico-mail{width:17px;height:14px;display:block;background:url(https://szeccsa.github.io/telenor.hu/i/corporate-front/ico-mail.png) 0 0 no-repeat;text-indent:-9999px;}
 div.corporate-front .blocks div.block-center .block-center-container table tr td span{color:#00ace7;font-weight:500;}
 div.corporate-front .blocks div.block-right{float:left;width:300px;height:217px;margin-left:-60px;z-index:1;position:relative;}
 
@@ -591,7 +591,7 @@ div.corporate-front .bottom-slider{background:#e2e4e5;padding:10px 30px;position
 div.corporate-front .bottom-slider .bottom-slider-container{overflow:hidden;height:172px;width:918px;position:relative;}
 div.corporate-front .bottom-slider ul{position:relative;z-index:0;height:172px;}
 div.corporate-front .bottom-slider ul li{float:left;width:304px;height:172px;padding-left:2px;}
-div.corporate-front .bottom-slider .slider-arrow{position:absolute;width:10px;height:18px;background:url(https://szeccsa.github.io/i/corporate-front/slider-arrows.png) no-repeat;text-indent:-9999px;z-index:1;top:96px;margin-top:-9px;}
+div.corporate-front .bottom-slider .slider-arrow{position:absolute;width:10px;height:18px;background:url(https://szeccsa.github.io/telenor.hu/i/corporate-front/slider-arrows.png) no-repeat;text-indent:-9999px;z-index:1;top:96px;margin-top:-9px;}
 div.corporate-front .bottom-slider .slider-arrow.prev{background-position:-2px -2px;left:10px;}
 div.corporate-front .bottom-slider .slider-arrow.next{background-position:-14px -2px;right:10px;}
 
@@ -600,20 +600,20 @@ div.corporate-front .block-container h3{font:100 20px/22px 'myfontRegular';color
 div.corporate-front .bottom-slider ul li .block-container h3{color:#21282e;}
 div.corporate-front .block-container .block-image{float:left;width:150px;position:relative;}
 div.corporate-front .block-container .block-image img{display:block;}
-div.corporate-front .block-container .block-image span{position:absolute;right:0;top:0;display:block;height:130px;z-index:1;width:100px;background:url(https://szeccsa.github.io/i/corporate-front/imgsmalllight.png) right center no-repeat;}
+div.corporate-front .block-container .block-image span{position:absolute;right:0;top:0;display:block;height:130px;z-index:1;width:100px;background:url(https://szeccsa.github.io/telenor.hu/i/corporate-front/imgsmalllight.png) right center no-repeat;}
 div.corporate-front .block-container .block-text{float:right;width:140px;color:#fff;font:100 14px 'myfontRegular';}
 div.corporate-front .bottom-slider ul li .block-container .block-text{width:133px;font:normal 11px arial;color:#000;padding-right:13px;}
-div.corporate-front .block-container a.megnezem{position:absolute;bottom:0;left:160px;width:121px;height:38px;background:url(https://szeccsa.github.io/i/corporate-front/buttons.png) -2px -38px no-repeat;display:block;text-indent:-9999px;}
-body.en div.corporate-front .block-container a.megnezem{background:url(https://szeccsa.github.io/i/corp/en/buttons.png) 2px -38px no-repeat;}
-div.corporate-front .block-container a.erdeklodom{position:absolute;bottom:0;left:157px;width:121px;height:38px;background:url(https://szeccsa.github.io/i/corporate-front/buttons.png) -2px -76px no-repeat;display:block;text-indent:-9999px;}
-body.en div.corporate-front .block-container a.erdeklodom{background:url(https://szeccsa.github.io/i/corp/en/buttons.png) -2px -76px no-repeat; width:145px;}
+div.corporate-front .block-container a.megnezem{position:absolute;bottom:0;left:160px;width:121px;height:38px;background:url(https://szeccsa.github.io/telenor.hu/i/corporate-front/buttons.png) -2px -38px no-repeat;display:block;text-indent:-9999px;}
+body.en div.corporate-front .block-container a.megnezem{background:url(https://szeccsa.github.io/telenor.hu/i/corp/en/buttons.png) 2px -38px no-repeat;}
+div.corporate-front .block-container a.erdeklodom{position:absolute;bottom:0;left:157px;width:121px;height:38px;background:url(https://szeccsa.github.io/telenor.hu/i/corporate-front/buttons.png) -2px -76px no-repeat;display:block;text-indent:-9999px;}
+body.en div.corporate-front .block-container a.erdeklodom{background:url(https://szeccsa.github.io/telenor.hu/i/corp/en/buttons.png) -2px -76px no-repeat; width:145px;}
 
 /* new corp phonerotator */
 .corporate div.phoneRotatorCorp ul.products li div.features {margin-left: 140px;width: 100px;position: absolute;top: 110px;font-weight:bold;}
-.corporate div.phoneRotatorCorp ul.products li a.btnDetails {margin-left: -5px; background:url(https://szeccsa.github.io/i/buttons/view-small.png) 0 0 no-repeat; width:119px; height:38px;}
-.corporate div.phoneRotatorCorp a.btnMore {background: transparent url(https://szeccsa.github.io/i/buttons/device-search-blue-small.png) no-repeat 0 0;width: 147px;height:36px;display: block;clear: both;position: relative;top: 6px;margin-left: 17px;text-indent: 100%;white-space: nowrap;}
+.corporate div.phoneRotatorCorp ul.products li a.btnDetails {margin-left: -5px; background:url(https://szeccsa.github.io/telenor.hu/i/buttons/view-small.png) 0 0 no-repeat; width:119px; height:38px;}
+.corporate div.phoneRotatorCorp a.btnMore {background: transparent url(https://szeccsa.github.io/telenor.hu/i/buttons/device-search-blue-small.png) no-repeat 0 0;width: 147px;height:36px;display: block;clear: both;position: relative;top: 6px;margin-left: 17px;text-indent: 100%;white-space: nowrap;}
 .corporate div.phoneRotatorCorp .factories {position:absolute;background:#FFF;border-top:1px #e4e4e4 solid;border-radius: 0 0 8px 8px;width:100%;bottom:0;height: 127px;}
-.corporate div.phoneRotatorCorp {background: url(https://szeccsa.github.io/i/corp/phone-rotator-bg.jpg) 0 165px repeat-x #FFF;}
+.corporate div.phoneRotatorCorp {background: url(https://szeccsa.github.io/telenor.hu/i/corp/phone-rotator-bg.jpg) 0 165px repeat-x #FFF;}
 .corporate div.phoneRotatorCorp .factories ul {display:block;margin-top: 10px;}
 .corporate div.phoneRotatorCorp .factories ul li {display:block; width:33%; float:left;padding:0; background:0;}
 .corporate div.phoneRotatorCorp .factories ul li a {color:#000;}

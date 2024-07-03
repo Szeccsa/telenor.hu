@@ -4867,3 +4867,7 @@ section.block .externalContent {
 .landing-10-frointos .device-promo .properties span {
     height: inherit !important;
 }
+
+div.box-gradient .form {
+    display: table;
+}

@@ -4868,6 +4868,6 @@ section.block .externalContent {
     height: inherit !important;
 }
 
-div.box-gradient .form {
+div.box-gradient, form {
     display: table;
 }

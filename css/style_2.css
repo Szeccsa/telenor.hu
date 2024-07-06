@@ -1,7 +1,7 @@
 /* survey monkey */
 #surveyMonkeyInfo { background: #00a6d6 !important; padding: 10px !important; border-radius: 15px !important; box-shadow: 0 0 170px #000; margin-left: -340px !important; }
 #surveyMonkeyInfo iframe { margin:0 !important; padding: 0 !important; border-radius: 5px !important; overflow:hidden; min-height:470px; }
-#surveyMonkeyInfo #survey-close { display: block; width: 42px; height: 38px; background: url(https://szeccsa.github.io/i/corp/webofice/close-video.png) 0 0; position: absolute; right: 10px; top: 10px; z-index: 10; padding: 0; text-indent: 100%; overflow: hidden; }
+#surveyMonkeyInfo #survey-close { display: block; width: 42px; height: 38px; background: url(https://szeccsa.github.io/telenor.hu/i/corp/webofice/close-video.png) 0 0; position: absolute; right: 10px; top: 10px; z-index: 10; padding: 0; text-indent: 100%; overflow: hidden; }
 /* / survey monkey */
 
 /* customer-service-login */
@@ -44,7 +44,7 @@
     height:30px !important;
     overflow: hidden !important;
     text-indent: 100% !important;
-    background: url(https://szeccsa.github.io/i/customer-service-login/btn-enter.png) 0 0 no-repeat !important;
+    background: url(https://szeccsa.github.io/telenor.hu/i/customer-service-login/btn-enter.png) 0 0 no-repeat !important;
     cursor: pointer !important;
 }
 .customer-service-login ul.links {
@@ -56,14 +56,14 @@
 .customer-service-login ul.links li{
     margin: 0 !important;
     padding-left: 10px !important;
-    background: url(https://szeccsa.github.io/i/bullet_arrow-right-blue.png) no-repeat 0 3px !important;
+    background: url(https://szeccsa.github.io/telenor.hu/i/bullet_arrow-right-blue.png) no-repeat 0 3px !important;
 }
 .customer-service-login ul li{
     margin: 5px 0 !important;
     padding-left: 16px !important;
     font-size: 11px !important;
     line-height: 13px !important;
-    background: url(https://szeccsa.github.io/i/customer-service-login/bullett-pipe.png) 0 1px no-repeat !important;
+    background: url(https://szeccsa.github.io/telenor.hu/i/customer-service-login/bullett-pipe.png) 0 1px no-repeat !important;
 }
 /* /customer-service-login */
 
@@ -116,7 +116,7 @@
     display: block;
     width: 14px;
     height: 14px;
-    background: transparent url(https://szeccsa.github.io/i/btn_tray-bar-popup-close.png) no-repeat 0 0;
+    background: transparent url(https://szeccsa.github.io/telenor.hu/i/btn_tray-bar-popup-close.png) no-repeat 0 0;
     cursor: pointer;
 }
 
@@ -146,7 +146,7 @@
     font-family: myFontRegular, arial, sans-serif;
     text-decoration: none;
     color: #000;
-    background: transparent url(https://szeccsa.github.io/i/bullet_arrow-right-blue.png) no-repeat 320px center;
+    background: transparent url(https://szeccsa.github.io/telenor.hu/i/bullet_arrow-right-blue.png) no-repeat 320px center;
 }
 
 .tray-bar-popup .answers a:hover {
@@ -161,13 +161,13 @@
 div.content.basket {float:left !important;}
 div.side.basket { float: right !important; margin-top: 140px !important;}
 div.content.basket h1 {margin-top:20px;}
-div.content.basket span.step-decor {width:800px;height:53px;display:block;background:url("https://szeccsa.github.io/i/bg/basket-step-decor.jpg") 0px 0px no-repeat;}
+div.content.basket span.step-decor {width:800px;height:53px;display:block;background:url("https://szeccsa.github.io/telenor.hu/i/bg/basket-step-decor.jpg") 0px 0px no-repeat;}
 div.content.basket div.basket {width:760px;height:auto;overflow:hidden;margin:20px;padding:0 0 50px 0;display:block;background:#fff;position:relative;float:left !important;}
-div.content.basket div.basket span.basket-bottom {width:760px;height:14px;background:#ededed url("https://szeccsa.github.io/i/bg/basket-basket-bottom.jpg") 0px 0px no-repeat;position:absolute;bottom:0;left:0;}
+div.content.basket div.basket span.basket-bottom {width:760px;height:14px;background:#ededed url("https://szeccsa.github.io/telenor.hu/i/bg/basket-basket-bottom.jpg") 0px 0px no-repeat;position:absolute;bottom:0;left:0;}
 div.content.basket div.basket div.img-wrapper {width:140px; height: 250px; float:left;display:block;margin:20px 0 0 0;padding:0; overflow: hidden;}
 div.content.basket div.basket div.img-wrapper img {margin:0;padding:0;left:-16px;}
 div.content.basket div.basket div.data {width:620px;display:block;float:left;margin:15px 0 0 0;position:relative;}
-div.content.basket div.basket div.data span.row {position:relative;display:block;float:left;background:url("https://szeccsa.github.io/i/bg/basket-basket-data-row.png") 0px 0px no-repeat;width:620px;font-size:14px;font-family:'myfontRegular';color:#21282e;font-weight:normal;line-height:18px;margin:0;padding:8px 0;}
+div.content.basket div.basket div.data span.row {position:relative;display:block;float:left;background:url("https://szeccsa.github.io/telenor.hu/i/bg/basket-basket-data-row.png") 0px 0px no-repeat;width:620px;font-size:14px;font-family:'myfontRegular';color:#21282e;font-weight:normal;line-height:18px;margin:0;padding:8px 0;}
 div.content.basket div.basket div.data span.row img.extra-banner {width: 780px;height: 108px;position: relative;left: -160px;}
 div.content.basket div.basket div.data span.row.sum {height:42px;margin:0px 0 0 0;}
 div.content.basket div.basket div.data span.row.buttons {background:none;margin:14px 0 0 0;}
@@ -183,20 +183,20 @@ div.content.basket div.basket div.data span.row.sum span.left {width:200px;margi
 div.content.basket div.basket div.data span.row.sum span.right {position:absolute;width: 300px; right:10px;top:14px;color:#ff5b00; font-size: 21px; font-weight: bold;}
 div.content.basket div.basket div.data span.row.sum span.right small {line-height: 18px;}
 div.content.basket div.basket div.data span.row.sum span.right b { display: inline-block; margin-right: 10px; color: #A5ACB1;}
-div.content.basket div.basket div.data span.row a.back {margin:0;padding:0 0 0 12px;color:#00ace7;font-size:12px;line-height:14px;position:absolute;left:0;top:10px;background:url("https://szeccsa.github.io/i/bg/basket-basket-data-button-back.png") 0px center no-repeat;}
+div.content.basket div.basket div.data span.row a.back {margin:0;padding:0 0 0 12px;color:#00ace7;font-size:12px;line-height:14px;position:absolute;left:0;top:10px;background:url("https://szeccsa.github.io/telenor.hu/i/bg/basket-basket-data-button-back.png") 0px center no-repeat;}
 div.content.basket div.basket div.data span.row a.back:hover{text-decoration:none;}
-div.content.basket div.basket div.data span.row a.next {text-indent:-9999px;margin:0;padding:0;color:#00ace7;font-size:12px;width:191px;height:32px;position:absolute;right:10px;top:13px;background:url("https://szeccsa.github.io/i/bg/basket-basket-data-button-more.png") 0px center no-repeat;}
+div.content.basket div.basket div.data span.row a.next {text-indent:-9999px;margin:0;padding:0;color:#00ace7;font-size:12px;width:191px;height:32px;position:absolute;right:10px;top:13px;background:url("https://szeccsa.github.io/telenor.hu/i/bg/basket-basket-data-button-more.png") 0px center no-repeat;}
 
 div.content.basket div.basket div.data span.row form {margin: 0px; padding: 0px;}
 div.content.basket div.basket div.data span.row form fieldset {margin: 0px; padding: 0px;}
 div.content.basket div.basket div.data span.row form fieldset div.field {margin: 0px; padding: 0px; width: 400px;}
 div.content.basket div.basket div.data span.row form fieldset div.field ins {font-size: 13px; padding-top: 7px;}
-div.content.basket div.basket div.data span.row form fieldset div.field div.input.select {width: 290px; background: url('https://szeccsa.github.io/i/basket_form.gif') 0px 0px no-repeat;}
+div.content.basket div.basket div.data span.row form fieldset div.field div.input.select {width: 290px; background: url('https://szeccsa.github.io/telenor.hu/i/basket_form.gif') 0px 0px no-repeat;}
 div.content.basket div.basket div.data span.row form fieldset div.field div.input.select input {width: 250px; color: #8C9399; font-weight:bold; text-transform:lowercase;}
 div.content.basket div.basket div.data span.row form fieldset div.field div.input.select select {width: 282px; color: #8C9399; text-transform:lowercase;}
 div.content.basket div.basket div.data span.row form fieldset div.field div.input.select select option {color: #8C9399; border: none 0px;}
 
-div.content.basket div.basket .christmas_message{background:url(https://szeccsa.github.io/i/phonepage-christmas_message-bg.gif) 0 0 no-repeat;color:#FF5B00;clear:right;float:right;font-weight:bold;height:42px;line-height:42px;margin:10px 0;padding:0 10px;width:600px;}
+div.content.basket div.basket .christmas_message{background:url(https://szeccsa.github.io/telenor.hu/i/phonepage-christmas_message-bg.gif) 0 0 no-repeat;color:#FF5B00;clear:right;float:right;font-weight:bold;height:42px;line-height:42px;margin:10px 0;padding:0 10px;width:600px;}
 
 div.content.basket span.left div.table {margin: 0;}
 div.content.basket span.left div.table table {background: none;width: auto;margin: 0;}
@@ -223,7 +223,7 @@ div.content.basket.basket-a div.basket div.data span.row a.next {
     text-indent:-9999px;
     font-size:12px;
     color:#00ace7;
-    background:url(https://szeccsa.github.io/i/btn_basket-goto-checkout.png) 0px center no-repeat;
+    background:url(https://szeccsa.github.io/telenor.hu/i/btn_basket-goto-checkout.png) 0px center no-repeat;
 }
 
 
@@ -234,10 +234,10 @@ div.side.basket.basket-c {
     width: 230px !important;
 }
 
-div.content.basket.basket-c span.step-decor {width:980px;height:53px;display:block;background:url("https://szeccsa.github.io/i/bg/basket-step-decor.jpg") 0px 0px no-repeat;}
+div.content.basket.basket-c span.step-decor {width:980px;height:53px;display:block;background:url("https://szeccsa.github.io/telenor.hu/i/bg/basket-step-decor.jpg") 0px 0px no-repeat;}
 div.content.basket.basket-c div.basket {width:690px;height:auto;overflow:hidden;margin:20px 0 20px 20px;padding:0 0 50px 0;display:block;background:#fff;position:relative;float:left !important;}
 div.content.basket.basket-c div.basket div.data {width:530px;display:block;float:left;margin:15px 0 0 0;position:relative;}
-div.content.basket.basket-c div.basket div.data span.row {position:relative;display:block;float:left;background:url("https://szeccsa.github.io/i/bg/basket-basket-data-row.png") 0px 0px no-repeat;width:530px;font-size:14px;font-family:'myfontRegular';color:#21282e;font-weight:normal;line-height:18px;margin:0;padding:8px 0;}
+div.content.basket.basket-c div.basket div.data span.row {position:relative;display:block;float:left;background:url("https://szeccsa.github.io/telenor.hu/i/bg/basket-basket-data-row.png") 0px 0px no-repeat;width:530px;font-size:14px;font-family:'myfontRegular';color:#21282e;font-weight:normal;line-height:18px;margin:0;padding:8px 0;}
 
 div.content.basket.basket-c div.basket div.data span.row a.next {
     position:absolute;
@@ -250,7 +250,7 @@ div.content.basket.basket-c div.basket div.data span.row a.next {
     text-indent:-9999px;
     font-size:12px;
     color:#00ace7;
-    background:url(https://szeccsa.github.io/i/btn_basket-goto-checkout.png) 0px center no-repeat;
+    background:url(https://szeccsa.github.io/telenor.hu/i/btn_basket-goto-checkout.png) 0px center no-repeat;
 }
 
 div.content.basket.basket-c div.basket div.data span.row.nextstep {
@@ -265,7 +265,7 @@ div.content.basket.basket-c div.basket div.data span.row span.right {width:130px
 
 div.content.basket.basket-c div.basket div.data span.row.sum span.right {position:absolute;width: 300px; right:10px;top:14px;color:#21282e; font-size: 21px; font-weight: bold;}
 
-div.content.basket.basket-c div.basket div.data span.row a.back {margin:0;padding:0 0 0 12px;color:#00ace7;font-size:12px;line-height:14px;position:absolute;left:0;top:26px;background:url("https://szeccsa.github.io/i/bg/basket-basket-data-button-back.png") 0px center no-repeat;}
+div.content.basket.basket-c div.basket div.data span.row a.back {margin:0;padding:0 0 0 12px;color:#00ace7;font-size:12px;line-height:14px;position:absolute;left:0;top:26px;background:url("https://szeccsa.github.io/telenor.hu/i/bg/basket-basket-data-button-back.png") 0px center no-repeat;}
 
 div.content.basket.basket-c .prepend-text {
     position: absolute;
@@ -288,7 +288,7 @@ div.content.basket.basket-d div.basket {
 
 div.content.basket.basket-d span.step-decor {
     width: 980px;
-    background: transparent url(https://szeccsa.github.io/i/bg/basket-d-step-decor.jpg) no-repeat 20px 0;
+    background: transparent url(https://szeccsa.github.io/telenor.hu/i/bg/basket-d-step-decor.jpg) no-repeat 20px 0;
 }
 
 div.content.basket.basket-d div.basket div.img-wrapper {
@@ -356,7 +356,7 @@ div.content.basket.basket-d .basket-options .icon-radio {
     margin: 0 8px 0 0;
     width: 15px;
     height: 15px;
-    background: transparent url(https://szeccsa.github.io/i/buttons/radio-button.png) no-repeat 0 0;
+    background: transparent url(https://szeccsa.github.io/telenor.hu/i/buttons/radio-button.png) no-repeat 0 0;
 }
 
 div.content.basket.basket-d .basket-options .ui-state-active .icon-radio {
@@ -386,11 +386,11 @@ div.content.basket.basket-d .buttons .btn {
 }
 
 div.content.basket.basket-d .buttons .btn-blue {
-    background: transparent url(https://szeccsa.github.io/i/basket/bnt_blue.png) no-repeat 0 0;
+    background: transparent url(https://szeccsa.github.io/telenor.hu/i/basket/bnt_blue.png) no-repeat 0 0;
 }
 
 div.content.basket.basket-d .buttons .btn-orange {
-    background: transparent url(https://szeccsa.github.io/i/basket/btn_orange.png) no-repeat 0 0;
+    background: transparent url(https://szeccsa.github.io/telenor.hu/i/basket/btn_orange.png) no-repeat 0 0;
 }
 
 div.content.basket.basket-d .buttons .additional-info {
@@ -409,10 +409,10 @@ div.side.basket.basket-e {
     width: 230px !important;
 }
 
-div.content.basket.basket-e span.step-decor {width:980px;height:53px;display:block;background:url("https://szeccsa.github.io/i/bg/basket-step-decor.jpg") 0px 0px no-repeat;}
+div.content.basket.basket-e span.step-decor {width:980px;height:53px;display:block;background:url("https://szeccsa.github.io/telenor.hu/i/bg/basket-step-decor.jpg") 0px 0px no-repeat;}
 div.content.basket.basket-e div.basket {width:690px;height:auto;overflow:hidden;margin:20px 0 20px 20px;padding:0 0 50px 0;display:block;background:#fff;position:relative;float:left !important;}
 div.content.basket.basket-e div.basket div.data {width:530px;display:block;float:left;margin:15px 0 0 0;position:relative;}
-div.content.basket.basket-e div.basket div.data span.row {position:relative;display:block;float:left;background:url("https://szeccsa.github.io/i/bg/basket-basket-data-row.png") 0px 0px no-repeat;width:530px;font-size:14px;font-family:'myfontRegular';color:#21282e;font-weight:normal;line-height:18px;margin:0;padding:8px 0;}
+div.content.basket.basket-e div.basket div.data span.row {position:relative;display:block;float:left;background:url("https://szeccsa.github.io/telenor.hu/i/bg/basket-basket-data-row.png") 0px 0px no-repeat;width:530px;font-size:14px;font-family:'myfontRegular';color:#21282e;font-weight:normal;line-height:18px;margin:0;padding:8px 0;}
 
 div.content.basket.basket-e div.basket div.data span.row a.next {
     position:absolute;
@@ -425,7 +425,7 @@ div.content.basket.basket-e div.basket div.data span.row a.next {
     text-indent:-9999px;
     font-size:12px;
     color:#00ace7;
-    background:url(https://szeccsa.github.io/i/btn_basket-goto-checkout.png) 0px center no-repeat;
+    background:url(https://szeccsa.github.io/telenor.hu/i/btn_basket-goto-checkout.png) 0px center no-repeat;
 }
 
 div.content.basket.basket-e div.basket div.data span.row.nextstep {
@@ -440,7 +440,7 @@ div.content.basket.basket-e div.basket div.data span.row span.right {width:180px
 
 div.content.basket.basket-e div.basket div.data span.row.sum span.right {position:absolute;width: 300px; right:10px;top:14px;color:#21282e; font-size: 21px; font-weight: bold;}
 
-div.content.basket.basket-e div.basket div.data span.row a.back {margin:0;padding:0 0 0 12px;color:#00ace7;font-size:12px;line-height:14px;position:absolute;left:0;top:26px;background:url("https://szeccsa.github.io/i/bg/basket-basket-data-button-back.png") 0px center no-repeat;}
+div.content.basket.basket-e div.basket div.data span.row a.back {margin:0;padding:0 0 0 12px;color:#00ace7;font-size:12px;line-height:14px;position:absolute;left:0;top:26px;background:url("https://szeccsa.github.io/telenor.hu/i/bg/basket-basket-data-button-back.png") 0px center no-repeat;}
 
 div.content.basket.basket-e .prepend-text {
     position: absolute;
@@ -500,7 +500,7 @@ div.content.basket.basket-e .basket-options .icon-radio {
     margin: 0 8px 0 0;
     width: 15px;
     height: 15px;
-    background: transparent url(https://szeccsa.github.io/i/buttons/radio-button.png) no-repeat 0 0;
+    background: transparent url(https://szeccsa.github.io/telenor.hu/i/buttons/radio-button.png) no-repeat 0 0;
 }
 
 div.content.basket.basket-e .basket-options .ui-state-active .icon-radio {
@@ -530,11 +530,11 @@ div.content.basket.basket-e .buttons .btn {
 }
 
 div.content.basket.basket-e .buttons .btn-blue {
-    background: transparent url(https://szeccsa.github.io/i/basket/bnt_blue.png) no-repeat 0 0;
+    background: transparent url(https://szeccsa.github.io/telenor.hu/i/basket/bnt_blue.png) no-repeat 0 0;
 }
 
 div.content.basket.basket-e .buttons .btn-orange {
-    background: transparent url(https://szeccsa.github.io/i/basket/btn_orange.png) no-repeat 0 0;
+    background: transparent url(https://szeccsa.github.io/telenor.hu/i/basket/btn_orange.png) no-repeat 0 0;
 }
 
 div.content.basket.basket-e .buttons .additional-info {
@@ -554,7 +554,7 @@ div.content.basket.basket-e .buttons .additional-info {
     z-index: 1000;
     width: 100%;
     height: 100%;
-    background: transparent url(https://szeccsa.github.io/i/basket/overlay/bg_overlay.png);
+    background: transparent url(https://szeccsa.github.io/telenor.hu/i/basket/overlay/bg_overlay.png);
     background: rgba(255, 255, 255, 0.5);
 }
 
@@ -581,7 +581,7 @@ div.content.basket.basket-e .buttons .additional-info {
     font-size: 23px;
     line-height: 29px;
     color: #000;
-    background: transparent url(https://szeccsa.github.io/i/basket/overlay/bg_form-header.jpg) no-repeat 0 0;
+    background: transparent url(https://szeccsa.github.io/telenor.hu/i/basket/overlay/bg_form-header.jpg) no-repeat 0 0;
 }
 
 .basket-overlay-window .content-bottom {
@@ -646,7 +646,7 @@ div.content.basket.basket-e .buttons .additional-info {
 .basket-overlay-window .input-wrapper.select input {
     position: static;
     padding: 0 51px 0 11px;
-    background: transparent url(https://szeccsa.github.io/i/basket/overlay/ico_select-arrow.gif) no-repeat 259px center;
+    background: transparent url(https://szeccsa.github.io/telenor.hu/i/basket/overlay/ico_select-arrow.gif) no-repeat 259px center;
 }
 
 .basket-overlay-window .form-item .error {
@@ -672,7 +672,7 @@ div.content.basket.basket-e .buttons .additional-info {
     text-decoration: none;
     white-space: nowrap;
     border: none;
-    background: transparent url(https://szeccsa.github.io/i/basket/overlay/btn_callme.png) no-repeat 0 0;
+    background: transparent url(https://szeccsa.github.io/telenor.hu/i/basket/overlay/btn_callme.png) no-repeat 0 0;
     cursor: pointer;
 }
 
@@ -691,7 +691,7 @@ div.content.basket.basket-e .buttons .additional-info {
     display: block;
     width: 19px;
     height: 18px;
-    background: transparent url(https://szeccsa.github.io/i/basket/overlay/btn_close.png) no-repeat 0 0;
+    background: transparent url(https://szeccsa.github.io/telenor.hu/i/basket/overlay/btn_close.png) no-repeat 0 0;
     cursor: pointer;
 }
 
@@ -700,7 +700,7 @@ div.content.basket.basket-e .buttons .additional-info {
     display: inline-block;
     margin: 0 0 16px 16px;
     padding: 3px 0 4px 32px;
-    background: transparent url(https://szeccsa.github.io/i/basket/overlay/ico_info.png) no-repeat left center;
+    background: transparent url(https://szeccsa.github.io/telenor.hu/i/basket/overlay/ico_info.png) no-repeat left center;
     cursor: pointer;
 }
 
@@ -759,7 +759,7 @@ div.content.basket.basket-e .buttons .additional-info {
 	left:50%; top:85px;
 	width: 320px; height:410px;
 	margin:0 0 0 -490px;
-	background: url(https://szeccsa.github.io/i/popup-shadow-x-pattern.jpg) repeat-y 660px 0 #eef0f0; 
+	background: url(https://szeccsa.github.io/telenor.hu/i/popup-shadow-x-pattern.jpg) repeat-y 660px 0 #eef0f0; 
 	padding: 0 0 0 660px;
 }
 #yt-video-overlay > .vid > iframe {
@@ -770,7 +770,7 @@ div.content.basket.basket-e .buttons .additional-info {
 #yt-video-overlay > .vid > .close {
 	display:block;
 	width:42px; height:38px;
-	background:url(https://szeccsa.github.io/i/corp/webofice/close-video.png) 0 0;
+	background:url(https://szeccsa.github.io/telenor.hu/i/corp/webofice/close-video.png) 0 0;
 	position:absolute;
 	right: 5px; 
 	top: 5px;
